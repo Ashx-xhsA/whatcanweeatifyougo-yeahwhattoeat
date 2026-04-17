@@ -40,6 +40,12 @@ body {
   color: var(--text-dark);
   -webkit-font-smoothing: none;
   line-height: 1.2;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* Stardew UI Box styles */
@@ -226,6 +232,7 @@ h1 {
   justify-content: center;
   align-items: flex-start;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 2rem;
 }
 
@@ -354,6 +361,8 @@ h1 {
   white-space: pre-line;
   font-size: 1.4rem;
   line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Spring Petals Animation */
