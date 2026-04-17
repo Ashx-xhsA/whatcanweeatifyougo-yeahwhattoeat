@@ -2,11 +2,11 @@ name: Process Mobile Recipe Issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   process-recipe:
-    if: contains(github.event.issue.labels.*.name, 'recipe')
+    if: contains(toJson(github.event.issue.labels), 'recipe') || github.event.label.name == 'recipe'
     runs-on: ubuntu-latest
     permissions:
       contents: write
