@@ -32,15 +32,9 @@ def main():
     
     recipe_id = str(uuid.uuid4())
     
-    req_headers = {}
-    github_token = os.environ.get("GITHUB_TOKEN", "")
-    if github_token:
-        req_headers["Authorization"] = f"token {github_token}"
-    
     for idx, url in enumerate(img_urls):
         try:
-            print(f"Downloading image: {url}")
-            resp = requests.get(url, stream=True, headers=req_headers)
+            resp = requests.get(url, stream=True)
             if resp.status_code == 200:
                 ext = ".jpg" # Default to jpg
                 if ".png" in url.lower(): ext = ".png"
@@ -52,12 +46,8 @@ def main():
                     for chunk in resp.iter_content(1024):
                         f.write(chunk)
                 local_image_paths.append(f"/images/recipes/{filename}")
-            else:
-                print(f"Failed to download image {url}, HTTP {resp.status_code}. Falling back to storing raw URL in JSON.")
-                local_image_paths.append(url)
         except Exception as e:
-            print(f"Failed to download image {url}: {e}. Falling back to storing raw URL.")
-            local_image_paths.append(url)
+            print(f"Failed to download image {url}: {e}")
 
     # Remove image markdown from body to save tokens and prevent confusion
     clean_body = re.sub(r'!\[.*?\]\(.*?\)', '', body)
