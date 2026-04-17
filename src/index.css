@@ -244,38 +244,26 @@ h1 {
   padding: 1rem;
 }
 
-@media (max-width: 768px) {
-  .detail-overlay {
-    padding: 0;
-    align-items: stretch;
-    background: var(--sv-white);
-  }
-  .detail-modal {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0 !important;
-    border: none !important;
-    box-shadow: none !important;
-    min-height: 100vh;
-    background: transparent;
-  }
-  .detail-body {
-    padding: 1.5rem 1rem !important;
-    border: none !important;
-  }
-  .detail-hero {
-    border-left: none !important;
-    border-right: none !important;
-    border-top: none !important;
-    margin-bottom: 0 !important;
-  }
-  .close-btn {
-    top: 3rem;
-    right: 1.5rem;
-    position: absolute;
-    z-index: 1000;
-  }
+}
+
+/* Standalone Recipe View */
+.standalone-recipe {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.detail-modal.standalone {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+  max-width: 100%;
+}
+
+.detail-modal.standalone .modal-header {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .close-btn {
