@@ -8,7 +8,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTags, setActiveTags] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
-  const [isChinese, setIsChinese] = useState(false);
+  const [isChinese, setIsChinese] = useState(true);
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef(null);
 
