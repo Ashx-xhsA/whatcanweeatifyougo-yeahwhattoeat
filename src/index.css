@@ -273,7 +273,7 @@ h1 {
   .close-btn {
     top: 1rem;
     right: 1rem;
-    position: fixed;
+    position: absolute;
     z-index: 1000;
   }
 }
