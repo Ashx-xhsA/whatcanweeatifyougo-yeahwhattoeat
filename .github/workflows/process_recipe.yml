@@ -2,7 +2,11 @@ name: Process Mobile Recipe Issue
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened, labeled, edited]
+
+concurrency:
+  group: issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
 
 jobs:
   process-recipe:
@@ -27,6 +31,7 @@ jobs:
 
       - name: Parse Issue and Commit Recipe
         env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}

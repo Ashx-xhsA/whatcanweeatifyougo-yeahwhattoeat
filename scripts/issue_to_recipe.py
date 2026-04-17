@@ -103,6 +103,9 @@ def main():
     # Attach generated ID and downloaded images
     recipe_data["id"] = recipe_id
     recipe_data["images"] = local_image_paths
+    
+    issue_number_str = str(os.environ.get("ISSUE_NUMBER", "unknown"))
+    recipe_data["source_issue"] = issue_number_str
 
     # Read existing
     json_path = "src/data/recipes.json"
@@ -114,12 +117,18 @@ def main():
             except:
                 pass
 
+    # Filter out any old parse of this EXACT SAME issue to prevent duplicates
+    if issue_number_str != "unknown":
+        filtered_data = [r for r in existing_data if str(r.get("source_issue", "")) != issue_number_str]
+    else:
+        filtered_data = existing_data
+
     # Insert at beginning
-    existing_data.insert(0, recipe_data)
+    filtered_data.insert(0, recipe_data)
 
     # Save
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(existing_data, f, ensure_ascii=False, indent=2)
+        json.dump(filtered_data, f, ensure_ascii=False, indent=2)
 
     print(f"Successfully processed {title} and updated recipes.json!")
 
