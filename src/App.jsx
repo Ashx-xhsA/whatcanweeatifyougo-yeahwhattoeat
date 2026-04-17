@@ -1,91 +1,48 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Search, Loader2, Cpu, X, Tag } from 'lucide-react';
+import { Search, X, Tag, Globe, Music, VolumeX } from 'lucide-react';
 import recipesData from './data/recipes.json';
-import { pipeline, env } from '@xenova/transformers';
-
-// Configure transformers.js for local/browser usage
-env.allowLocalModels = false; 
+import SpringPetals from './components/SpringPetals';
 
 function App() {
   const [recipes, setRecipes] = useState(recipesData);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTags, setActiveTags] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
-  
-  // AI State
-  const [isAiLoading, setIsAiLoading] = useState(false);
-  const [aiReady, setAiReady] = useState(false);
-  const extractorRef = useRef(null);
-  const recipeEmbeddingsRef = useRef(null);
+  const [isChinese, setIsChinese] = useState(false);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
+  const audioRef = useRef(null);
 
-  // Extract all unique categories
-  const allTags = useMemo(() => {
+  // Extract all unique categories (EN) and keep a map to ZH
+  const { allTags, tagZhMap } = useMemo(() => {
     const tags = new Set();
-    recipesData.forEach(r => r.categories.forEach(c => tags.add(c)));
-    return Array.from(tags).sort();
+    const map = {};
+    recipesData.forEach(r => {
+      if (r.categories) {
+        r.categories.forEach((c, i) => {
+          tags.add(c);
+          if (r.categories_zh && r.categories_zh[i]) {
+            map[c] = r.categories_zh[i];
+          }
+        });
+      }
+    });
+    return { allTags: Array.from(tags).sort(), tagZhMap: map };
   }, []);
 
-  // Initialize transformers.js on demand
-  const initAI = async () => {
-    if (aiReady || isAiLoading) return;
-    setIsAiLoading(true);
-    try {
-      // Feature extraction pipeline
-      extractorRef.current = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-      setAiReady(true);
-    } catch (e) {
-      console.error("AI Init failed", e);
-    } finally {
-      setIsAiLoading(false);
-    }
-  };
-
-  const handleSearch = async (e) => {
+  const handleSearch = (e) => {
     e.preventDefault();
-    if (!searchTerm.trim()) return;
-    
-    // If AI is ready and term is a natural language query (more than 3 words)
-    if (aiReady && searchTerm.trim().split(' ').length > 2) {
-      setIsAiLoading(true);
-      try {
-        // Embed the query
-        const queryOut = await extractorRef.current(searchTerm, { pooling: 'mean', normalize: true });
-        const queryEmbedding = queryOut.data;
-        
-        // Compute caching for recipes
-        if (!recipeEmbeddingsRef.current) {
-          const docs = recipesData.map(r => `${r.name}. ${r.ingredients.join(', ')}. ${r.categories.join(', ')}`);
-          const docOut = await extractorRef.current(docs, { pooling: 'mean', normalize: true });
-          recipeEmbeddingsRef.current = docOut.tolist();
-        }
-        
-        // Cosine similarity
-        const similarities = recipesData.map((r, i) => {
-          let docEmb = recipeEmbeddingsRef.current[i];
-          let sim = 0;
-          for(let k=0; k<queryEmbedding.length; k++) {
-             sim += queryEmbedding[k] * docEmb[k];
-          }
-          return { recipe: r, score: sim };
-        });
-        
-        // Sort by similarity
-        similarities.sort((a,b) => b.score - a.score);
-        setRecipes(similarities.slice(0, 15).map(s => s.recipe));
-        
-      } catch (e) {
-        console.error(e);
-      } finally {
-        setIsAiLoading(false);
-      }
-    } else {
-      // Basic fallback filtering
-      const filtered = recipesData.filter(r => 
-        r.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        r.ingredients.some(ing => ing.toLowerCase().includes(searchTerm.toLowerCase()))
-      );
-      setRecipes(filtered);
+    if (!searchTerm.trim()) {
+      setRecipes(recipesData);
+      return;
     }
+    
+    const filtered = recipesData.filter(r => 
+      (r.name && r.name.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      (r.name_zh && r.name_zh.includes(searchTerm)) ||
+      (r.ingredients && r.ingredients.some(ing => ing.toLowerCase().includes(searchTerm.toLowerCase()))) ||
+      (r.ingredients_zh && r.ingredients_zh.some(ing => ing.includes(searchTerm)))
+    );
+    setRecipes(filtered);
   };
 
   const toggleTag = (tag) => {
@@ -100,57 +57,83 @@ function App() {
     } else {
       let filtered = recipesData;
       if (newTags.length > 0) {
-        filtered = filtered.filter(r => newTags.every(nt => r.categories.includes(nt)));
+        filtered = filtered.filter(r => r.categories && newTags.every(nt => r.categories.includes(nt)));
       }
       if (searchTerm) {
-        filtered = filtered.filter(r => r.name.toLowerCase().includes(searchTerm.toLowerCase()));
+        filtered = filtered.filter(r => 
+          (r.name && r.name.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (r.name_zh && r.name_zh.includes(searchTerm))
+        );
       }
       setRecipes(filtered);
     }
   };
 
-  // Reset search
   useEffect(() => {
     if (searchTerm === '' && activeTags.length === 0) setRecipes(recipesData);
   }, [searchTerm, activeTags]);
 
+  const toggleMusic = () => {
+    if (!audioRef.current) return;
+    if (isMusicPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play().catch(e => console.log('Audio play failed:', e));
+    }
+    setIsMusicPlaying(!isMusicPlaying);
+  };
+
+  const t = (en, zh) => isChinese ? zh : en;
+
   return (
-    <div className="app-container">
+    <>
+    <SpringPetals />
+    <div className="app-container" style={{position:'relative', zIndex:10}}>
+      <div style={{display: 'flex', justifyContent: 'flex-end', marginBottom: '-2.5rem', position: 'relative', zIndex: 10, gap: '1rem'}}>
+        <button 
+          onClick={toggleMusic}
+          className="search-btn"
+          style={{padding: '0.5rem', fontSize: '1.2rem'}}
+          title={t("Toggle Background Music", "开关背景音乐")}
+        >
+          {isMusicPlaying ? <Music size={24} /> : <VolumeX size={24} opacity={0.5} />}
+        </button>
+        <button 
+          onClick={() => setIsChinese(!isChinese)}
+          className="search-btn"
+          style={{padding: '0.5rem 1rem', fontSize: '1.2rem', gap: '0.5rem'}}
+        >
+          <Globe size={20} />
+          {isChinese ? 'ENG' : '中文'}
+        </button>
+      </div>
+
+      <audio ref={audioRef} loop src="/bgm.mp3" style={{display: 'none'}} />
+
       <header>
-        <h1>Smart Recipe Vault</h1>
-        <p style={{color: 'var(--text-light)', marginBottom: '1rem'}}>
-          Your personal culinary collection, powered by local privacy-first AI.
-        </p>
+        <h1>是啊，吃啥</h1>
         
         <form onSubmit={handleSearch} className="search-container">
           <input 
             type="text" 
             className="search-input" 
-            placeholder="Search by name, ingredient, or ask a question like 'I want something spicy with chicken'..."
+            placeholder={t("Search...", "搜索食谱、配料，按下回车确认...")}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <button 
-            type="button"
-            onClick={initAI}
-            title="Enable AI Semantic Search"
+            type="submit"
+            title={t("Search", "搜索")}
+            className="search-btn"
             style={{
-               background: aiReady ? 'var(--accent-color)' : 'var(--border-color)',
-               color: aiReady ? 'white' : 'var(--text-dark)',
-               border: 'none',
-               padding: '1rem',
-               borderRadius: '50%',
-               cursor: 'pointer',
-               display: 'flex',
-               alignItems: 'center',
-               justifyContent: 'center',
-               transition: 'all 0.3s'
+               background: 'var(--sv-wood-light)',
+               color: 'var(--sv-wood-dark)',
             }}
           >
-            {isAiLoading ? <Loader2 className="animate-spin" /> : <Cpu />}
+            <Search size={28} style={{marginRight: '8px'}} />
+            {t("Search", "搜索")}
           </button>
         </form>
-        {isAiLoading && <p style={{fontSize: '0.8rem', marginTop: '0.5rem', color: 'var(--accent-color)'}}>Loading Local AI Model (first time takes ~10 seconds)...</p>}
       </header>
       
       <div style={{ marginBottom: '2rem' }} className="tag-list">
@@ -160,51 +143,55 @@ function App() {
             onClick={() => toggleTag(tag)}
             className="tag"
             style={{ 
-              border: 'none', 
               cursor: 'pointer',
-              background: activeTags.includes(tag) ? 'var(--accent-color)' : 'rgba(107, 114, 128, 0.1)',
-              color: activeTags.includes(tag) ? '#fff' : 'inherit'
+              background: activeTags.includes(tag) ? 'var(--sv-wood-dark)' : 'var(--sv-wood-light)',
+              color: 'var(--sv-white)',
+              borderBottom: activeTags.includes(tag) ? '2px solid transparent' : '2px solid var(--sv-wood-dark)'
             }}
           >
-            {tag}
+            {isChinese && tagZhMap[tag] ? tagZhMap[tag] : tag}
           </button>
         ))}
       </div>
 
       <div className="recipe-grid">
         {recipes.map(recipe => (
-          <div key={recipe.id} className="recipe-card glass" onClick={() => setSelectedRecipe(recipe)}>
+          <div key={recipe.id} className="recipe-card sv-box" onClick={() => setSelectedRecipe(recipe)}>
             <div className="recipe-image-container">
               {recipe.images && recipe.images.length > 0 ? (
                 <img src={recipe.images[0]} alt={recipe.name} loading="lazy" />
               ) : (
-                <div style={{background: '#eee', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#aaa'}}>No Image</div>
+                <div style={{background: 'var(--sv-wood-mid)', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff'}}>No Image</div>
               )}
             </div>
             <div className="recipe-content">
-              <h3 className="recipe-title">{recipe.name}</h3>
+              <h3 className="recipe-title">
+                {isChinese && recipe.name_zh ? <div style={{marginBottom: '4px'}}>{recipe.name_zh}</div> : null}
+                <div style={{fontSize: isChinese ? '0.7em' : '1em', opacity: isChinese ? 0.7 : 1}}>{recipe.name}</div>
+              </h3>
               <div className="recipe-meta">
-                <span>{recipe.difficulty || 'Easy'}</span>
+                <span>{isChinese && recipe.difficulty_zh ? recipe.difficulty_zh : (recipe.difficulty || 'Easy')}</span>
                 <span>•</span>
-                <span>{recipe.servings ? recipe.servings + ' servings' : ''}</span>
+                <span>{recipe.servings ? recipe.servings + (isChinese ? ' 份' : ' servings') : ''}</span>
               </div>
               <div className="tag-list">
-                {recipe.categories.slice(0, 3).map(c => (
-                  <span key={c} className="tag">{c}</span>
+                {(recipe.categories || []).slice(0, 3).map((c, idx) => (
+                  <span key={c} className="tag">{isChinese && recipe.categories_zh && recipe.categories_zh[idx] ? recipe.categories_zh[idx] : c}</span>
                 ))}
-                {recipe.categories.length > 3 && <span className="tag">+{recipe.categories.length - 3}</span>}
               </div>
             </div>
           </div>
         ))}
-        {recipes.length === 0 && <p>No recipes found matching your criteria.</p>}
+        {recipes.length === 0 && <p>{t("No recipes found matching your criteria.", "在这个农场没有找到匹配的食谱。")}</p>}
       </div>
       
       {/* Detail View Modal */}
       {selectedRecipe && (
         <div className="detail-overlay" onClick={() => setSelectedRecipe(null)}>
-          <div className="detail-modal glass" onClick={e => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setSelectedRecipe(null)}><X /></button>
+          <div className="detail-modal sv-box" onClick={e => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setSelectedRecipe(null)}>
+              <X size={28} strokeWidth={4} />
+            </button>
             
             {selectedRecipe.images && selectedRecipe.images.length > 0 && (
               <div className="detail-hero">
@@ -213,33 +200,63 @@ function App() {
             )}
             
             <div className="detail-body">
-              <h2>{selectedRecipe.name}</h2>
-              <div style={{display: 'flex', gap: '1rem', color: 'var(--text-light)', marginBottom: '1rem'}}>
-                <span>Source: {selectedRecipe.author || 'Unknown'}</span> | 
-                <span>Yields: {selectedRecipe.servings || 'N/A'}</span>
+              <h2>
+                {isChinese && selectedRecipe.name_zh && <div>{selectedRecipe.name_zh}</div>}
+                <div style={{fontSize: isChinese ? '0.6em' : '1em', color: isChinese ? 'var(--sv-wood-mid)' : 'inherit', marginTop: '4px'}}>{selectedRecipe.name}</div>
+              </h2>
+              
+              <div style={{display: 'flex', gap: '1rem', color: 'var(--text-light)', marginBottom: '1rem', fontSize: '1.4rem'}}>
+                <span>{t("Source: ", "来源：")}{selectedRecipe.author || t("Unknown", "未知村民")}</span> | 
+                <span>{t("Yields: ", "份量：")}{selectedRecipe.servings || t("N/A", "未知")}</span>
               </div>
               
               <div className="tag-list" style={{marginBottom: '2rem'}}>
-                {selectedRecipe.categories.map(c => <span key={c} className="tag"><Tag size={12} style={{marginRight: '4px', verticalAlign: 'middle'}}/>{c}</span>)}
+                {(selectedRecipe.categories || []).map((c, idx) => (
+                  <span key={c} className="tag">
+                    <Tag size={12} style={{marginRight: '4px', verticalAlign: 'middle'}}/>
+                    {isChinese && selectedRecipe.categories_zh && selectedRecipe.categories_zh[idx] ? selectedRecipe.categories_zh[idx] : c}
+                  </span>
+                ))}
               </div>
               
-              <h3 className="section-title">Ingredients</h3>
+              <h3 className="section-title">{t("Ingredients", "需要的配料")}</h3>
               <ul className="ingredients-list">
-                {selectedRecipe.ingredients.map((ing, idx) => (
-                  <li key={idx}>{ing}</li>
+                {(selectedRecipe.ingredients || []).map((ing, idx) => (
+                  <li key={idx} style={{marginBottom: '12px', alignItems: 'flex-start'}}>
+                    <div>
+                      {isChinese && selectedRecipe.ingredients_zh && selectedRecipe.ingredients_zh[idx] && (
+                        <div style={{fontWeight: 'bold'}}>{selectedRecipe.ingredients_zh[idx]}</div>
+                      )}
+                      <div style={{opacity: isChinese ? 0.7 : 1, fontSize: isChinese ? '0.8em' : '1em', marginTop: '2px'}}>{ing}</div>
+                    </div>
+                  </li>
                 ))}
               </ul>
               
-              <h3 className="section-title">Instructions</h3>
+              <h3 className="section-title">{t("Instructions", "烹饪步骤")}</h3>
               <div className="instructions-text">
-                {selectedRecipe.instructions || 'No instructions provided.'}
+                {isChinese && selectedRecipe.instructions_zh ? (
+                  <>
+                    <div style={{marginBottom: '1rem'}}>{selectedRecipe.instructions_zh}</div>
+                    <div style={{opacity: 0.6, fontSize: '0.8em', borderTop: '2px dashed var(--sv-wood-mid)', paddingTop: '1rem'}}>{selectedRecipe.instructions || ''}</div>
+                  </>
+                ) : (
+                  <div>{selectedRecipe.instructions || 'No instructions provided.'}</div>
+                )}
               </div>
               
               {selectedRecipe.notes && (
                 <>
-                  <h3 className="section-title">Notes</h3>
+                  <h3 className="section-title">{t("Notes", "农夫寄语")}</h3>
                   <div className="instructions-text" style={{fontStyle: 'italic', color: 'var(--text-light)'}}>
-                    {selectedRecipe.notes}
+                    {isChinese && selectedRecipe.notes_zh ? (
+                       <>
+                         <div style={{marginBottom: '0.5rem'}}>{selectedRecipe.notes_zh}</div>
+                         <div style={{opacity: 0.6, fontSize: '0.8em'}}>{selectedRecipe.notes}</div>
+                       </>
+                    ) : (
+                       <div>{selectedRecipe.notes}</div>
+                    )}
                   </div>
                 </>
               )}
@@ -248,6 +265,7 @@ function App() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

@@ -1,13 +1,20 @@
 [
   {
-    "id": "8d3317c9-0029-4486-a227-c5303cfd953b",
+    "id": "0c243e0c-a6ce-49e6-970a-9138f6d47342",
     "name": "Slow Cooker Poussin Paprikash",
+    "name_zh": "慢炖锅普桑红辣椒",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "adapted from \"Not Your Mother's Slow Cooker Cookbook\" by Hensperger and Kaufmann",
     "ingredients": [
@@ -22,19 +29,39 @@
       "8teaspoons all purpose flour",
       "Salt and freshly ground black pepper to taste"
     ],
+    "ingredients_zh": [
+      "2-3汤匙无盐黄油分成汤匙",
+      "31磅的马蹄鸡减半（见注释）或2块去骨去皮鸡胸肉加4块去骨去皮鸡大腿",
+      "4个中到大的葱，切碎",
+      "2-3茶匙匈牙利甜辣椒粉（根据您的口味）",
+      "1杯鸡汤",
+      "1 个中等大小的青椒，去籽并切成 1/2 英寸宽的条",
+      "2 罐（28 盎司）整个李子番茄，用纸巾沥干并切碎",
+      "如果可能的话，在室温下1杯低脂酸奶油",
+      "8茶匙通用面粉",
+      "盐和现磨黑胡椒粉调味"
+    ],
     "instructions": "Melt the butter in a large skillet over medium-high heat.  When it foams, add the poussin halves, skin side down, and cook until just colored on both sides, not brown or crisp, about 5 minutes per side. (You may have to do this in batches, adding a bit of butter each time.)\nTransfer the poussin to the slow cooker. Add the shallots to the skillet and cook, stirring, until softened, about 5 minutes.  Add the paprika and cook, stirring, about 1 minute.\nAdd the broth and cook, scraping up any browned bits stuck to the pan.  Pour the broth over the poussin; it will come halfway up the sides (maybe a little more). Sprinkle the bell pepper and tomato pieces over the top.\nCover and cook on HIGH until the poussins are tender and cooked through, 2 1/2 to 3 hours (or 5-6 hours on LOW).  They will add some out their own juices to the broth.\nWhisk together the sour cream and flour in a small bowl.  Remove a little of the cooking liquid and stir carefully into the sour cream.  (You do this rather than put it directly into the pot  in order to prevent lumps in the final sauce).\nTransfer the poussins to a warm platter.  Leave the cooker on HIGH, add the sour cream mix to the liquid and whisk until smooth. Cook for a few minutes until hot and thickened.  Season with salt and pepper.\nReturn the poussins to the cooker, nestling them in the sauce, turn the cooker to LOW, and cook for 10 minutes.  Serve directly out of the vessel.\nPlace the poussin halves and the noodles or dumplings side by side on the plate.  Spoon some of the sauce over all, then pass the rest.",
+    "instructions_zh": "在大煎锅中用中高温融化黄油。  当它起泡时，加入两半的布桑，带皮的一面朝下，煮至两面都刚刚上色，而不是棕色或酥脆，每面约 5 分钟。 （你可能需要分批进行，每次添加一点黄油。）\n将普桑转移到慢炖锅中。将青葱放入煎锅中，搅拌约 5 分钟，直至青葱变软。  加入辣椒粉，搅拌，煮约 1 分钟。\n加入肉汤并煮，刮掉粘在锅上的任何棕色碎片。  将肉汤倒在普桑上；它会到达两侧的一半（也许更多一点）。在上面撒上甜椒和番茄片。\n盖上锅盖，用高火煮 2 1/2 至 3 小时（或用低火煮 5-6 小时），直至马铃薯变软并煮熟。  他们会在肉汤中添加一些自己的果汁。\n在一个小碗中将酸奶油和面粉搅拌在一起。  取出一点烹饪液，小心地搅拌到酸奶油中。  （这样做而不是直接放入锅中，以防止最终的酱汁结块）。\n将马仔转移到热盘上。  将炊具保持高温，将酸奶油混合物添加到液体中，搅拌直至光滑。煮几分钟直至变热且变稠。  用盐和胡椒调味。\n将土豆放回炊具中，将它们放入酱汁中，将炊具调至低火，煮 10 分钟。  直接从容器中取出即可食用。\n将切半的布桑和面条或饺子并排放在盘子上。  用勺子舀一些酱汁在上面，然后把剩下的倒掉。",
     "notes": "1. To cut a poussin in half, holding the bird with one hand and using kitchen shears with the other, cut the breast inhale, starting from the neck end.  Turn the bird over and cut down both sides of the backbone, as close as possible, leaving 2 halves; discard the backbone or use for soup stock.  For a lower-fat version of this recipe, remove the skin before browning in step 1.\n2. The first time I made this I used only boneless, skinless chicken breasts and cooked it on LOW for 6 hours.  It then sat in the cooker for another 2.  I also used half the tomatoes and broth.  It came out too dry, so I've adjusted this recipe accordingly.",
     "images": []
   },
   {
-    "id": "4fd22672-0fa8-432a-a9c8-e2656bcbd429",
+    "id": "bdbda527-6b03-47ce-a3ab-f441f3a9a7ce",
     "name": "Slow Cooker Cream Cheese Chicken",
+    "name_zh": "慢炖锅奶油芝士鸡",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -49,20 +76,39 @@
       "2cloves minced garlic",
       "block of 1/3 less fat cream cheese  (to add later)"
     ],
+    "ingredients_zh": [
+      "2杯自制奶油蘑菇汤（参见随附的食谱）",
+      "冷冻鸡肉——足够四个成年人吃",
+      "2汤匙意大利调味料",
+      "1/2茶匙芹菜籽",
+      "1汤匙-洋葱粉",
+      "1/4茶匙黑胡椒",
+      "1汤匙糖（我知道很奇怪。）",
+      "1茶匙粗盐",
+      "2瓣蒜末",
+      "1/3 低脂奶油干酪块（稍后添加）"
+    ],
     "instructions": "Put everything except for the cream cheese into the crockpot. Be sure to choose a crockpot that is the right size, so that it is 2/3 full when all ingredients are added.   I use a 5 qt pot.\nCook on low for 6 hours, or until the chicken is cooked through and begins to shred. Shred the chicken with two large forks, and mix in the block of cream cheese.\nSwitch the crock to high and cook for another 30 minutes, or until the cream cheese is fully melted.\nServe over pasta.",
+    "instructions_zh": "将除奶油芝士以外的所有东西放入锅中。一定要选择尺寸合适的炖锅，以便在添加所有成分时，锅的容量为 2/3。   我用的是 5 夸脱的锅。\n小火煮 6 小时，或直到鸡肉煮熟并开始切丝。用两个大叉子将鸡肉切碎，然后加入奶油奶酪块混合。\n将锅开至高温，再煮 30 分钟，或直至奶油干酪完全融化。\n与意大利面一起食用。",
     "notes": "NOTES:  I thought this was a bit salty when made with the accompanying homemade cream of mushroom soup.  Maybe reduce the salt to 1/2 teaspoon?\nIf you want to use pre-made soup, use these ingredients:\n--1 can cream-of-something soup\n--1/2 cup chicken broth\n--frozen chicken pieces\n--packet of Italian salad dressing mix\n--2 cloves minced garlic\n--block of cream cheese (to add later)",
     "images": [
-      "/images/recipes/4fd22672-0fa8-432a-a9c8-e2656bcbd429_0.jpg"
+      "/images/recipes/bdbda527-6b03-47ce-a3ab-f441f3a9a7ce_0.jpg"
     ]
   },
   {
-    "id": "790df127-fe9f-43be-98b9-c687f64639a0",
+    "id": "28cf0e27-fe52-46d5-af51-d36695a61268",
     "name": "Slow Cooker Chocolate Mousse",
+    "name_zh": "慢炖锅巧克力慕斯",
     "categories": [
       "Desserts",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "甜点",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -73,21 +119,37 @@
       "1teaspoon vanilla",
       "2cups semi-sweet chocolate chips"
     ],
+    "ingredients_zh": [
+      "2杯浓奶油",
+      "4个大蛋黄",
+      "3汤匙面包糖（颗粒很快溶解）",
+      "1/3杯冷浓咖啡",
+      "1茶匙香草精",
+      "2杯半甜巧克力片"
+    ],
     "instructions": "I used a 4 qt round crockpot. If you use a larger one, your stuff will melt and cook faster; be aware.\nIn your crockpot, add the heavy cream, egg yolks, sugar, vanilla, and coffee. Whip until combined with a whisk. You don't need to go crazy, just mix it well. Add the two cups of chocolate chips.\nCover and cook on high for about an hour, or on low for about two. You are looking for little bubbles in the surface of the cream, and melted chocolate.\nVERY VERY VERY VERY carefully, pour the mixture into a blender. You'll get about 2 1/2 to 3 cups of liquid. Blend on high until it \"grows\" to about 5 to 6 cups, and doesn't seem like it will rise any higher.\nPour into serving dishes.\nChill for 2 hours in the refrigerator. Top with whipped cream or berries, or nothing at all.",
+    "instructions_zh": "我用的是 4 夸脱的圆形锅。如果你使用较大的，你的东西会融化并煮得更快；请注意。\n在锅中加入浓奶油、蛋黄、糖、香草和咖啡。用搅拌器搅打直至混合。你不需要发疯，只需混合均匀即可。添加两杯巧克力片。\n盖上锅盖，高火煮约一个小时，或低火煮约两个小时。您正在寻找奶油表面的小气泡和融化的巧克力。\n非常非常非常小心地将混合物倒入搅拌机中。您将得到大约 2 1/2 至 3 杯液体。高速搅拌，直到它“增长”到大约 5 到 6 杯，并且看起来不会升得更高。\n倒入餐盘中。\n放入冰箱冷藏2小时。上面放上生奶油或浆果，或者什么也不放。",
     "notes": "This is not hard. I love my crockpot.",
     "images": [
-      "/images/recipes/790df127-fe9f-43be-98b9-c687f64639a0_0.jpg"
+      "/images/recipes/28cf0e27-fe52-46d5-af51-d36695a61268_0.jpg"
     ]
   },
   {
-    "id": "3db65d35-acb8-47fd-b7b7-f488c55e4c45",
+    "id": "bb3c02e2-aba3-42b0-b491-827eb366912b",
     "name": "Slow Cooker Chicken Mole",
+    "name_zh": "慢炖锅鸡摩尔",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "",
     "ingredients": [
@@ -107,22 +169,48 @@
       "4tablespoons unsweetened cocoa powder",
       "1 1/2lbs. skinless boneless chicken breasts"
     ],
+    "ingredients_zh": [
+      "1个大洋葱，切碎",
+      "1/2 杯 葡萄干 切碎",
+      "3瓣大蒜，切碎",
+      "2汤匙烤芝麻（可选）",
+      "1 个切碎的阿多波酱墨西哥辣椒罐头（注意：罐头里只有一颗辣椒，不是一罐）",
+      "1/4杯花生酱",
+      "1 罐（28 盎司）碎番茄",
+      "2 茶匙糖（或 2 包 Splenda）",
+      "1茶匙肉桂粉",
+      "4茶匙辣椒粉",
+      "1茶匙孜然粉",
+      "1/2茶匙香菜粉",
+      "1/8茶匙肉豆蔻粉",
+      "4汤匙不加糖可可粉",
+      "1 1/2 磅。去皮去骨鸡胸肉"
+    ],
     "instructions": "Sauté the chopped onions until tender and place them, along with the raisins, garlic, sesame seeds, chipotle pepper, peanut butter and crushed tomatoes in slow cooker.\nStir in sugar, cinnamon, chili powder, cumin, coriander, nutmeg, and cocoa powder. Place chicken in the sauce.\nCover; cook on Low until chicken is very tender, about 5 hours.",
+    "instructions_zh": "将切碎的洋葱炒至变软，然后将其与葡萄干、大蒜、芝麻、辣椒、花生酱和碎番茄一起放入慢炖锅中。\n加入糖、肉桂、辣椒粉、孜然、香菜、肉豆蔻和可可粉。将鸡肉放入酱汁中。\n覆盖;低火煮约 5 小时，直至鸡肉变软。",
     "notes": "I generally shred the chicken so it will soak up the mole sauce and serve it with warmed tortillas or brown rice. It is always a hit with those who like spicy foods. This recipe can be played with easily to tailor it to your own level of hotness and/or cocoa/peanut flavor.\nIf available, use two squares of Mexican chocolate rather than unsweetened cocoa  / sugar.  Look for \"Abuelita\" chocolate discs in the ethnic food aisle.  One whole disc should do.   If your recipe ends up bitter, consider adding 1- 2 tablespoons cider vinegar.",
     "images": [
-      "/images/recipes/3db65d35-acb8-47fd-b7b7-f488c55e4c45_0.jpg"
+      "/images/recipes/bb3c02e2-aba3-42b0-b491-827eb366912b_0.jpg"
     ]
   },
   {
-    "id": "9ec46254-e7ff-4b91-b26e-c403beb3b404",
+    "id": "141f8920-5ea1-4c40-bd3f-b6f0d25a0b4c",
     "name": "Slow Cooker Jambalaya (easy)",
+    "name_zh": "慢炖锅什锦饭（简单）",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "All You, JANUARY 2007",
     "ingredients": [
@@ -141,21 +229,45 @@
       "1 3/4cups long-grain rice",
       "Parsley optional"
     ],
+    "ingredients_zh": [
+      "2磅。无骨去皮鸡大腿",
+      "1磅。熏香肠切成2英寸的片",
+      "1个大洋葱，切碎",
+      "1个大青椒，去籽并切碎",
+      "3 根 芹菜 切碎",
+      "1罐（28盎司）番茄切丁加汁",
+      "3瓣大蒜，切碎",
+      "2杯鸡汤",
+      "1汤匙卡津或克里奥尔香料混合物",
+      "1茶匙干百里香",
+      "1茶匙干牛至",
+      "1磅。特大虾去皮去肠",
+      "1 3/4杯长粒米",
+      "欧芹 可选"
+    ],
     "instructions": "Combine chicken, sausage, onion, green pepper, celery, tomatoes, garlic, chicken broth, spice mix, thyme and oregano in a large (5-quart) slow cooker. Cook on low for 5 hours.\nAdd shrimp and rice; raise heat to high and cook for 30 minutes more. Sprinkle with chopped parsley, if desired.",
+    "instructions_zh": "将鸡肉、香肠、洋葱、青椒、芹菜、西红柿、大蒜、鸡汤、混合香料、百里香和牛至放入大型（5 夸脱）慢炖锅中。小火煮5小时。\n加入虾和米饭；将火调高，再煮 30 分钟。如果需要的话，撒上切碎的欧芹。",
     "notes": "",
     "images": [
-      "/images/recipes/9ec46254-e7ff-4b91-b26e-c403beb3b404_0.jpg"
+      "/images/recipes/141f8920-5ea1-4c40-bd3f-b6f0d25a0b4c_0.jpg"
     ]
   },
   {
-    "id": "1dc58862-ce7e-4c65-a9ea-c6a8a5ed5078",
+    "id": "8e576396-7f5e-49f4-9805-a4810d2fa3c1",
     "name": "Slow Cooker Chicken with Winter Vegetables",
+    "name_zh": "慢炖鸡配冬季蔬菜",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "GlutenFreeda",
     "ingredients": [
@@ -173,21 +285,44 @@
       "1cup gf chicken stock",
       "Salt & freshly ground black pepper"
     ],
+    "ingredients_zh": [
+      "3/4磅。小胡萝卜去皮",
+      "2根芹菜茎切成3/4英寸的块",
+      "2根中等韭菜（白色部分和1英寸绿色）洗净，切成1英寸块",
+      "1瓣，大蒜切成薄片",
+      "1/4茶匙干龙蒿",
+      "1汤匙新鲜迷迭香，切碎",
+      "1片月桂叶",
+      "1/2茶匙盐",
+      "1/4茶匙黑胡椒粉",
+      "1磅。小红土豆擦洗干净",
+      "3 1/2 磅。将烤鸡切成四等分",
+      "1杯GF鸡汤",
+      "盐和现磨黑胡椒"
+    ],
     "instructions": "Place carrots, celery, leeks, garlic, tarragon, rosemary and bay leaf in slow- cooker. Toss vegetables with salt and pepper. Place potatoes over vegetables, and lay chicken pieces on top of potatoes. Pour in broth. Cover and cook on low-heat setting 6 to 8 hours. Season to taste with salt and freshly ground black pepper.\nGarnish with parsley before serving.",
+    "instructions_zh": "将胡萝卜、芹菜、韭葱、大蒜、龙蒿、迷迭香和月桂叶放入慢炖锅中。将蔬菜与盐和胡椒一起搅拌。将土豆放在蔬菜上，然后将鸡肉块放在土豆上。倒入肉汤。盖上锅盖，小火煮 6 至 8 小时。用盐和现磨黑胡椒调味。\n食用前用欧芹装饰。",
     "notes": "",
     "images": [
-      "/images/recipes/1dc58862-ce7e-4c65-a9ea-c6a8a5ed5078_0.jpg"
+      "/images/recipes/8e576396-7f5e-49f4-9805-a4810d2fa3c1_0.jpg"
     ]
   },
   {
-    "id": "95cf0ccd-d499-4c80-9922-6dfe750b3889",
+    "id": "b9147556-e59c-4382-b6a0-df6a2106ebf0",
     "name": "Slow Cooker Chicken Cordon Bleu",
+    "name_zh": "慢炖鸡蓝带",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -203,21 +338,42 @@
       "1/2cup chicken broth",
       "1/4teaspoon black pepper"
     ],
+    "ingredients_zh": [
+      "4、鸡胸肉切半，捣碎",
+      "4-8片他",
+      "4-8片瑞士奶酪",
+      "1罐你最喜欢的奶油汤",
+      "2汤匙低脂牛奶",
+      "除非你是像我一样疯狂的加州嬉皮士。然后你可以使用：",
+      "1汤匙黄油",
+      "3汤匙面粉（帕梅拉的）",
+      "1/2杯低脂牛奶",
+      "1/2杯鸡汤",
+      "1/4茶匙黑胡椒"
+    ],
     "instructions": "Spray crockpot with cooking spray.\nPound chicken breasts flat (put them in a ziplock before you pound so chicken juice doesn't spray all over the kitchen grossing you out, and necessitate a call to the local Hazmat team).\nPut a slice of the ham and a slice of the Swiss cheese on the chicken breast and roll it up. Put it into the crockpot, seam side down. If desired, top with another piece of ham and cheese. Continue with the other pieces. It's okay to stagger-stack the chicken. It will still cook nicely for you.\nIf you are making your own \"special soup,\" make a roux on the stovetop with the butter and flour, and whisk in the broth, milk, and spices. Pour on top of the chicken.\n-OR- open can of cream-of soup. Pour into crockpot. Put the 2T of low fat milk into your empty can and swirl it around to get the remaining stuck on good stuff. Pour that in, too.\nCover and cook on low for 6-8 hours, or on high for 4-5. This is done when the chicken is cooked through and has begun to brown on top.",
+    "instructions_zh": "用烹饪喷雾喷洒锅。\n将鸡胸肉捣碎（捣碎之前将它们放入自封锁中，这样鸡汁就不会喷洒在整个厨房，让您感到恶心，并且需要致电当地的危险品团队）。\n将一片火腿和一片瑞士奶酪放在鸡胸肉上，然后卷起来。将其放入锅中，接缝面朝下。如果需要，可以在上面放上另一片火腿和奶酪。继续其他部分。把鸡肉错开堆放是可以的。它仍然会为你烹制美味佳肴。\n如果您要自己制作“特色汤”，请在炉灶上用黄油和面粉制作面糊，然后加入肉汤、牛奶和香料。倒在鸡肉上面。\n-或者-打开一罐奶油汤。倒入砂锅中。将 2 吨低脂牛奶放入空罐中，然后旋转，让剩余的牛奶粘在好东西上。把那个也倒进去。\n盖上盖子，低火煮 6-8 小时，或高火煮 4-5 小时。当鸡肉煮熟并且顶部开始变成棕色时就完成了。",
     "notes": "*NOTE:  Having made this once using Bob's Red Mill GF biscuit mix, I decided it was too salty and eliminated 1/4 teaspoon of salt from the ingredient list.  You may need to salt to taste after cooking, or may have a different experience using Pamela's GF baking mix.\nI used a 6qt oval Smart-Pot for this recipe. A 4qt would have been better. My crock wasn't full enough. If you only have a large, consider upping to 6 breast halves--(psst. if you do up it, you don't really need another can of soup. Unless you do 8 halves. Then you should use another).",
     "images": [
-      "/images/recipes/95cf0ccd-d499-4c80-9922-6dfe750b3889_0.jpg"
+      "/images/recipes/b9147556-e59c-4382-b6a0-df6a2106ebf0_0.jpg"
     ]
   },
   {
-    "id": "7d854a4e-1526-447a-843c-ca056941e3d6",
+    "id": "d1d831a1-551c-472d-9065-cfd36b0ecfd4",
     "name": "Slow Cooker Pesto Lasagna with Spinach and Mushrooms",
+    "name_zh": "慢炖锅香蒜烤宽面条配菠菜和蘑菇",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Cooking Light, October 2003",
     "ingredients": [
@@ -234,18 +390,39 @@
       "Cooking spray",
       "1(8-ounce) package precooked lasagna noodles (12 noodles)"
     ],
+    "ingredients_zh": [
+      "4杯撕碎的菠菜",
+      "2杯切片蘑菇",
+      "1/2 杯商业香蒜酱",
+      "3/4 杯（3 盎司）切碎的部分脱脂马苏里拉奶酪",
+      "3/4 杯（3 盎司）切碎的波伏洛干酪",
+      "1 盒（15 盎司）脱脂乳清干酪",
+      "1个大鸡蛋，轻轻打散",
+      "3/4 杯（3 盎司）磨碎的新鲜帕尔马干酪，分开",
+      "1（25.5 盎司）瓶脱脂番茄罗勒意大利面酱",
+      "1罐（8盎司）番茄酱",
+      "烹饪喷雾",
+      "1（8 盎司）包预煮烤宽面条（12 条面条）"
+    ],
     "instructions": "Arrange the spinach in a vegetable steamer; steam, covered, 3 minutes or until spinach wilts. Drain, squeeze dry, and coarsely chop. Combine spinach, mushrooms, and pesto in a medium bowl, stirring to combine; set aside.\nCombine mozzarella, provolone, ricotta, and beaten egg in a medium bowl, stirring well to combine. Stir in 1/4 cup Parmesan, and set aside. Combine the pasta sauce and the tomato sauce in a medium bowl.\nSpread 1 cup pasta sauce mixture in the bottom of a 6-quart oval electric slow cooker coated with cooking spray. Arrange 3 noodles over pasta sauce mixture; top with 1 cup cheese mixture and 1 cup spinach mixture.\nRepeat the layers, ending with spinach mixture. Arrange 3 noodles over spinach mixture; top with remaining 1 cup cheese mixture and 1 cup pasta sauce mixture.\nPlace remaining 3 noodles over sauce mixture; spread remaining sauce mixture over noodles. Sprinkle with the remaining 1/2 cup Parmesan.\nCover with lid; cook on LOW 5 hours or until done.",
+    "instructions_zh": "将菠菜放入蒸锅内；盖上盖子蒸 3 分钟或直至菠菜枯萎。沥干水分，挤干，然后粗切。将菠菜、蘑菇和香蒜沙司放入一个中等大小的碗中，搅拌均匀；放在一边。\n将马苏里拉奶酪、波伏洛干酪、乳清干酪和打好的鸡蛋放入一个中等大小的碗中，搅拌均匀。加入 1/4 杯帕尔马干酪，搅拌，放在一边。将意大利面酱和番茄酱放入一个中等大小的碗中。\n将 1 杯意大利面酱混合物放入涂有烹饪喷雾的 6 夸脱椭圆形电慢炖锅底部。将 3 条面条放在意大利面酱混合物上；上面放 1 杯奶酪混合物和 1 杯菠菜混合物。\n重复各层，最后加入菠菜混合物。将 3 条面条放在菠菜混合物上；上面放上剩余的 1 杯奶酪混合物和 1 杯意大利面酱混合物。\n将剩余的 3 条面条放在酱汁混合物上；将剩余的酱汁混合物涂在面条上。撒上剩余的 1/2 杯帕尔马干酪。\n盖上盖子；低火煮 5 小时或直至熟。",
     "notes": "No-boil lasagna noodles are perfect for this recipe, as they absorb all the juices that accumulate in the crockpot. Use 2 (10-ounce) packages of frozen chopped spinach in place of fresh, if you prefer. Also, any mushroom will work.\nMay also be made in a regular 9x13 lasagna pan, cooked at 350 for 45-50 minutes.",
     "images": []
   },
   {
-    "id": "085a0d22-c6b5-4c38-b21b-2f32c721d0a9",
+    "id": "d6d90c14-895f-4b69-953b-545ae05afa09",
     "name": "Slow Cooker Smoky Split Pea Soup",
+    "name_zh": "慢炖锅烟熏豌豆汤",
     "categories": [
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Real Simple, MARCH 2004",
     "ingredients": [
@@ -259,21 +436,40 @@
       "1bay leaf",
       "1teaspoon dried thyme leaves"
     ],
+    "ingredients_zh": [
+      "2 腿飞节（约 1 1/2 磅）*（见注释）",
+      "1磅。绿豌豆",
+      "2根大胡萝卜，粗略切碎（2杯）",
+      "2大芹菜茎切碎（2杯）",
+      "1个大洋葱，粗切碎（1杯）",
+      "2 蒜瓣 切碎",
+      "232盎司罐装鸡汤",
+      "1片月桂叶",
+      "1茶匙干百里香叶"
+    ],
     "instructions": "Rinse the ham hocks. Place them in a 4- to 6-quart slow cooker, along with the peas, carrots, celery, onion, garlic, broth, bay leaf, and thyme.\nCook on low for 8 hours, or on high for 4 hours. Using tongs, remove the ham hocks.\nWhen they're cool enough to handle, pick off the meat and discard the skin and bones. Chop the meat into small pieces, return it to the soup, and stir.",
+    "instructions_zh": "冲洗火腿飞节。将它们与豌豆、胡萝卜、芹菜、洋葱、大蒜、肉汤、月桂叶和百里香一起放入 4 至 6 夸脱的慢炖锅中。\n低火煮 8 小时，或高火煮 4 小时。使用钳子取出火腿飞节。\n当它们冷却到可以处理时，把肉摘下来，扔掉皮和骨头。将肉切成小块，放回汤中，搅拌。",
     "notes": "*A ham bone from a roast or 1/2 pound of cooked smoky bacon can be substituted; however, the soup will then require up to 1 tablespoon of salt. Add it 1/2 teaspoon at a time, tasting after each addition.",
     "images": [
-      "/images/recipes/085a0d22-c6b5-4c38-b21b-2f32c721d0a9_0.jpg"
+      "/images/recipes/d6d90c14-895f-4b69-953b-545ae05afa09_0.jpg"
     ]
   },
   {
-    "id": "7614015b-a70c-4dbd-85df-8c461590ec12",
+    "id": "d1147175-31b8-44d6-8f6a-53150ac16b7c",
     "name": "Slow Cooker Chunky Chili",
+    "name_zh": "慢炖锅粗辣椒",
     "categories": [
       "Main Dishes",
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "主菜",
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "12",
     "author": "Quick Cooking, January/February 2001",
     "ingredients": [
@@ -288,19 +484,39 @@
       "1/2teaspoon salt",
       "1/4teaspoon pepper"
     ],
+    "ingredients_zh": [
+      "1磅。碎牛肉",
+      "1磅。散装猪肉香肠",
+      "4 盎司 16 罐芸豆，冲洗并沥干",
+      "214 1/2 盎司 番茄丁 不沥干",
+      "2 盎司 10 罐番茄和青辣椒切丁（不沥干）",
+      "1个大洋葱，切碎",
+      "1个中等大小的青椒，切碎",
+      "1个信封炸玉米饼调味料",
+      "1/2茶匙盐",
+      "1/4茶匙胡椒粉"
+    ],
     "instructions": "In a skillet, cook beef and sausage over medium heat until meat is no longer pink; drain. Transfer to a 5-qt. slow cooker.\nStir in the remaining ingredients. Cover and cook on high for 4-5 hours or until vegetables are tender.",
+    "instructions_zh": "在煎锅中，用中火煮牛肉和香肠，直到肉不再呈粉红色；流走。转移到 5 夸脱。慢炖锅。\n加入剩余的成分。盖上锅盖，高火煮 4-5 小时或直至蔬菜变软。",
     "notes": "Cool leftover chili, transfer to freezer bags or containers. Freeze for up to 3 months.",
     "images": []
   },
   {
-    "id": "f91869d0-56a3-4fa0-a923-8df8af3790b5",
+    "id": "8110e490-cf43-4244-9f43-22a3ad17b35a",
     "name": "Slow Cooker Chicken Thighs with Olives and Tomato Sauce",
+    "name_zh": "慢炖锅鸡大腿配橄榄和番茄酱",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Cooking Light, MARCH 2009",
     "ingredients": [
@@ -316,21 +532,42 @@
       "1/4cup sliced pitted kalamata olives",
       "2tablespoons chopped fresh flat-leaf parsley"
     ],
+    "ingredients_zh": [
+      "12只鸡大腿（约4磅），去皮，带骨",
+      "1茶匙粗盐，分开",
+      "1/4 茶匙 现磨黑胡椒 分开",
+      "1茶匙橄榄油",
+      "1 1/2 汤匙 蒜末",
+      "1/4杯干白葡萄酒",
+      "3汤匙番茄酱",
+      "2到3茶匙碎红辣椒",
+      "1罐（28盎司）番茄切块，沥干",
+      "1/4 杯 切片去核卡拉马塔橄榄",
+      "2汤匙切碎的新鲜平叶欧芹"
+    ],
     "instructions": "Sprinkle chicken with 1/2 teaspoon salt and 1/8 teaspoon black pepper. Heat oil in a large skillet over medium-high heat. Add chicken to pan; cook 2 minutes on each side or until browned.\nPlace chicken in an electric slow cooker. Add garlic to pan, and sauté 30 seconds, stirring constantly. Add wine, scraping pan to loosen browned bits; cook 30 seconds. Place wine mixture in cooker.\nAdd tomato paste, crushed red pepper, and tomatoes to cooker.\nCover and cook on HIGH 4 hours or LOW for 8 (a little less if your cooker runs hot).\nStir in remaining 1/2 teaspoon salt, remaining 1/8 teaspoon pepper, olives, and parsley.",
+    "instructions_zh": "在鸡肉上撒上 1/2 茶匙盐和 1/8 茶匙黑胡椒。在大煎锅中用中高温加热油。将鸡肉加入锅中；每面煮 2 分钟或直至变成棕色。\n将鸡肉放入电慢炖锅中。将大蒜加入锅中，炒 30 秒，不断搅拌。加入酒，刮平锅以松散褐色的碎片；煮30秒。将酒混合物放入炊具中。\n将番茄酱、碎红辣椒和番茄放入锅中。\n盖上锅盖，高火煮 4 小时，低火煮 8 小时（如果你的炊具很热，则时间要短一些）。\n加入剩余的 1/2 茶匙盐、剩余的 1/8 茶匙胡椒、橄榄和欧芹。",
     "notes": "1. Add capers along with the olives, parsley, and seasoning for a more briny flavor, if you like. The parsley goes in last to keep its flavor and color intense.\n2. I usually use a few more olives and only 2 tsp red pepper. The kalamatas make the recipe, so don't substitute if you can help it.  Serve over orzo, other pasta, or rice with a leafy green salad.",
     "images": [
-      "/images/recipes/f91869d0-56a3-4fa0-a923-8df8af3790b5_0.jpg"
+      "/images/recipes/8110e490-cf43-4244-9f43-22a3ad17b35a_0.jpg"
     ]
   },
   {
-    "id": "cb95c800-bdd6-4b80-a279-f823dde5efaa",
+    "id": "10278b91-e696-4082-8d5f-fb55d44e76ee",
     "name": "Slow Cooker Coq au Vin",
+    "name_zh": "慢炖锅酒焖鸡",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -346,20 +583,40 @@
       "1 1/2cups cheap red wine",
       "2large fresh thyme sprigs (Fresh thyme is key here.)"
     ],
+    "ingredients_zh": [
+      "6至8块冷冻鸡大腿",
+      "6片培根（火鸡或猪肉）煮熟并捣碎",
+      "8盎司。婴儿波塔贝拉蘑菇切片",
+      "1杯小胡萝卜",
+      "1杯黄洋葱，切碎",
+      "3瓣大蒜，切碎或切碎",
+      "1/2茶匙黑胡椒",
+      "1/2茶匙粗盐",
+      "1/2杯鸡汤",
+      "1 1/2杯廉价红酒",
+      "2大新鲜百里香小枝（新鲜百里香是这里的关键。）"
+    ],
     "instructions": "Cook your bacon. I used turkey bacon, and baked it on a broiler pan. Dump the frozen chicken into your crockpot and start layering in the rest of the ingredients. This is really a no-fuss (albeit amazingly gourmet-ish) preparation. Just throw it all in.\nCover and cook on low for 8 hours. You could cook it on high for 4, but it won't taste as good. The flavors meld so nicely when cooked low and slow.\nServe with mashed potatoes or your favorite pasta.",
+    "instructions_zh": "煮培根。我用火鸡培根，然后在烤盘上烤。将冷冻鸡肉倒入锅中，然后开始分层放入其余成分。这确实是一个简单的准备工作（尽管令人惊讶的是美食）。全部扔进去就可以了\n盖上锅盖，小火煮 8 小时。你可以用高温煮4个，但味道不会那么好。当低速慢煮时，味道会很好地融合在一起。\n与土豆泥或您最喜欢的意大利面一起食用。",
     "notes": "",
     "images": [
-      "/images/recipes/cb95c800-bdd6-4b80-a279-f823dde5efaa_0.jpg"
+      "/images/recipes/10278b91-e696-4082-8d5f-fb55d44e76ee_0.jpg"
     ]
   },
   {
-    "id": "9dc00d23-3ad7-4fac-9837-9c450939e771",
+    "id": "5672c11d-503c-4fd2-8f1b-81ad8f0062b8",
     "name": "Slow Cooker White Chili",
+    "name_zh": "慢炖锅白辣椒",
     "categories": [
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "allrecipes.com",
     "ingredients": [
@@ -375,21 +632,42 @@
       "1tablespoon lemon juice",
       "1tablespoon lime juice"
     ],
+    "ingredients_zh": [
+      "2杯切碎的煮熟的鸡胸肉",
+      "1罐（15.5盎司）白豆沥干",
+      "1罐（14.5盎司）鸡汤",
+      "1罐（15.25盎司）白玉米，沥干",
+      "1罐（7盎司）绿色莎莎酱",
+      "1罐（4盎司）切碎的青辣椒",
+      "1个大番茄，切碎",
+      "1/4 杯切碎的新鲜香菜",
+      "2 葱 切碎",
+      "1汤匙柠檬汁",
+      "1汤匙酸橙汁"
+    ],
     "instructions": "Combine everything in the crock of a slow cooker.  Give it a stir and then cook on LOW until hot, about 1 hour.  That’s it.\nIt needs tortilla chips.",
+    "instructions_zh": "将所有东西放入慢炖锅的锅中。  搅拌一下，然后低火煮至热，大约 1 小时。  就是这样。\n它需要玉米片。",
     "notes": "",
     "images": [
-      "/images/recipes/9dc00d23-3ad7-4fac-9837-9c450939e771_0.jpg"
+      "/images/recipes/5672c11d-503c-4fd2-8f1b-81ad8f0062b8_0.jpg"
     ]
   },
   {
-    "id": "27e443ec-ac25-4134-8961-d98df1344178",
+    "id": "04e5daf4-4ded-426c-a413-bee7bd18da68",
     "name": "Slow Cooker Beef Stroganoff",
+    "name_zh": "慢炖锅沙拉酱牛肉",
     "categories": [
       "Beef",
       "Main Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "牛肉",
+      "主菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Cooking Light, OCTOBER 2004",
     "ingredients": [
@@ -407,21 +685,44 @@
       "2(8-ounce) containers low-fat sour cream",
       "4cups hot cooked medium egg noodles (about 8 ounces uncooked)"
     ],
+    "ingredients_zh": [
+      "1块（2磅）顶级圆形牛排（1英寸厚），修剪过",
+      "2杯切碎的洋葱",
+      "4汤匙切碎的新鲜欧芹",
+      "4汤匙第戎芥末",
+      "1 1/2茶匙盐",
+      "1茶匙干莳萝",
+      "1茶匙黑胡椒",
+      "2包（8盎司）蘑菇片（约4杯）",
+      "6瓣，大蒜切碎",
+      "2/3杯通用面粉",
+      "2杯牛肉汤",
+      "2（8 盎司）容器低脂酸奶油",
+      "4杯热煮熟的中等鸡蛋面（约8盎司未煮熟）"
+    ],
     "instructions": "Cut steak diagonally across grain into 1/4-inch-thick slices. Place steak and next 8 ingredients (though garlic) in a 3-quart electric slow cooker; stir well.\nLightly spoon flour into a dry measuring cup; level with a knife. Place flour in a small bowl; gradually add broth, stirring with a whisk until blended. Add broth mixture to slow cooker; stir well. Cover with lid; cook on high-heat setting 1 hour.\nReduce to low-heat setting, and cook 7 to 8 hours or until steak is tender. Turn slow cooker off; remove lid. Let stroganoff stand 10 minutes. Stir in sour cream. Serve stroganoff over noodles.",
+    "instructions_zh": "将牛排沿对角线切成 1/4 英寸厚的片。将牛排和接下来的 8 种原料（尽管是大蒜）放入 3 夸脱的电慢炖锅中；搅拌均匀。\n将面粉轻轻倒入干燥的量杯中；用刀水平。将面粉放入小碗中；逐渐加入肉汤，用搅拌器搅拌直至混合。将肉汤混合物加入慢炖锅中；搅拌均匀。盖上盖子；高火煮1小时。\n调至小火，煮 7 至 8 小时或直至牛排变软。关掉慢炖锅；取下盖子。让沙拉酱静置 10 分钟。拌入酸奶油。将沙拉酱配在面条上。",
     "notes": "To make this gluten free, use cornstarch instead of flour. However the cornstarch needs to be added near the end or the sauce will thin.",
     "images": [
-      "/images/recipes/27e443ec-ac25-4134-8961-d98df1344178_0.jpg"
+      "/images/recipes/04e5daf4-4ded-426c-a413-bee7bd18da68_0.jpg"
     ]
   },
   {
-    "id": "cd52faa6-27c4-4d59-b2ff-db80a488045f",
+    "id": "b5659476-1ff1-49ef-bf21-796b32f0af52",
     "name": "Slow Cooker Cacciatore-Style Chicken",
+    "name_zh": "慢炖锅卡恰托雷式鸡",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Better Homes and Gardens",
     "ingredients": [
@@ -445,21 +746,50 @@
       "Hot cooked pasta or rice",
       "Shredded basil (optional)"
     ],
+    "ingredients_zh": [
+      "2-3杯新鲜蘑菇片",
+      "1杯芹菜片",
+      "1杯切碎的胡萝卜",
+      "2个中等大小的洋葱，切成楔形",
+      "1个黄色、绿色或红色甜椒，切成条状",
+      "4瓣大蒜切碎",
+      "12块去皮鸡腿（总重约3-1/2磅）",
+      "1/2杯鸡汤",
+      "1/4杯干白葡萄酒",
+      "2汤匙快煮木薯粉",
+      "2月桂叶",
+      "1茶匙干牛至压碎",
+      "1茶匙糖",
+      "1/2茶匙盐",
+      "1/4茶匙黑胡椒粉",
+      "1 罐（14-1/2 盎司）罐头西红柿切丁，不沥干",
+      "1/3杯番茄酱",
+      "热煮熟的意大利面或米饭",
+      "罗勒丝（可选）"
+    ],
     "instructions": "In a 5- to 6-quart slow cooker, combine mushrooms, celery, carrot, onions, sweet pepper, and garlic. Place chicken drumsticks on vegetables. Add broth, wine, tapioca, bay leaves, oregano, sugar, salt, and pepper.\nCover and cook on low-heat setting for 6 to 7 hours or on high-heat setting for 3 to 3-1/2 hours.\nRemove chicken and keep warm. Discard bay leaves. If using low-heat setting, turn to high-heat setting.\nStir in undrained tomatoes and tomato paste. Cover and cook for 15 minutes more.\nTo serve, spoon vegetable mixture over chicken and pasta. If desired, garnish with basil.",
+    "instructions_zh": "在 5 至 6 夸脱的慢炖锅中，将蘑菇、芹菜、胡萝卜、洋葱、甜椒和大蒜混合。将鸡腿放在蔬菜上。添加肉汤、葡萄酒、木薯粉、月桂叶、牛至、糖、盐和胡椒。\n盖上锅盖，小火煮 6 至 7 小时，或高火煮 3 至 3-1/2 小时。\n取出鸡肉并保温。丢弃月桂叶。如果使用低热设置，请转到高热设置。\n加入未沥干的西红柿和番茄酱。盖上盖子再煮15分钟。\n食用时，将蔬菜混合物舀在鸡肉和意大利面上。如果需要，可以用罗勒装饰。",
     "notes": "",
     "images": [
-      "/images/recipes/cd52faa6-27c4-4d59-b2ff-db80a488045f_0.jpg"
+      "/images/recipes/b5659476-1ff1-49ef-bf21-796b32f0af52_0.jpg"
     ]
   },
   {
-    "id": "0ee7031f-ae6d-47e1-a508-e138222b6343",
+    "id": "3df0f1ff-4533-46aa-be6f-434f5272435b",
     "name": "Slow Cooker Chicken Cacciatore",
+    "name_zh": "慢炖锅鸡肉Cacciatore",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "",
     "author": "Taste of Home",
     "ingredients": [
@@ -476,22 +806,45 @@
       "1/2teaspoon dried basil",
       "1/2cup shredded Parmesan cheese"
     ],
+    "ingredients_zh": [
+      "1/3 杯 通用面粉",
+      "1 只肉鸡/炸鸡（3 至 4 磅），切碎，带骨",
+      "2汤匙菜籽油",
+      "3个中等大小的洋葱，切成楔形",
+      "11-2个中等青椒切条",
+      "2 罐（6 盎司）切片蘑菇，沥干",
+      "2 罐（14-1/2 盎司）西红柿切丁，不沥干",
+      "2 蒜瓣 切碎",
+      "1茶匙盐",
+      "1茶匙干牛至",
+      "1/2茶匙干罗勒",
+      "1/2杯帕尔马干酪丝"
+    ],
     "instructions": "Place flour in a large resealable plastic bag. Add chicken, a few pieces at a time, and shake to coat. In a large skillet, brown chicken in oil on all sides.\nTransfer to a 5-qt. slow cooker. Top with onions, green pepper and mushrooms. In a small bowl, combine the tomatoes, garlic, salt, oregano and basil; pour over vegetables. Cover and cook on low for 5-6 on LOW hours or until chicken juices run clear and vegetables are tender. Serve with cheese.",
+    "instructions_zh": "将面粉放入可重新密封的大塑料袋中。加入鸡肉，一次几块，然后摇匀。在一个大煎锅中，将鸡肉四面都涂上油。\n转移到 5 夸脱。慢炖锅。上面放上洋葱、青椒和蘑菇。在一个小碗中，将西红柿、大蒜、盐、牛至和罗勒混合；倒在蔬菜上。盖上锅盖，低火煮 5-6 小时，或直至鸡汁清澈且蔬菜变软。与奶酪一起食用。",
     "notes": "NOTES:\n1. Some recipe reviewers found the flavor to be a bit bland, but not me.  Still, feel free to play with the spices to your taste.  You may want to add a bit more oregano, garlic and basil.  Diced tomatoes with oregano and garlic (rather than plain tomatoes) are another option.\n2. If you don't want to cut up your own chicken, try to find bone-in chicken breast.  I you can't, substitute boneless chicken but make sure the meat is fairly thick so it can withstand hours in the pot without getting dry.\n3. Enjoy with a full-bodied white wine such as Chardonnay or Viognier.",
     "images": [
-      "/images/recipes/0ee7031f-ae6d-47e1-a508-e138222b6343_0.jpg"
+      "/images/recipes/3df0f1ff-4533-46aa-be6f-434f5272435b_0.jpg"
     ]
   },
   {
-    "id": "407623e4-98b6-4712-8f5e-c2c95b1f0264",
+    "id": "c68bb842-401d-4448-ac5f-b80f9fd1ebd5",
     "name": "Slow Cooker Pasta Fagioli",
+    "name_zh": "慢炖锅意大利面 Fagioli",
     "categories": [
       "Beef",
       "Main Dishes",
       "Pasta",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "牛肉",
+      "主菜",
+      "面食",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -510,20 +863,43 @@
       "1/4teaspoon black pepper",
       "1/2cup dry pasta to add at end of cooking time"
     ],
+    "ingredients_zh": [
+      "1磅。将瘦牛肉煎至褐色并沥干",
+      "1/2 大红洋葱 切碎",
+      "1杯胡萝卜，切碎",
+      "2芹菜梗，切片",
+      "2 罐（14.5 盎司）番茄丁（和果汁）",
+      "1罐芸豆，沥干并冲洗干净",
+      "1罐白豆沥干并冲洗",
+      "4杯牛肉汤（检查标签上的麸质！）",
+      "1 罐（16.5 盎司）意大利面酱（较小的尺寸）",
+      "2茶匙牛至",
+      "1汤匙塔巴斯科酱",
+      "1/2茶匙盐",
+      "1/4茶匙黑胡椒",
+      "1/2杯干意大利面在烹饪时间结束时添加"
+    ],
     "instructions": "Brown the meat on the stovetop, and drain well. Let it cool a bit.\nChop up the carrots, onion, and celery. Add it to the empty crockpot. Drain and rinse the beans, and add them. Add the whole cans of tomatoes, and the pasta sauce. Add the beef broth. Add the salt, pepper, oregano, and Tabasco sauce. Stir in your meat.\nCover and cook on low for 8 hours, or high for 4. When the vegetables are tender, stir in the 1/2 cup of dry pasta.\nCover and cook for another hour on low, or until the pasta is tender. It will swell quite a bit.\nServe with a bit of parmesan cheese if you have it.",
+    "instructions_zh": "将肉放在炉灶上煎至棕色，然后沥干。让它冷却一下。\n将胡萝卜、洋葱和芹菜切碎。将其添加到空的锅中。沥干并冲洗豆子，然后添加它们。加入整罐西红柿和意大利面酱。添加牛肉汤。加入盐、胡椒、牛至和塔巴斯科酱。拌入你的肉。\n盖上锅盖，小火煮 8 小时，或高火煮 4 小时。当蔬菜变软时，加入 1/2 杯干意大利面搅拌。\n盖上锅盖，小火再煮一个小时，或直到意大利面变软。它会膨胀很多。\n如果有的话，可以搭配一点帕尔马干酪。",
     "notes": "",
     "images": [
-      "/images/recipes/407623e4-98b6-4712-8f5e-c2c95b1f0264_0.jpg"
+      "/images/recipes/c68bb842-401d-4448-ac5f-b80f9fd1ebd5_0.jpg"
     ]
   },
   {
-    "id": "02b69359-3e35-4bfe-9b6c-ec95281a37d9",
+    "id": "3744ae0e-bcbf-4251-bae5-ecd0776876e3",
     "name": "Slow Cooker Taco Soup",
+    "name_zh": "慢炖锅玉米卷汤",
     "categories": [
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -538,21 +914,41 @@
       "shredded Cheddar cheese",
       "low-fat sour cream"
     ],
+    "ingredients_zh": [
+      "2罐芸豆",
+      "2罐斑豆",
+      "2罐玉米",
+      "1 罐番茄丁（28 盎司），未沥干",
+      "1 罐西红柿和辣椒（14 1/2 盎司，不沥干）",
+      "1包炸玉米饼调味料（Penzey的混合香料在这里很棒）",
+      "1包牧场调料混合物（使用Penzey's。其他所有东西都含有味精）",
+      "1磅瘦碎牛肉（或火鸡。我总是用火鸡。）",
+      "切达干酪丝",
+      "低脂酸奶油"
+    ],
     "instructions": "Brown meat if you are going to use it.  Drain fat and add to crockpot stoneware insert (the meat. not the fat.)\nSprinkle seasoning packets on top of meat.  Drain and rinse the beans and add the ENTIRE contents of the corn and tomato cans (undrained).  Stir.\nCover and cook on low for 8-10 hours or on high for 4-5. I think the longer you cook soup, the better, so if you have the time, opt for cooking on low. Stir well, and serve with a handful of shredded cheese and a dollop of sour cream.",
+    "instructions_zh": "Brown meat if you are going to use it.  沥干脂肪并添加到陶器插入物中（肉。不是脂肪。）\nSprinkle seasoning packets on top of meat.  沥干并冲洗豆子，然后加入玉米罐和番茄罐中的全部内容物（未沥干）。  搅拌。\n盖上锅盖，低火煮 8-10 小时，或高火煮 4-5 小时。我认为汤煮的时间越长越好，所以如果有时间，选择小火煮。搅拌均匀，配上一把切碎的奶酪和一块酸奶油。",
     "notes": "There are a lot of cans. Recycle. It’s on you now.",
     "images": [
-      "/images/recipes/02b69359-3e35-4bfe-9b6c-ec95281a37d9_0.jpg"
+      "/images/recipes/3744ae0e-bcbf-4251-bae5-ecd0776876e3_0.jpg"
     ]
   },
   {
-    "id": "6a5f419b-c457-4da8-968f-5987dbe699d2",
+    "id": "e3061e8e-4976-4222-813b-27c7322ac309",
     "name": "Slow Cooker Chili-Chili Bang-Bang",
+    "name_zh": "慢炖锅辣椒辣椒棒棒",
     "categories": [
       "Main Dishes",
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "主菜",
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Fix-It and Forget-It Lightly",
     "ingredients": [
@@ -574,22 +970,50 @@
       "1 1/2teaspoons dried basil",
       "1/2teaspoon cayenne pepper"
     ],
+    "ingredients_zh": [
+      "1 ¼杯 洋葱，粗切碎",
+      "1杯红甜椒，切碎",
+      "1 杯 青椒 切碎",
+      "3/4杯芹菜，切碎",
+      "3/4 杯 胡萝卜 切碎",
+      "3瓣大蒜切碎",
+      "1汤匙辣椒粉",
+      "1 1/2 杯 新鲜蘑菇 切成四份",
+      "1 杯 西葫芦 切块",
+      "1 罐 28 盎司。低钠番茄丁",
+      "1 罐 28 盎司。  黑豆沥干并冲洗干净",
+      "1 罐 15 盎司。鹰嘴豆沥干并冲洗",
+      "1 罐 11 盎司。未沥干的玉米粒",
+      "1汤匙孜然粉",
+      "1 1/2 茶匙干牛至",
+      "1 1/2茶匙干罗勒",
+      "1/2茶匙辣椒"
+    ],
     "instructions": "Combine all ingredients in a 5-quart slow cooker.\nCover and cook on HIGH four hours, stirring occasionally.",
+    "instructions_zh": "将所有原料放入 5 夸脱的慢炖锅中。\n盖上锅盖，高火煮四个小时，偶尔搅拌。",
     "notes": "",
     "images": [
-      "/images/recipes/6a5f419b-c457-4da8-968f-5987dbe699d2_0.jpg"
+      "/images/recipes/e3061e8e-4976-4222-813b-27c7322ac309_0.jpg"
     ]
   },
   {
-    "id": "c5746588-c9d1-4d52-aea1-c047275f4e66",
+    "id": "1c09027c-3a4a-4eaa-b0b6-aee8a6df573a",
     "name": "Slow Cooker Hearty Jambalaya",
+    "name_zh": "慢炖锅丰盛的什锦饭",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Taste of Home",
     "ingredients": [
@@ -612,21 +1036,49 @@
       "1lb. cooked medium shrimp peeled and deveined",
       "Hot cooked rice"
     ],
+    "ingredients_zh": [
+      "1 罐（28 盎司）西红柿切丁，不沥干",
+      "1磅。完全煮熟的安多耶香肠块",
+      "1/2磅。去骨去皮鸡胸肉切成1英寸的方块",
+      "1 罐（8 盎司）番茄酱",
+      "1杯洋葱丁",
+      "1个小甜红辣椒切丁",
+      "1个小青椒切丁",
+      "1杯鸡汤",
+      "1根芹菜排骨，叶子切碎",
+      "2汤匙番茄酱",
+      "2茶匙干牛至",
+      "2茶匙卡真调味料",
+      "1-1/2茶匙蒜末",
+      "2月桂叶",
+      "1茶匙路易斯安那风味辣酱",
+      "1/2茶匙干百里香",
+      "1磅。煮熟的中等大小的虾，去皮，去肠",
+      "热腾腾的米饭"
+    ],
     "instructions": "In a 5-qt. slow cooker, combine the first 16 ingredients. Cover and cook on low for 6-7 hours or until chicken is no longer pink. Stir in shrimp. Cover and cook 15 minutes longer or until heated through. Discard bay leaves. Serve with rice.",
+    "instructions_zh": "5 夸脱。慢炖锅，混合前 16 种成分。盖上锅盖，小火煮 6-7 小时，或直至鸡肉不再呈粉红色。拌入虾。盖上锅盖再煮 15 分钟或直至热透。丢弃月桂叶。与米饭一起食用。",
     "notes": "From Taste of Home: \"I love anything with Cajun spices, so I came up with this slow-cooker jambalaya that’s just as good as that served in restaurants,\" says Jennifer Fulk from Moreno Valley, California. \"If you can’t find Andouille sausage, hot links, smoked sausage or chorizo will also work. I like to serve it with warm cornbread and garnished with sliced green onions.\"",
     "images": [
-      "/images/recipes/c5746588-c9d1-4d52-aea1-c047275f4e66_0.jpg"
+      "/images/recipes/1c09027c-3a4a-4eaa-b0b6-aee8a6df573a_0.jpg"
     ]
   },
   {
-    "id": "ce682030-c546-4804-9cec-a4116b47844b",
+    "id": "b8ef80f2-5ea6-42c3-a434-3d77425489eb",
     "name": "Slow Cooker Chicken in Sour Cream Sauce",
+    "name_zh": "酸奶油酱慢炖鸡",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "",
     "author": "Quick Cooking January/February 2002",
     "ingredients": [
@@ -640,21 +1092,40 @@
       "1/2lb. fresh mushrooms sliced",
       "cooked rice or noodles"
     ],
+    "ingredients_zh": [
+      "1-1/2茶匙盐",
+      "1/4茶匙胡椒粉",
+      "1/4茶匙胡椒粉",
+      "6块去皮的带骨鸡胸肉（每块7盎司）",
+      "1 罐（10-3/4 盎司）未稀释的浓缩奶油蘑菇汤",
+      "1 杯（8 盎司）酸奶油",
+      "1/2杯干白葡萄酒或鸡汤",
+      "1/2磅。新鲜蘑菇切片",
+      "煮熟的米饭或面条"
+    ],
     "instructions": "In a small bowl, combine the first four ingredients; rub over chicken. Place in a 3-qt. slow cooker. In a large bowl, combine the soup, sour cream, and wine; stir in mushrooms. Pour over chicken.\nCover and cook on low for 6-8 hours or until meat is tender. Thicken the sauce if desired and served over cooked rice or buttered noodles.",
+    "instructions_zh": "在一个小碗中，混合前四种成分；擦在鸡肉上。放入 3 夸脱。慢炖锅。在一个大碗中，将汤、酸奶油和酒混合；拌入蘑菇。倒在鸡肉上。\n盖上锅盖，小火煮 6-8 小时或直至肉变软。如果需要的话，可以将酱汁加稠，然后配在煮熟的米饭或黄油面条上。",
     "notes": "",
     "images": [
-      "/images/recipes/ce682030-c546-4804-9cec-a4116b47844b_0.jpg"
+      "/images/recipes/b8ef80f2-5ea6-42c3-a434-3d77425489eb_0.jpg"
     ]
   },
   {
-    "id": "d98ee848-99f8-4636-962f-093739fe3fa7",
+    "id": "8b858498-e2f3-4062-b0cf-69c597012cf8",
     "name": "Slow Cooker Brie with Apricot Topping",
+    "name_zh": "慢炖锅布里干酪配杏子配料",
     "categories": [
       "Desserts",
       "Side Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "甜点",
+      "配菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -666,21 +1137,38 @@
       "1/4teaspoon dried rosemary",
       "1/2cup chopped walnuts"
     ],
+    "ingredients_zh": [
+      "1大圆形或楔形布里干酪（我用的圆形是13.2盎司）",
+      "1/2 杯 杏干 切碎",
+      "2汤匙红糖",
+      "2汤匙水",
+      "1茶匙香醋",
+      "1/4茶匙干迷迭香",
+      "1/2 杯 碎核桃"
+    ],
     "instructions": "Put the brie into the crockpot.*\nIn a bowl, mix the chopped apricots, balsamic vinegar, brown sugar, water and rosemary together. Spoon on top of the brie. Sprinkle on the chopped walnuts.\nCover and cook on high for 1-2 hours, or on low for about 3. Check after an hour in both cases just in case.\nServe with your favorite crackers or apple slices.",
+    "instructions_zh": "将布里干酪放入锅中。*\n在碗中，将切碎的杏子、香醋、红糖、水和迷迭香混合在一起。将勺子放在布里干酪上。撒在切碎的核桃上。\n盖上盖子，高火煮 1-2 小时，或低火煮约 3 小时。一小时后检查，以防万一。\n与您最喜欢的饼干或苹果片一起食用。",
     "notes": "*I used a 1.5 mini round crockpot. If you are going to use a big one, put the brie in an oven-safe dish. As long as the dish and the crockpot heat together, you're all good.\nIf your brie has a really hard rind, cut the top part off.",
     "images": [
-      "/images/recipes/d98ee848-99f8-4636-962f-093739fe3fa7_0.jpg"
+      "/images/recipes/8b858498-e2f3-4062-b0cf-69c597012cf8_0.jpg"
     ]
   },
   {
-    "id": "6aaff2b0-6c03-4eb5-b19b-47ca04300489",
+    "id": "784a7201-162b-40ab-bae4-59d02f2e7651",
     "name": "Slow Cooker 40 Clove Garlic Chicken",
+    "name_zh": "慢炖锅 40 丁香大蒜鸡",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -692,20 +1180,36 @@
       "1teaspoon pepper",
       "20-40garlic cloves peeled, but intact"
     ],
+    "ingredients_zh": [
+      "3-4磅。鸡",
+      "1个大洋葱，切片",
+      "1汤匙橄榄油",
+      "2茶匙粗盐",
+      "2茶匙辣椒",
+      "1茶匙胡椒粉",
+      "20-40瓣大蒜去皮，但完好无损"
+    ],
     "instructions": "I used a 6 quart oval crockpot. Place onion slices on the bottom of the stoneware insert. In a large mixing bowl, toss chicken parts with olive oil, salt, paprika, pepper, and all of the garlic cloves. Pour into crockpot, on top of the onion.\nDo not add water.\nCover and cook on low for 6-8 hours, or on high for 4-6. The longer you cook chicken-on-the-bone, the more tender it will be. If you use drumsticks, the ones on the side will brown and may stick to the sides of the crock, burning a bit. If this bothers you, you can rearrange them with tongs an hour before serving.\nServe with salad, mashed potatoes, corn and green beans (or whatever you like).",
+    "instructions_zh": "我用的是 6 夸脱椭圆形锅。将洋葱片放在陶瓷插入物的底部。在一个大碗中，将鸡肉部分与橄榄油、盐、辣椒粉、胡椒粉和所有蒜瓣一起搅拌。倒入锅中，放在洋葱上。\n不要加水。\n盖上盖子，低火煮 6-8 小时，或高火煮 4-6 小时。带骨鸡煮的时间越长，它就会越嫩。如果您使用鸡腿，侧面的鸡腿会变成棕色，并可能粘在锅的侧面，有点烧焦。如果这让您烦恼，您可以在食用前一小时用钳子重新排列它们。\n与沙拉、土豆泥、玉米和青豆（或任何你喜欢的东西）一起食用。",
     "notes": "As you know, I really don’t like garlic much.  So aren’t you shocked that I sometimes made this recipe?   While it is still garlicky, the long slow cooking process makes the garlic much milder, with a sweet caramelized flavor that even I could handle.",
     "images": [
-      "/images/recipes/6aaff2b0-6c03-4eb5-b19b-47ca04300489_0.jpg"
+      "/images/recipes/784a7201-162b-40ab-bae4-59d02f2e7651_0.jpg"
     ]
   },
   {
-    "id": "c4ccab60-50a4-439a-9573-a994d98855bf",
+    "id": "bec468c8-d0c2-45f8-a821-b53136de2f34",
     "name": "Slow Cooker Cornbread stuffing",
+    "name_zh": "慢炖锅玉米面包馅",
     "categories": [
       "Side Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "配菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -720,21 +1224,41 @@
       "1/2teaspoon pepper",
       "2cups chicken broth --and another 1/4 cup if desired later"
     ],
+    "ingredients_zh": [
+      "(null) 8 x 8 盘烤玉米面包（我使用 Whole Foods 365 品牌的 GF 玉米面包混合物）",
+      "4片烤面包（我用粉色袋子里的GF Food For Life品牌）",
+      "2杯芹菜，切碎",
+      "1个大黄洋葱，切丁",
+      "3个鸡蛋打散",
+      "1/4杯黄油融化",
+      "1汤匙家禽调味料",
+      "1/2茶匙盐",
+      "1/2茶匙胡椒粉",
+      "2 杯鸡汤——如果稍后需要的话，再加 1/4 杯"
+    ],
     "instructions": "I used a 6 quart crockpot. If you only have a 4 quart, toss the stuffing together in a huge mixing bowl, and then transfer to your 4 quart.\nBake the cornbread according to package directions (or by all means, make it by scratch!)\nIf you have a few days to let it go stale, do that. Otherwise, cut into slices and bake at 300 degrees until toasty (along with your bread slices). It took about 30 minutes in my oven.\nWhile the cornbread is toasting, chop up the onion and celery. Put the pieces into your crockpot. Add the seasoning.\nMelt butter in the microwave, and mix together with 3 beaten eggs. Stir well into the veggies and seasonings in the crockpot.\nCut the cornbread and toasted bread into cubes, about 1/2 inch square.\nToss the cubes of bread and cornbread well with the ingredients in the crockpot.\nPour in 2 cups of broth. Stir gingerly to combine. The cornbread will break up more than the bread did in the other stuffing, but try to keep a few pieces whole for texture.\nCook on high for 2 hours. This can be on warm successfully for up to 2 hours.\nIf you'd like a more moist dressing, add another 1/4 cup of broth before serving.  Or pour a little of the turkey drippings in to add moisture and flavor.",
+    "instructions_zh": "我用的是 6 夸脱的陶罐。如果您只有 4 夸脱，请将馅料一起放入一个大搅拌碗中，然后转移到您的 4 夸脱中。\n根据包装说明烘烤玉米面包（或者无论如何，从头开始制作！）\n如果你有几天时间让它变得陈旧，那就这么做吧。否则，切成片并在 300 度的温度下烘烤直至烤熟（连同面包片）。在我的烤箱里花了大约30分钟。\n当玉米面包烤的时候，把洋葱和芹菜切碎。将碎片放入锅中。添加调味料。\n用微波炉融化黄油，与 3 个打散的鸡蛋混合。将蔬菜和调味料放入锅中充分搅拌。\n将玉米面包和烤面包切成约 1/2 英寸见方的方块。\n将面包块和玉米面包块与锅中的原料一起搅拌均匀。\n倒入2杯肉汤。小心地搅拌混合。玉米面包会比其他馅料中的面包更容易破裂，但尽量保持几块完整以保证质地。\n高火煮2小时。可以成功加热长达 2 小时。\n如果您想要更湿润的调料，请在食用前再添加 1/4 杯肉汤。  或者倒入一点火鸡汁以增加水分和风味。",
     "notes": "",
     "images": [
-      "/images/recipes/c4ccab60-50a4-439a-9573-a994d98855bf_0.jpg"
+      "/images/recipes/bec468c8-d0c2-45f8-a821-b53136de2f34_0.jpg"
     ]
   },
   {
-    "id": "65e00134-1869-457f-9162-5818b6978e81",
+    "id": "1748da1a-ab23-4327-afa1-307146e08f21",
     "name": "Slow Cooker Chicken Delicious",
+    "name_zh": "慢炖锅鸡肉美味",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "12",
     "author": "",
     "ingredients": [
@@ -749,20 +1273,39 @@
       "1/3cup dry sherry",
       "1/4cup grated Parmesan cheese"
     ],
+    "ingredients_zh": [
+      "10去皮去骨鸡胸肉",
+      "一半",
+      "1茶匙新鲜柠檬汁",
+      "盐和胡椒调味",
+      "1/8茶匙芹菜盐",
+      "1茶匙胡椒粉",
+      "1 罐（10.75 盎司）浓缩奶油蘑菇汤",
+      "1 罐（10.75 盎司）浓缩奶油芹菜汤",
+      "1/3杯干雪利酒",
+      "1/4杯磨碎的帕尔马干酪"
+    ],
     "instructions": "Pat the chicken breasts dry. Season with the lemon juice, salt, pepper, celery salt and paprika to taste. Place in a slow cooker.\nIn a medium size bowl mix the mushroom and celery soups with the sherry/wine. Pour mixture over the chicken breasts and sprinkle with grated Parmesan cheese.\nCook on LOW setting for 8 to 10 hours, OR on HIGH setting for 4 to 5 hours.",
+    "instructions_zh": "将鸡胸肉拍干。用柠檬汁、盐、胡椒、芹菜盐和辣椒粉调味。放入慢炖锅中。\n在一个中等大小的碗中，将蘑菇和芹菜汤与雪利酒/葡萄酒混合。将混合物倒在鸡胸肉上，撒上磨碎的帕尔马干酪。\n在低设置下烹饪 8 至 10 小时，或在高设置下烹饪 4 至 5 小时。",
     "notes": "",
     "images": [
-      "/images/recipes/65e00134-1869-457f-9162-5818b6978e81_0.jpg"
+      "/images/recipes/1748da1a-ab23-4327-afa1-307146e08f21_0.jpg"
     ]
   },
   {
-    "id": "73b8d2dd-f966-47fe-8b76-36978512d4d0",
+    "id": "86acdf74-a440-4f7d-b745-219f81ebfcde",
     "name": "Slow Cooker Hot Chocolate",
+    "name_zh": "慢炖锅热巧克力",
     "categories": [
       "Desserts",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "甜点",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "10",
     "author": "Cooking Light, October 2004",
     "ingredients": [
@@ -773,19 +1316,35 @@
       "1(3-inch) cinnamon stick (optional)",
       "30miniature marshmallows"
     ],
+    "ingredients_zh": [
+      "1/3杯不加糖可可",
+      "5 1/2 杯 脱脂牛奶 分开",
+      "1汤匙香草精",
+      "1罐（14盎司）脱脂甜炼乳",
+      "1根（3英寸）肉桂棒（可选）",
+      "30颗迷你棉花糖"
+    ],
     "instructions": "Place cocoa in a 3-quart electric slow cooker. Gradually add 1 cup fat-free milk, stirring with a whisk until well blended. Add 4 1/2 cups fat-free milk, vanilla, and condensed milk, stirring with a whisk until well-blended. Add cinnamon stick, if desired. Cover with lid; cook on low-heat setting 4 to 8 hours. Discard cinnamon stick. Stir well with a whisk before serving. Ladle hot chocolate into mugs; top with marshmallows.",
+    "instructions_zh": "将可可放入 3 夸脱的电慢炖锅中。逐渐加入 1 杯脱脂牛奶，用搅拌器搅拌直至充分混合。加入 4 1/2 杯脱脂牛奶、香草精和炼乳，用搅拌器搅拌直至充分混合。如果需要的话，添加肉桂棒。盖上盖子；小火煮4至8小时。丢弃肉桂棒。食用前用搅拌器搅拌均匀。将热巧克力舀入杯子中；上面放上棉花糖。",
     "notes": "NOTE: It says 10 servings which, while technically true, is wholly unrealistic in my opinion.",
     "images": []
   },
   {
-    "id": "8764bc9c-7972-44b7-805e-7091fe738c64",
+    "id": "effad379-84a4-442d-887b-729d8491b0c4",
     "name": "Slow Cooker Tuscan Pot Roast",
+    "name_zh": "慢炖锅托斯卡纳锅烤",
     "categories": [
       "Beef",
       "Pasta",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "牛肉",
+      "面食",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Real Simple, MARCH 2004",
     "ingredients": [
@@ -802,19 +1361,41 @@
       "1teaspoon dried oregano",
       "1can 28-ounce  whole plum tomatoes chopped, liquid reserved"
     ],
+    "ingredients_zh": [
+      "1/3杯橄榄油",
+      "12 1/2 至 3 磅底部圆锅烤肉",
+      "2个大洋葱，切成四等分",
+      "2根芹菜茎切成薄片（2杯）",
+      "2根大胡萝卜，切成薄片（2杯）",
+      "3瓣，大蒜切碎",
+      "1罐6盎司番茄酱",
+      "1杯干红葡萄酒（赤霞珠或梅洛）",
+      "1包新鲜蘑菇（建议波托贝洛）",
+      "1汤匙粗盐",
+      "1茶匙干牛至",
+      "1 罐 28 盎司整颗李子番茄，切碎，保留液体"
+    ],
     "instructions": "Heat the oil in a large skillet over medium-high heat and brown the roast on all sides.\nTransfer the roast to a 4- to 6-quart slow cooker. To the fat remaining in the skillet, add the onions, celery, carrots, and garlic. Cook, stirring frequently, until tender, about 10 minutes.\nAdd the tomato paste and stir to coat the vegetables; transfer to the cooker.\nPour the wine into the skillet and scrape up any browned bits; add the contents of the skillet to the cooker, along with the mushrooms, salt, oregano, and tomatoes (plus 1 cup of their liquid).\nCook 8 hours on low heat, or 4 hours on high heat.",
+    "instructions_zh": "在大煎锅中用中高火加热油，将烤肉各面煎至棕色。\n将烤肉转移到 4 至 6 夸脱的慢炖锅中。向煎锅中剩余的脂肪中加入洋葱、芹菜、胡萝卜和大蒜。煮约 10 分钟，经常搅拌，直至变软。\n加入番茄酱并搅拌以覆盖蔬菜；转移到炊具中。\n将酒倒入煎锅中，刮去任何褐色的碎片；将煎锅中的内容物与蘑菇、盐、牛至和西红柿（加上 1 杯液体）一起添加到炊具中。\n小火煮8小时，或大火煮4小时。",
     "notes": "Serve with rice or noodles\nThe original recipe called for 1 1/2 ounce package dried mushrooms (portobello suggested), but some reviewers said they ended up being too chewy.",
     "images": []
   },
   {
-    "id": "97d73c5b-df2c-4c32-ae9d-0bd6eea7233b",
+    "id": "bdc43c13-b56f-468a-aa69-6bddfc82cafe",
     "name": "Slow Cooker Provençale Chicken Supper",
+    "name_zh": "慢炖锅普罗旺斯鸡肉晚餐",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "Cooking Light, SEPTEMBER 1999",
     "ingredients": [
@@ -828,19 +1409,38 @@
       "1(14 1/2-ounce) can pasta-style tomatoes undrained",
       "1cup chicken broth"
     ],
+    "ingredients_zh": [
+      "4（6盎司）去骨去皮鸡胸肉或大腿",
+      "2茶匙干罗勒",
+      "2茶匙普罗旺斯香草",
+      "1/8茶匙盐",
+      "1/8茶匙黑胡椒",
+      "1 杯 黄甜椒丁",
+      "2 罐（16 盎司）cannellini 豆或其他白豆，冲洗并沥干",
+      "1罐（14 1/2盎司）意面番茄，不沥干",
+      "1杯鸡汤"
+    ],
     "instructions": "Place the chicken in an electric slow cooker; sprinkle with basil, salt, and black pepper. Add the bell pepper, beans, and tomatoes. Cover with lid; cook on low-heat setting for 8 hours.",
+    "instructions_zh": "将鸡肉放入电慢炖锅中；撒上罗勒、盐和黑胡椒。加入甜椒、豆类和西红柿。盖上盖子；小火煮8小时。",
     "notes": "",
     "images": []
   },
   {
-    "id": "d26331f5-3709-40bb-8283-0803de3558f7",
+    "id": "02e68c4d-21c8-480e-890b-a67f3b0cec30",
     "name": "Slow Cooker Horseradish-Apple Pot Roast",
+    "name_zh": "慢炖锅辣根苹果锅烤",
     "categories": [
       "Beef",
       "Main Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "牛肉",
+      "主菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "Adapted from \"Slow Cooker Cooking\" by Lora Brody",
     "ingredients": [
@@ -852,18 +1452,34 @@
       "2medium onions chopped",
       "1cup reduced fat sour cream"
     ],
+    "ingredients_zh": [
+      "4磅。无骨卡盘烤",
+      "2杯苹果酒",
+      "1 罐准备好的辣根（6 盎司）",
+      "5根胡萝卜，去皮切片",
+      "3个中等大小的红土豆，擦洗并粗化",
+      "2个中等大小的洋葱，切碎",
+      "1杯低脂酸奶油"
+    ],
     "instructions": "Trim excess fat from a 2- to 4-pound boneless chuck roast. Add oil to a large, heavy skillet and heat over medium-high.  When the pan is smoking, brown the meat deeply, 5 minutes per side.  Season with salt and pepper.\nPlace meat in the slow cooker.\nReduce heat under the skillet to low, and add 2 cups apple cider or juice. Stir to deglaze the pan.  Set aside.\nRub a well-drained, 6-ounce jar of prepared horseradish all over the meat. (Its heat is tamed in the cooking.)\nTop with 5 peeled and sliced medium carrots, 3 scrubbed and coarsely chopped medium red potatoes and 2 chopped medium onions.  Pour on reserved cider.  Cook on low 8 hours.\nLet meat rest 10 minutes before slicing.  Meanwhile, defat the pan juices of the finished roast and stir in 1 cup reduced-fat sour cream.",
+    "instructions_zh": "去除 2 至 4 磅重的无骨烤烤肉中多余的脂肪。在一个大而重的煎锅中加入油，并用中高火加热。  当锅冒烟时，将肉深煎至每面 5 分钟。  用盐和胡椒调味。\n将肉放入慢炖锅中。\n将煎锅下的热量调低，然后加入 2 杯苹果汁或果汁。搅拌使锅脱釉。  放在一边。\n将一罐沥干的 6 盎司准备好的辣根涂抹在肉上。 （它的热量在烹饪过程中被抑制住了。）\n上面放上 5 个去皮切片的中号胡萝卜、3 个擦洗并粗切碎的中号红薯和 2 个切碎的中号洋葱。  倒入保留的苹果酒。  低火煮8小时。\n切片前让肉静置 10 分钟。  同时，将烤好的烤肉汁脱脂，加入 1 杯低脂酸奶油搅拌。",
     "notes": "NOTES : Tough, flavorful chuck roast is ideal for slow-cooking. Plan on 2 to 3 servings per pound. A 3 1/2-quart slow-cooker can handle a 2-pound roast; use a large oval one for bigger cuts.",
     "images": []
   },
   {
-    "id": "0629256c-be33-4658-aeea-0ac5ac65e41b",
+    "id": "f0ef26e6-122a-42d1-aae2-39ab60155b7b",
     "name": "Slow Cooker Moist Poultry Dressing",
+    "name_zh": "慢炖锅湿家禽酱",
     "categories": [
       "Side Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "配菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "12-16",
     "author": "Quick Cooking Magazine, March/April 2000",
     "ingredients": [
@@ -881,19 +1497,42 @@
       "2eggs",
       "114 1/2 ounce chicken broth"
     ],
+    "ingredients_zh": [
+      "24 1/2 盎司 切片蘑菇 沥干",
+      "4芹菜排骨切碎",
+      "2个中等大小的洋葱，切碎",
+      "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "3/4杯黄油或人造黄油",
+      "1 1/2 磅。取出一天的面包皮并切块",
+      "1 1/2茶匙盐",
+      "1 1/2 茶匙 鼠尾草",
+      "1茶匙家禽调味料",
+      "1茶匙干百里香",
+      "1/2茶匙胡椒粉",
+      "2个鸡蛋",
+      "114 1/2 盎司 鸡汤"
+    ],
     "instructions": "In a large skillet, sauce the mushrooms, celery, onions and parsley in butter until the vegetables are tender.\nIn a large bowl, toss the bread cubes with salt, sage, poultry seasoning, thyme and pepper. Add the mushroom mixture.\nCombine eggs and broth; add to the bread mixture and toss. Transfer to a slow cooker.\nCover and cook on low for 4-5 hours or until a meat thermometer reads 160°.",
+    "instructions_zh": "在一个大煎锅中，将蘑菇、芹菜、洋葱和欧芹放入黄油中，炒至蔬菜变软。\n在一个大碗中，将面包块与盐、鼠尾草、家禽调味料、百里香和胡椒粉拌匀。添加蘑菇混合物。\n将鸡蛋和肉汤混合；添加到面包混合物中并搅拌。转移到慢炖锅中。\n盖上锅盖，小火煮 4-5 小时或直至肉类温度计读数为 160°。",
     "notes": "",
     "images": []
   },
   {
-    "id": "57a2055e-3f98-4365-a2f4-97aaf957917a",
+    "id": "d29c021f-a5d4-45c3-a320-1748681c1b5d",
     "name": "Slow Cooker Azorean Spiced Beef Stew",
+    "name_zh": "慢炖锅亚速尔五香炖牛肉",
     "categories": [
       "Beef",
       "Main Dishes",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "牛肉",
+      "主菜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "A Year of Slow Cooking",
     "ingredients": [
@@ -911,22 +1550,46 @@
       "1teaspoon cumin",
       "1cinnamon stick"
     ],
+    "ingredients_zh": [
+      "1 1/2磅 瘦牛肉炖肉",
+      "6瓣大蒜捣碎并切碎",
+      "2个土豆，切成1英寸的块",
+      "3 葱 切碎",
+      "3杯牛肉高汤或肉汤",
+      "1 杯小番茄（葡萄或樱桃）切成四等分，或 2 个切碎的大番茄",
+      "1杯小胡萝卜",
+      "2汤匙粗盐（我用了1汤匙，但在烹饪时间快结束时又添加了一些来调味）",
+      "1/2汤匙红辣椒片",
+      "1茶匙五香粉",
+      "1片月桂叶",
+      "1茶匙孜然",
+      "1根肉桂棒"
+    ],
     "instructions": "Put the meat into your crockpot. If you are using frozen meat, it's fine, just know it will take longer to cook and get tender.\nAdd the broth. Chop up the tomatoes, potatoes (ha, that rhymed!), green onion, and garlic. Throw it in.\nStir in the salt, red pepper, all spice and cumin. Float the bay leaf on top and add the cinnamon stick. (The original recipe called for 2 sticks of cinnamon, but that seemed a bit much.  Maybe use 1 1/2 sticks, or use 2 and take them out midway through cooking time.)\nCover and cook on low for 8-10 hours, or on high for about 6. Stew tastes better the longer and slower you cook it.",
+    "instructions_zh": "将肉放入锅中。如果您使用冷冻肉，那也没关系，只是要知道它需要更长的时间才能煮熟并变软。\n添加肉汤。将西红柿、土豆（哈，押韵！）、葱和大蒜切碎。把它扔进去。\n加入盐、红辣椒、所有香料和小茴香。将月桂叶浮在上面，然后加入肉桂棒。 （原来的食谱需要 2 根肉桂棒，但这似乎有点多。也许使用 1 1/2 根肉桂棒，或者使用 2 根肉桂棒，然后在烹饪过程中取出。）\n盖上锅盖，小火煮 8-10 小时，或大火煮 6 小时左右。煮的时间越长、速度越慢，炖菜的味道会更好。",
     "notes": "I used a 6 quart crockpot. Anything over 4 quarts will work just fine.\nUse lean stew meat, otherwise it gets a bit oily and unpleasant at the end.",
     "images": [
-      "/images/recipes/57a2055e-3f98-4365-a2f4-97aaf957917a_0.jpg"
+      "/images/recipes/d29c021f-a5d4-45c3-a320-1748681c1b5d_0.jpg"
     ]
   },
   {
-    "id": "77a78c4c-9370-4fc9-be40-d0ff857f0205",
+    "id": "a47fe1a3-55f2-4e27-bcc6-f300423753f7",
     "name": "Slow Cooker Seafood Alfredo",
+    "name_zh": "慢炖锅海鲜阿尔弗雷多",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "adapted from A Year of Slow Cooking",
     "ingredients": [
@@ -941,21 +1604,41 @@
       "4Tablespoons flour",
       "2bags Whole Food's cooked Seafood Medley (or 2 lbs frozen cooked shrimp or cooked chicken.)"
     ],
+    "ingredients_zh": [
+      "1块黄油",
+      "4杯2%牛奶",
+      "2茶匙普罗旺斯香草",
+      "1 1/2 杯 马苏里拉奶酪丝",
+      "1 1/2 杯帕尔玛干酪丝",
+      "6颗蒜瓣捣碎并切碎",
+      "1茶匙粗盐",
+      "1/2茶匙黑胡椒",
+      "4汤匙面粉",
+      "2 袋 Whole Food 煮熟的海鲜混合菜（或 2 磅冷冻煮熟的虾或煮熟的鸡肉。）"
+    ],
     "instructions": "In a small microwaveable bowl, melt your butter, and slowly whisk in the flour. It will mix into a thin paste-like consistency.  Put it and the milk in the crockpot.  Add the herbs and the garlic.  Stir again, and add all the cheese.\nCook on low for 4-6 hours. (\nSee below\n)*\nThe butter will separate from the milk and cheese. It will look weird. Take some deep breaths. Drink some wine. It will be okay.\nStir the mixture thoroughly and add your seafood blend or frozen shrimp. Cook it on high for another 20-30 minutes.\nAll you want is for the seafood to warm up and not have icicles all over it.  It's already cooked, so you won't get a freaky disease.\nBoil pasta according to package directions.\nWhen done, toss the alfredo sauce with your hot, drained pasta.",
+    "instructions_zh": "在一个可用微波炉加热的小碗中，融化黄油，然后慢慢拌入面粉。它将混合成稀薄的糊状稠度。  将其和牛奶放入锅中。  添加香草和大蒜。  再次搅拌，加入所有奶酪。\n小火煮 4-6 小时。 （\n见下文\n)*\n黄油会与牛奶和奶酪分离。看起来会很奇怪。深呼吸几次。喝点酒。会没事的。\n彻底搅拌混合物，然后加入海鲜混合物或冷冻虾。再用高火煮 20-30 分钟。\n你想要的只是让海鲜热起来而不是到处都是冰柱。  已经煮熟了，所以不会得怪病。\n根据包装说明煮意大利面。\n完成后，将阿尔弗雷多酱与沥干的热意大利面一起搅拌。",
     "notes": "* if you only have raw frozen chicken, add it now because it takes so much longer to cook than the other options.  I have not tried this, but I assume it would work.  If it is COOKED frozen chicken, you can wait until later, but not as long as you would for the seafood.  Does that make sense?",
     "images": [
-      "/images/recipes/77a78c4c-9370-4fc9-be40-d0ff857f0205_0.jpg"
+      "/images/recipes/a47fe1a3-55f2-4e27-bcc6-f300423753f7_0.jpg"
     ]
   },
   {
-    "id": "d5d5507d-1055-4c42-937b-f0ccbf47e8db",
+    "id": "e84e0130-a33e-4228-a8e5-fd48894d70c9",
     "name": "Slow Cooker Salmon Chowder",
+    "name_zh": "慢炖锅三文鱼杂烩",
     "categories": [
       "Seafood",
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "海鲜",
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "Rick Rodgers, The Slow Cooker Ready & Waiting Cookbook",
     "ingredients": [
@@ -977,18 +1660,44 @@
       "salt to taste",
       "minced fresh chives or chopped fresh parsley for garnish"
     ],
+    "ingredients_zh": [
+      "2汤匙无盐黄油",
+      "1个中等大小的洋葱，切碎",
+      "1根中号芹菜肋，切成1/2英寸厚的片",
+      "10盎司新鲜蘑菇，切片",
+      "2个中沸土豆，擦洗，去皮，切成1/2立方体",
+      "2杯瓶装蛤蜊汁",
+      "2杯水",
+      "1/2杯干白葡萄酒",
+      "1茶匙干龙蒿",
+      "1/4茶匙干百里香",
+      "1/4茶匙现磨白胡椒",
+      "2汤匙玉米淀粉",
+      "1/2杯半（可以代替浓奶油）",
+      "1磅三文鱼片去皮并切成1英寸的块",
+      "1杯冷冻小豌豆解冻",
+      "盐调味",
+      "切碎的新鲜细香葱或切碎的新鲜欧芹作为装饰"
+    ],
     "instructions": "In a large skillet, melt the butter over medium heat.  Add the onion, celery, and mushrooms and cook until the mushrooms have given off their liquid and are beginning to brown, about 7 minutes.\n2.\t In a 3 1/2-quart slow cooker, combine the cooked vegetables with the potatoes.  Pour in the clam juice, water, wine, tarragon, thyme and pepper.  Cover and slow-cook until the potatoes are tender, 6 to 7 hours on low (200 degrees F).\n3.\t In a small bowl, whisk the cornstarch into the cream.  Stir into the chowder, and add the salmon and peas.  Increase the heat to high (300°F), cover, and cook until the salmon is firm, about 15 minutes.  Taste the chowder and add salt to taste.  Spoon the chowder in individual bowls, and sprinkle each serving with chives or parsley.",
+    "instructions_zh": "在一个大煎锅中，用中火融化黄油。  加入洋葱、芹菜和蘑菇，煮约 7 分钟，直至蘑菇排出液体并开始变成棕色。\n2. 在 3 1/2 夸脱的慢炖锅中，将煮熟的蔬菜与土豆混合。  倒入蛤汁、水、酒、龙蒿、百里香和胡椒。  盖上锅盖，低温（200 华氏度）慢煮 6 至 7 小时，直至土豆变软。\n3. 在一个小碗中，将玉米淀粉搅入奶油中。  拌入杂烩汤，加入鲑鱼和豌豆。  将火调至高温 (300°F)，盖上锅盖，煮约 15 分钟，直至鲑鱼变硬。  品尝杂烩汤并加盐调味。  将杂烩汤舀入单独的碗中，并在每份碗中撒上细香葱或欧芹。",
     "notes": "From Rick Rodgers:\n\"Whenever I make chowder,  I add the salt at the end of the cooking time, rather than the beginning.  Chowders have naturally salty ingredients, such as bacon, clam juice and fish, and I wait for them to release all their salt into the broth before seasoning.\"",
     "images": []
   },
   {
-    "id": "a3c8b4fb-c7d7-45e8-ad05-f9c0c549ffab",
+    "id": "e4c4dee4-e9cb-4482-8559-17cef843ef86",
     "name": "Apple and Horseradish-Glazed Salmon",
+    "name_zh": "苹果辣根三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "Cooking Light, May 2004",
     "ingredients": [
@@ -1001,21 +1710,39 @@
       "1/4teaspoon freshly ground black pepper",
       "2teaspoons olive oil"
     ],
+    "ingredients_zh": [
+      "1/3杯苹果果冻",
+      "1汤匙切碎的新鲜韭菜",
+      "2汤匙准备好的辣根",
+      "1汤匙香槟醋",
+      "1/2茶匙粗盐，分开",
+      "4片（6盎司）三文鱼片（约1英寸厚），去皮",
+      "1/4茶匙现磨黑胡椒",
+      "2茶匙橄榄油"
+    ],
     "instructions": "Preheat oven to 350°.\nCombine apple jelly, chives, horseradish, vinegar, and 1/4 teaspoon salt, stirring well with a whisk.\nSprinkle salmon with 1/4 teaspoon salt and pepper. Heat oil in a large nonstick skillet over medium heat. Add salmon, and cook 3 minutes. Turn salmon over; brush with half of apple mixture. Wrap handle of skillet with foil; bake at 350° for 5 minutes or until fish flakes easily when tested with a fork. Brush with remaining apple mixture.",
+    "instructions_zh": "将烤箱预热至 350°。\n将苹果冻、细香葱、辣根、醋和 1/4 茶匙盐混合，用搅拌器搅拌均匀。\n在三文鱼上撒上 1/4 茶匙盐和胡椒。在一个大的不粘锅中用中火加热油。加入鲑鱼，煮 3 分钟。把三文鱼翻过来；刷上一半的苹果混合物。用箔纸包裹煎锅手柄；在 350° 下烘烤 5 分钟，或直到用叉子测试时鱼很容易剥落。刷上剩余的苹果混合物。",
     "notes": "Mild apple jelly and hot horseradish pair well with rich salmon. Serve with a neutral-flavored side of couscous or rice.\nNote:\nAt 350 degrees, salmon cooks at roughly 10 minutes per inch of thickness.   For example, a fillet 1 1/2” thick would take about 15 minutes.   For long pieces of fish that taper in thickness at the end, fold the thin end under a few inches so the combined thickness of the two layers is about even with the rest, then calculate cooking time.",
     "images": [
-      "/images/recipes/a3c8b4fb-c7d7-45e8-ad05-f9c0c549ffab_0.jpg"
+      "/images/recipes/e4c4dee4-e9cb-4482-8559-17cef843ef86_0.jpg"
     ]
   },
   {
-    "id": "71d811fe-f840-421f-baee-5cfda1c7818f",
+    "id": "87e1da15-700c-4f09-af3b-07d5d0942f2f",
     "name": "Seafood Fettuccine",
+    "name_zh": "海鲜宽面条",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Cooking Light, JANUARY 2002",
     "ingredients": [
@@ -1032,20 +1759,41 @@
       "8cups hot cooked fettuccine (about 1 pound uncooked pasta)",
       "1/4cup chopped fresh parsley"
     ],
+    "ingredients_zh": [
+      "1 1/2汤匙黄油",
+      "1杯切碎的葱",
+      "4 蒜瓣 切碎",
+      "1磅。中等大小的虾，去皮",
+      "1磅。海扇贝",
+      "2杯半",
+      "1/2茶匙盐",
+      "1/4茶匙黑胡椒",
+      "1/2磅。除去蟹肉块、壳块",
+      "3/4 杯（3 盎司）磨碎的新鲜帕尔马干酪，分开",
+      "8杯热煮熟的宽面条（约1磅未煮熟的意大利面）",
+      "1/4 杯切碎的新鲜欧芹"
+    ],
     "instructions": "Melt butter in a 12-inch nonstick skillet over medium-high heat. Add onions and garlic; sauté 1 minute or until tender. Add shrimp and scallops; sauté 3 minutes or until done. Reduce heat to medium-low.\nAdd half-and-half, salt, pepper, and crabmeat; cook 3 minutes or until thoroughly heated, stirring constantly (do not boil). Gradually sprinkle 1/2 cup cheese over seafood mixture, stirring constantly; cook 1 minute, stirring constantly. Remove from heat. Combine pasta and seafood mixture in a large bowl. Top each serving with 1 1/2 teaspoons cheese and 1 1/2 teaspoons parsley.",
+    "instructions_zh": "在 12 英寸不粘锅中用中高温融化黄油。加入洋葱和大蒜；炒1分钟或直至变软。加入虾和扇贝；炒3分钟或直至熟。将热量降低至中低。\n加入各半、盐、胡椒粉、蟹肉；煮 3 分钟或直至完全加热，不断搅拌（不要煮沸）。逐渐将 1/2 杯奶酪撒在海鲜混合物上，不断搅拌；煮1分钟，不断搅拌。从火上移开。将意大利面和海鲜混合物放入一个大碗中。每份上面放 1 1/2 茶匙奶酪和 1 1/2 茶匙欧芹。",
     "notes": "The sauce is like a traditional alfredo, with no flour or other thickener. Don't worry if it looks thin. It's the perfect consistency for coating the pasta. Pat the shrimp and scallops dry before cooking with paper towels so they don't dilute the sauce.",
     "images": [
-      "/images/recipes/71d811fe-f840-421f-baee-5cfda1c7818f_0.jpg"
+      "/images/recipes/87e1da15-700c-4f09-af3b-07d5d0942f2f_0.jpg"
     ]
   },
   {
-    "id": "787886e5-cef1-4d53-b048-c25ea62ca841",
+    "id": "086702b9-1497-4230-a54d-69ad326089b5",
     "name": "Maple Grilled Salmon",
+    "name_zh": "枫烤三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "Cooking Light, July 2008",
     "ingredients": [
@@ -1057,22 +1805,40 @@
       "1/4teaspoon salt",
       "1/4teaspoon freshly ground black pepper"
     ],
+    "ingredients_zh": [
+      "1/2杯米酒醋",
+      "6汤匙枫糖浆",
+      "4汤匙新鲜橙汁",
+      "4片（6盎司）去皮鲑鱼片",
+      "烹饪喷雾",
+      "1/4茶匙盐",
+      "1/4茶匙现磨黑胡椒"
+    ],
     "instructions": "Combine first 3 ingredients in a large zip-top plastic bag; add fish. Seal and marinate in refrigerator 3 hours.\nPreheat grill or grill pan to medium-high heat.\nRemove fish from bag, reserving the marinade. Pour marinade into a small saucepan; bring to a boil. Cook until reduced to 4 tablespoons (about 10 minutes).\nPlace fish on grill rack or pan coated with cooking spray; grill 4 minutes on each side or until fish flakes easily when tested with a fork or until desired degree of doneness, basting occasionally with marinade. Remove fish from grill; sprinkle with salt and pepper.",
+    "instructions_zh": "将前 3 种成分混合在一个大的带拉链的塑料袋中；添加鱼。密封并放入冰箱腌制3小时。\n将烤架或烤盘预热至中高温。\n从袋子中取出鱼，保留腌料。将腌料倒入小锅中；煮沸。煮至减少至 4 汤匙（约 10 分钟）。\n将鱼放在涂有烹饪喷雾的烤架或烤盘上；每面烤 4 分钟，或者直到用叉子测试时鱼很容易剥落，或者直到达到所需的熟度，偶尔涂上腌料。将鱼从烤架上取出；撒上盐和胡椒粉。",
     "notes": "The sweet-sour marinade is cooked down to a syrupy glaze that's brushed on the fish as it cooks. The citrus and maple flavors would also be tasty with pork. Garnish fillets with orange slices, if desired.",
     "images": [
-      "/images/recipes/787886e5-cef1-4d53-b048-c25ea62ca841_0.jpg"
+      "/images/recipes/086702b9-1497-4230-a54d-69ad326089b5_0.jpg"
     ]
   },
   {
-    "id": "0f7a8c9d-b81f-40bf-846e-69b089d57c14",
+    "id": "140c89b6-9a23-4570-899b-ac4db5d90ce1",
     "name": "Slow Cooker Jambalaya (easy)",
+    "name_zh": "慢炖锅什锦饭（简单）",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "All You, JANUARY 2007",
     "ingredients": [
@@ -1091,20 +1857,43 @@
       "1 3/4cups long-grain rice",
       "Parsley optional"
     ],
+    "ingredients_zh": [
+      "2磅。无骨去皮鸡大腿",
+      "1磅。熏香肠切成2英寸的片",
+      "1个大洋葱，切碎",
+      "1个大青椒，去籽并切碎",
+      "3 根 芹菜 切碎",
+      "1罐（28盎司）番茄切丁加汁",
+      "3瓣大蒜，切碎",
+      "2杯鸡汤",
+      "1汤匙卡津或克里奥尔香料混合物",
+      "1茶匙干百里香",
+      "1茶匙干牛至",
+      "1磅。特大虾去皮去肠",
+      "1 3/4杯长粒米",
+      "欧芹 可选"
+    ],
     "instructions": "Combine chicken, sausage, onion, green pepper, celery, tomatoes, garlic, chicken broth, spice mix, thyme and oregano in a large (5-quart) slow cooker. Cook on low for 5 hours.\nAdd shrimp and rice; raise heat to high and cook for 30 minutes more. Sprinkle with chopped parsley, if desired.",
+    "instructions_zh": "将鸡肉、香肠、洋葱、青椒、芹菜、西红柿、大蒜、鸡汤、混合香料、百里香和牛至放入大型（5 夸脱）慢炖锅中。小火煮5小时。\n加入虾和米饭；将火调高，再煮 30 分钟。如果需要的话，撒上切碎的欧芹。",
     "notes": "",
     "images": [
-      "/images/recipes/0f7a8c9d-b81f-40bf-846e-69b089d57c14_0.jpg"
+      "/images/recipes/140c89b6-9a23-4570-899b-ac4db5d90ce1_0.jpg"
     ]
   },
   {
-    "id": "e571431a-c4b1-4cfb-b24a-4d76d6842c07",
+    "id": "49523cab-7524-4da2-ae50-11574bfec7e3",
     "name": "Southern Shrimp and Grits",
+    "name_zh": "南方虾和粗玉米粉",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "",
+    "difficulty_zh": "",
     "servings": "",
     "author": "Cooking Light, JANUARY 2004",
     "ingredients": [
@@ -1123,21 +1912,45 @@
       "1teaspoon salt",
       "¾cup (3 ounces) shredded sharp cheddar cheese"
     ],
+    "ingredients_zh": [
+      "3汤匙新鲜柠檬汁",
+      "½茶匙辣酱（如塔巴斯科辣酱）",
+      "1 ½磅。去皮去肠的大虾",
+      "2片，培根切碎",
+      "1杯冷冻洋葱碎",
+      "¼杯冷冻切碎的青椒",
+      "1 ½ 茶匙瓶装蒜末",
+      "1杯脱脂、低钠鸡汤",
+      "½杯切碎的葱，分开",
+      "5杯水",
+      "1 ½杯未煮过的速煮粗玉米粉",
+      "1汤匙黄油",
+      "1茶匙盐",
+      "3 盎司（3 盎司）切达干酪丝"
+    ],
     "instructions": "Combine first 3 ingredients; set aside.\nCook bacon in a large nonstick skillet over medium heat until crisp. Add onion, bell pepper, and garlic to drippings in pan; cook 5 minutes or until tender, stirring occasionally. Stir in shrimp mixture, broth, and 1/4 cup green onions; cook 5 minutes or until shrimp are done, stirring frequently.\nBring water to a boil in a medium saucepan; gradually add grits, stirring constantly. Reduce heat to low; simmer, covered, for 5 minutes or until thick, stirring occasionally. Stir in butter and salt. Serve shrimp mixture over grits; sprinkle with cheese and remaining green onions.",
+    "instructions_zh": "混合前 3 种成分；放在一边。\n在一个大的不粘锅中用中火将培根煮至酥脆。将洋葱、甜椒和大蒜加入锅中；煮 5 分钟或直至变软，偶尔搅拌。加入虾混合物、肉汤和 1/4 杯葱；煮5分钟或直到虾煮熟，经常搅拌。\n在中型平底锅中将水煮沸；逐渐加入粗粉，不断搅拌。将热量降至低；盖上锅盖，小火煮 5 分钟或直至浓稠，偶尔搅拌。加入黄油和盐搅拌。将虾混合物放在粗燕麦粉上食用；撒上奶酪和剩余的葱。",
     "notes": "",
     "images": [
-      "/images/recipes/e571431a-c4b1-4cfb-b24a-4d76d6842c07_0.jpg"
+      "/images/recipes/49523cab-7524-4da2-ae50-11574bfec7e3_0.jpg"
     ]
   },
   {
-    "id": "e01e50f9-36fd-4857-878b-8a782d493f9b",
+    "id": "41ca4ae4-bb09-4e99-b8e6-33288289fe52",
     "name": "Fettuccine With Asparagus And Smoked Salmon",
+    "name_zh": "意大利细面条配芦笋和烟熏三文鱼",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "adapted from The New York Times, Florence Fabricant",
     "ingredients": [
@@ -1153,22 +1966,44 @@
       "1tablespoons minced fresh dill",
       "corn starch (optional)"
     ],
+    "ingredients_zh": [
+      "1磅。新鲜芦笋 中等厚度",
+      "盐",
+      "2汤匙黄油",
+      "2汤匙切碎的青葱",
+      "2杯脱脂一半一半",
+      "4盎司熏鲑鱼，切成1/4英寸厚*（见注释）",
+      "现磨黑胡椒",
+      "1茶匙新鲜柠檬汁",
+      "24 盎司新鲜绿色宽面条或约 24 盎司1磅干的",
+      "1汤匙切碎的新鲜莳萝",
+      "玉米淀粉（可选）"
+    ],
     "instructions": "Snap off the ends of the asparagus where they break naturally and peel the stalks. Cut the asparagus on a slant to pieces about an inch long.\nBring a large pot of salted water to a boil for the pasta.\nWhile the water is coming to a boil, melt the butter in a large heavy skillet. Add the shallots and sauté until soft but not brown. Stir in the half-n-half and simmer about five minutes, until the cream has thickened somewhat.  If it does not thicken, place about 1 to 2 tablespoons of corn starch in a small bowl and add some of the hot half-n-half from the pan.  Stir until thickened, adding more of the half-n-half as necessary to blend well with no lumps.  Then add back into the pan and stir.  The liquid should thicken shortly.\nCut the salmon into slivers, add it to the cream and remove the skillet from the heat. Season with pepper and lemon juice.\nWhen the pot of water is boiling, add the fresh fettuccine, stir it once or twice, then cook two to three minutes\nafter\nthe water has returned to a boil.  During those final 2 to 3 minutes of cooking, add the asparagus to the water.   If using dried pasta, add the asparagus to the end of the cooking time, 3 minutes for medium asparagus, less if it is thinner.  Drain well.\nBriefly reheat the sauce. Transfer the fettuccine to a warm serving bowl, pour the sauce over it and toss. Sprinkle with dill and serve.",
+    "instructions_zh": "折断芦笋自然折断的末端并剥去茎部。将芦笋斜切成约一英寸长的碎片。\n将一大锅盐水煮沸，煮意大利面。\n当水沸腾时，在一个大而重的煎锅中融化黄油。加入青葱，炒至软，但不变成棕色。搅拌一半，小火煮约五分钟，直到奶油稍微变稠。  如果它没有变稠，将大约 1 到 2 汤匙玉米淀粉放入一个小碗中，然后加入一些从锅中取出的热玉米淀粉。  搅拌直至变稠，根据需要添加更多的一半，以充​​分混合，没有结块。  然后放回锅中并搅拌。  液体很快就会变稠。\n将三文鱼切成条，加入奶油中，然后将煎锅从火上移开。用胡椒和柠檬汁调味。\n当锅里的水沸腾时，加入新鲜的宽面条，搅拌一两次，然后煮两到三分钟\n之后\n水又沸腾了。  在最后 2 到 3 分钟的烹饪过程中，将芦笋加入水中。   如果使用干意大利面，则在烹饪时间结束时添加芦笋，中等芦笋需要 3 分钟，如果比较薄则需要少添加。  沥干。\n短暂地重新加热酱汁。将宽面条转移到一个温热的碗中，将酱汁倒在上面并搅拌。撒上莳萝即可食用。",
     "notes": "Fresh pasta, asparagus and smoked salmon are tossed with shallot cream sauce in this elegant and easy weeknight dinner that can be prepared in well under an hour.\nNOTE:\n1. Be sure to check that your supermarket has smoked salmon before committing to this recipe. Often they will have cold-smoked such as you would put on a bagel, but not the hot-smoked variety needed here.",
     "images": [
-      "/images/recipes/e01e50f9-36fd-4857-878b-8a782d493f9b_0.jpg"
+      "/images/recipes/41ca4ae4-bb09-4e99-b8e6-33288289fe52_0.jpg"
     ]
   },
   {
-    "id": "ad9aee17-9e27-4ad3-a36e-449e3ef0e2a6",
+    "id": "101205fa-2829-4b7a-a6a7-4c6c96c9454d",
     "name": "Seafood Lasagna II",
+    "name_zh": "海鲜千层面 II",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood",
       "Vegetables"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜",
+      "蔬菜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "12",
     "author": "adapted from Cooking Light, NOVEMBER 2006",
     "ingredients": [
@@ -1192,20 +2027,48 @@
       "1(15-ounce) carton fat-free ricotta cheese",
       "12no-cook lasagna noodles"
     ],
+    "ingredients_zh": [
+      "1/3 杯通用面粉（约 1 1/2 盎司）",
+      "3杯1%脱脂牛奶",
+      "1汤匙黄油",
+      "1汤匙切碎的新鲜百里香",
+      "1/4茶匙盐",
+      "1/4茶匙现磨黑胡椒",
+      "2 杯（8 盎司）磨碎的 Parmigiano-Reggiano 奶酪，分开",
+      "1/8茶匙磨碎的整粒肉豆蔻",
+      "烹饪喷雾",
+      "2杯切成薄片的洋葱",
+      "4 蒜瓣 切碎",
+      "1/3 杯（3 盎司）块状 1/3 低脂奶油干酪，软化",
+      "1/2 杯 无脂半杯",
+      "1/2 杯 切碎的新鲜欧芹 分开",
+      "3/4磅。中等大小的虾，去皮，去肠，粗切碎",
+      "3/4磅。扇贝粗切",
+      "3个大鸡蛋",
+      "1 盒（15 盎司）脱脂乳清干酪",
+      "12免煮烤宽面条"
+    ],
     "instructions": "Preheat oven to 350º.  Read through this recipe to familiarize yourself with it.\nLightly spoon flour into a dry measuring cup; level with a knife. Place a large saucepan over medium heat; add flour to pan. Very slowly, gradually add milk to pan, stirring constantly with a whisk until smooth; cook 1 minute.\nStir in butter, thyme, salt, and pepper; bring to a boil. Cook 5 minutes or until thick, stirring (more or less) constantly.  If this is not your first time making this recipe, you can start step 5 now to save time.\nRemove pan from heat; stir in 1 1/4 cups Parmigiano (leaving some for later) and nutmeg. Set cheese sauce aside.\nCoat a large nonstick skillet with cooking spray and heat over medium-high heat.  Add onion; sauté 4 minutes. Add garlic; sauté for 1 minute. Remove from heat.\nAdd cream cheese to the sautéed onion and garlic; stir until cheese melts.  Stir in half-and-half, 1/4 cup of the parsley, shrimp, and scallops.\nCombine eggs and ricotta in a bowl or food processor and stir or process until smooth. Stir ricotta mixture into seafood mixture.\nCoat the bottom of a 13 x 9-inch baking dish with cooking spray.  Spoon 1 cup cheese sauce into the bottom.  Arrange 4 noodles over sauce; top with half of ricotta mixture.\nRepeat layers:  4 noodles, 1 cup cheese sauce, the remaining half of ricotta mixture and the remaining 4 noodles. Pour remaining cheese sauce over noodles; sprinkle with remaining 3/4 cup Parmigiano.\nBake at 350° for 45 minutes or until lightly browned. Sprinkle lasagna with remaining 1/4 cup parsley. Let stand 10 minutes before serving.",
+    "instructions_zh": "将烤箱预热至 350°。  通读本食谱以熟悉它。\n将面粉轻轻倒入干燥的量杯中；用刀水平。将一个大平底锅放在中火上；将面粉加入锅中。非常缓慢地，逐渐将牛奶加入锅中，用搅拌器不断搅拌直至光滑；煮1分钟。\n拌入黄油、百里香、盐和胡椒；煮沸。煮 5 分钟或直至浓稠，不断搅拌（或多或少）。  如果这不是您第一次制作此食谱，您可以立即开始第 5 步以节省时间。\n将锅从火上移开；加入 1 1/4 杯帕尔马干酪（留一些稍后使用）和肉豆蔻。将奶酪酱放在一边。\n在一个大的不粘锅上涂上烹饪喷雾，然后用中高温加热。  加入洋葱；炒4分钟。加入大蒜；炒1分钟。从火上移开。\n将奶油奶酪加入炒好的洋葱和大蒜中；搅拌直至奶酪融化。  加入各半的 1/4 杯欧芹、虾和扇贝，搅拌。\n将鸡蛋和乳清干酪放入碗或食品加工机中，搅拌或加工直至光滑。将乳清干酪混合物搅拌到海鲜混合物中。\n在 13 x 9 英寸烤盘的底部涂上烹饪喷雾。  用勺子将 1 杯奶酪酱倒入底部。  将4条面条放在酱汁上；上面放一半乳清干酪混合物。\n重复层数：4 条面条、1 杯奶酪酱、剩余的一半乳清干酪混合物和剩余的 4 条面条。将剩余的奶酪酱倒在面条上；撒上剩余的 3/4 杯帕尔马干酪。\n在 350° 下烘烤 45 分钟或直至浅棕色。在烤宽面条上撒上剩余的 1/4 杯欧芹。食用前静置 10 分钟。",
     "notes": "1. This recipe can be made gluten free by heating milk, butter and spices and adding cornstarch once hot (reversing the order above).  Then continue by adding the cheese and stirring well.  Remove from heat and set aside. The cheese sauce will then thicken.  With gluten-free noodles, of course.\n2.  Wine:  A white wine that's soft and full on the palate. Chardonnay is a great answer-especially a full-bodied Italian version.",
     "images": [
-      "/images/recipes/ad9aee17-9e27-4ad3-a36e-449e3ef0e2a6_0.jpg"
+      "/images/recipes/101205fa-2829-4b7a-a6a7-4c6c96c9454d_0.jpg"
     ]
   },
   {
-    "id": "d2617927-0416-4f3b-a6db-eefd298e8bd2",
+    "id": "03d0507d-df88-44e5-858e-9746a81b67c9",
     "name": "Seafood Gumbo",
+    "name_zh": "海鲜浓汤",
     "categories": [
       "Seafood",
       "Soups"
     ],
+    "categories_zh": [
+      "海鲜",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "RealCajunRecipes.com",
     "ingredients": [
@@ -1224,19 +2087,43 @@
       "1cup green onion tops",
       "2quarts water"
     ],
+    "ingredients_zh": [
+      "1磅蟹肉",
+      "1品脱牡蛎",
+      "1磅生虾",
+      "2汤匙植物油",
+      "2汤匙面粉",
+      "2个洋葱切碎",
+      "1 青椒 切碎",
+      "1杯切碎的芹菜",
+      "1/2茶匙蒜盐",
+      "1/2 汤匙 红辣椒",
+      "4片月桂叶",
+      "1汤匙文件'",
+      "1杯葱头",
+      "2夸脱水"
+    ],
     "instructions": "Make a dark roux with the flour and oil in a large Dutch oven. Sauté the onion, pepper, and celery in roux.  Add the water and the seasonings and cook for ½ hour.  Add shrimp and cook for 10 minutes.  Add crabmeat, oysters and green onions, and simmer for 10 more minutes.  Serve over rice.",
+    "instructions_zh": "在荷兰大烤箱中用面粉和油制作深色面糊。用肉酱炒洋葱、胡椒和芹菜。  加入水和调味料，煮 ½ 小时。  加入虾，煮10分钟。  加入蟹肉、牡蛎和葱，再煮10分钟。  浇在米饭上。",
     "notes": "",
     "images": []
   },
   {
-    "id": "44fbe990-8dbe-428f-8aa8-6a40119a8666",
+    "id": "34e4e0f3-2b8c-47b2-ab39-bba547db6978",
     "name": "Shrimp and Grits Casserole",
+    "name_zh": "虾粗玉米粉砂锅",
     "categories": [
       "Main Dishes",
       "Seafood",
       "Side Dishes"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜",
+      "配菜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Cooking Light, MARCH 2008",
     "ingredients": [
@@ -1255,20 +2142,43 @@
       "Cooking spray",
       "Hot pepper sauce (optional)"
     ],
+    "ingredients_zh": [
+      "2杯2%脱脂牛奶",
+      "3/4杯脱脂低钠鸡汤",
+      "1杯未煮过的速煮粗玉米粉",
+      "1/4茶匙盐",
+      "1/2 杯（2 盎司）帕尔马干酪丝",
+      "2汤匙黄油",
+      "1（3 盎司）包 1/3 低脂奶油干酪",
+      "3汤匙切碎的新鲜平叶欧芹",
+      "1汤匙切碎的新鲜韭菜",
+      "1汤匙新鲜柠檬汁",
+      "2个大蛋白",
+      "1磅。去皮、去肠的中等虾，粗切碎",
+      "烹饪喷雾",
+      "辣椒酱（可选）"
+    ],
     "instructions": "Preheat oven to 375°.\nCombine milk and broth in a medium heavy saucepan; bring to a boil. Gradually add grits and salt to pan, stirring constantly with a whisk. Cook 5 minutes or until thick, stirring constantly. Remove from heat. Stir in Parmesan, butter, and cream cheese. Stir in parsley and next 4 ingredients (through shrimp). Spoon mixture into an 11 x 7–inch baking dish coated with cooking spray. Bake at 375° for 25 minutes or until set. Serve with hot pepper sauce, if desired.",
+    "instructions_zh": "将烤箱预热至375°。\n将牛奶和肉汤混合在一个中等重量的平底锅中；煮沸。逐渐将粗粒和盐加入锅中，用搅拌器不断搅拌。煮 5 分钟或直至浓稠，不断搅拌。从火上移开。加入帕尔马干酪、黄油和奶油干酪。拌入欧芹和接下来的 4 种成分（通过虾）。将混合物倒入涂有烹饪喷雾的 11 x 7 英寸烤盘中。在 375° 下烘烤 25 分钟或直至凝固。如果需要，可以搭配辣椒酱。",
     "notes": "This popular Southern specialty gets made over as a 45-minute casserole. The result is a snap to prepare and tastes just right with a bright tomato salad.\nNOTES:  Suggested Menu\n• Cherry Tomato Salad Combine 3 cups halved cherry tomatoes, 1/2 cup thinly sliced green onion, and 1/4 cup chopped fresh flat-leaf parsley. Sprinkle with 1/2 teaspoon salt and 1/4 teaspoon fresh ground black pepper. Combine 3 tablespoons red wine vinegar, 1 1/2 tablespoons extravirgin olive oil, and 1 tablespoon Dijon mustard, stirring well. Drizzle vinegar mixture over tomato mixture; toss gently.\n• Lima beans",
     "images": [
-      "/images/recipes/44fbe990-8dbe-428f-8aa8-6a40119a8666_0.jpg"
+      "/images/recipes/34e4e0f3-2b8c-47b2-ab39-bba547db6978_0.jpg"
     ]
   },
   {
-    "id": "4d9ff35d-e3c2-4f5a-8ae0-6c9c94edca80",
+    "id": "0a482e88-d1b7-4e36-89fb-6f85a5fb89b6",
     "name": "Barbecue Roasted Salmon",
+    "name_zh": "烧烤烤三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "Cooking Light, September 1998, updated for the November, 2012 25th anniversary issue.",
     "ingredients": [
@@ -1284,22 +2194,44 @@
       "Cooking spray",
       "Lemon wedges (optional)"
     ],
+    "ingredients_zh": [
+      "1/4杯菠萝汁",
+      "2汤匙新鲜柠檬汁",
+      "4 片（6 盎司）鲑鱼片 $",
+      "2汤匙红糖",
+      "4茶匙辣椒粉",
+      "2茶匙磨碎的柠檬皮",
+      "3/4茶匙孜然粉",
+      "1/2茶匙盐",
+      "1/4茶匙肉桂粉",
+      "烹饪喷雾",
+      "柠檬角（可选）"
+    ],
     "instructions": "Combine first 3 ingredients in a zip-top plastic bag; seal and marinate in refrigerator 1 hour, turning occasionally.\nPreheat oven to 400°.\nRemove fish from bag; discard marinade. Combine sugar and next 5 ingredients (through cinnamon); rub over fish. Place fish in an 11 x 7-inch glass or ceramic baking dish coated with cooking spray. Bake at 400° for 12 minutes or until fish flakes easily when tested with a fork. Serve with lemon slices, if desired.",
+    "instructions_zh": "将前 3 种成分混合在一个带拉链的塑料袋中；密封并在冰箱中腌制1小时，偶尔翻动。\n将烤箱预热至400°。\n从袋子中取出鱼；丢弃腌料。将糖和接下来的 5 种成分（通过肉桂）混合；擦在鱼身上。将鱼放入涂有烹饪喷雾的 11 x 7 英寸玻璃或陶瓷烤盘中。在 400° 下烘烤 12 分钟，或直至用叉子测试时鱼很容易剥落。如果需要，可与柠檬片一起食用。",
     "notes": "",
     "images": [
-      "/images/recipes/4d9ff35d-e3c2-4f5a-8ae0-6c9c94edca80_0.jpg"
+      "/images/recipes/0a482e88-d1b7-4e36-89fb-6f85a5fb89b6_0.jpg"
     ]
   },
   {
-    "id": "2be8bdb8-9cd2-4a93-aeef-1b858c9ae67e",
+    "id": "c9f23c39-cac9-4519-99c1-6832c235ed48",
     "name": "Jambalaya",
+    "name_zh": "什锦饭",
     "categories": [
       "Casseroles",
       "Main Dishes",
       "Poultry",
       "Seafood"
     ],
+    "categories_zh": [
+      "砂锅菜",
+      "主菜",
+      "家禽",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Cooking Light, December 2004",
     "ingredients": [
@@ -1322,22 +2254,51 @@
       "1/4lb. large shrimp peeled, deveined, and chopped",
       "1/4cup thinly sliced green onions"
     ],
+    "ingredients_zh": [
+      "2茶匙植物油",
+      "1/4磅。去皮去骨鸡胸肉，切成一口大小的块",
+      "1/4磅。去皮去骨鸡大腿，切成一口大小的块",
+      "1/4茶匙盐",
+      "1/4茶匙现磨黑胡椒",
+      "1杯切碎的熏火鸡香肠（约4盎司）",
+      "1杯切碎的洋葱",
+      "1/2 杯 切碎的青椒",
+      "1/2杯切碎的芹菜",
+      "1 蒜瓣 切碎",
+      "1 1/2 杯未煮过的长粒白米",
+      "2 3/4杯脱脂低钠鸡汤",
+      "2茶匙辣椒",
+      "1/2茶匙干百里香",
+      "1/4茶匙红辣椒粉",
+      "1罐（14.5盎司）西红柿切丁，不沥干",
+      "1/4磅。大虾去皮、去肠、切碎",
+      "1/4 杯 切成薄片的葱"
+    ],
     "instructions": "Heat oil in a large skillet over medium-high heat. Sprinkle chicken with salt and black pepper. Add chicken to pan, and cook 5 minutes or until lightly browned, stirring occasionally. Remove chicken from pan; cover and keep warm. Add sausage to pan; cook 5 minutes or until lightly browned, stirring occasionally. Add 1 cup onion, bell pepper, celery, and garlic; cover, reduce heat to low, and cook 12 minutes or until vegetables are tender, stirring occasionally.\nStir in rice; cook 2 minutes, stirring constantly. Add broth, paprika, thyme, and red pepper; bring to a boil. Cover, reduce heat, and simmer 15 minutes. Add chicken and tomatoes; cook, uncovered, 10 minutes or until liquid is absorbed. Stir in shrimp; cover and cook 5 minutes or until shrimp are done. Remove from heat, and let stand 5 minutes. Fluff with a fork. Sprinkle with green onions.",
+    "instructions_zh": "在大煎锅中用中高温加热油。在鸡肉上撒上盐和黑胡椒。将鸡肉放入锅中，煮 5 分钟或直至呈浅棕色，偶尔搅拌。将鸡肉从锅中取出；遮盖并保暖。将香肠加入锅中；煮 5 分钟或直至呈浅棕色，偶尔搅拌。加入1杯洋葱、甜椒、芹菜和大蒜；盖上锅盖，将火调至小火，煮 12 分钟或直至蔬菜变软，偶尔搅拌。\n拌入米饭；煮2分钟，不断搅拌。加入肉汤、辣椒粉、百里香和红辣椒；煮沸。盖上盖子，调小火，煮 15 分钟。加入鸡肉和西红柿；不盖盖子，煮 10 分钟或直至液体被吸收。加入虾翻炒；盖上锅盖煮 5 分钟或直至虾熟。从火上移开，静置 5 分钟。用叉子弄松。撒上葱。",
     "notes": "",
     "images": [
-      "/images/recipes/2be8bdb8-9cd2-4a93-aeef-1b858c9ae67e_0.jpg"
+      "/images/recipes/c9f23c39-cac9-4519-99c1-6832c235ed48_0.jpg"
     ]
   },
   {
-    "id": "4cdc80b9-2872-4d76-9c1b-3fd11412971f",
+    "id": "62342fb9-230c-45fa-ac20-538fc3e0a5b5",
     "name": "Slow Cooker Hearty Jambalaya",
+    "name_zh": "慢炖锅丰盛的什锦饭",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Taste of Home",
     "ingredients": [
@@ -1360,20 +2321,47 @@
       "1lb. cooked medium shrimp peeled and deveined",
       "Hot cooked rice"
     ],
+    "ingredients_zh": [
+      "1 罐（28 盎司）西红柿切丁，不沥干",
+      "1磅。完全煮熟的安多耶香肠块",
+      "1/2磅。去骨去皮鸡胸肉切成1英寸的方块",
+      "1 罐（8 盎司）番茄酱",
+      "1杯洋葱丁",
+      "1个小甜红辣椒切丁",
+      "1个小青椒切丁",
+      "1杯鸡汤",
+      "1根芹菜排骨，叶子切碎",
+      "2汤匙番茄酱",
+      "2茶匙干牛至",
+      "2茶匙卡真调味料",
+      "1-1/2茶匙蒜末",
+      "2月桂叶",
+      "1茶匙路易斯安那风味辣酱",
+      "1/2茶匙干百里香",
+      "1磅。煮熟的中等大小的虾，去皮，去肠",
+      "热腾腾的米饭"
+    ],
     "instructions": "In a 5-qt. slow cooker, combine the first 16 ingredients. Cover and cook on low for 6-7 hours or until chicken is no longer pink. Stir in shrimp. Cover and cook 15 minutes longer or until heated through. Discard bay leaves. Serve with rice.",
+    "instructions_zh": "5 夸脱。慢炖锅，混合前 16 种成分。盖上锅盖，小火煮 6-7 小时，或直至鸡肉不再呈粉红色。拌入虾。盖上锅盖再煮 15 分钟或直至热透。丢弃月桂叶。与米饭一起食用。",
     "notes": "From Taste of Home: \"I love anything with Cajun spices, so I came up with this slow-cooker jambalaya that’s just as good as that served in restaurants,\" says Jennifer Fulk from Moreno Valley, California. \"If you can’t find Andouille sausage, hot links, smoked sausage or chorizo will also work. I like to serve it with warm cornbread and garnished with sliced green onions.\"",
     "images": [
-      "/images/recipes/4cdc80b9-2872-4d76-9c1b-3fd11412971f_0.jpg"
+      "/images/recipes/62342fb9-230c-45fa-ac20-538fc3e0a5b5_0.jpg"
     ]
   },
   {
-    "id": "6def3d2f-3a07-40e6-ab44-15b952a04c01",
+    "id": "a7a0d111-0f01-46cc-aebf-816f89d109e1",
     "name": "Linguine with White Clam Sauce",
+    "name_zh": "白蛤酱扁面条",
     "categories": [
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Cooking Light, March 1998",
     "ingredients": [
@@ -1392,19 +2380,43 @@
       "8cups hot cooked linguine (about 1 ilb uncooked pasta)",
       "Thyme sprigs (optional)"
     ],
+    "ingredients_zh": [
+      "2罐未沥干的整只小蛤",
+      "4汤匙黄油",
+      "2汤匙橄榄油",
+      "6瓣大蒜切碎",
+      "2汤匙通用白面粉",
+      "1杯干白葡萄酒",
+      "4汤匙切碎的新鲜欧芹",
+      "2茶匙切碎的新鲜百里香",
+      "或者",
+      "1/2茶匙干百里香",
+      "1/4茶匙胡椒粉",
+      "2罐蛤蜊碎，沥干水分",
+      "8杯热煮熟的扁面条（约1磅生意大利面）",
+      "百里香小枝（可选）"
+    ],
     "instructions": "Drain baby clams in a sieve over a bowl, reserving juice.\nHeat butter and olive oil in a medium saucepan over medium heat.  Add garlic, and sauté 1 minute. Stir in flour.  (Substitute 1 Tablespoon corn starch if making gluten free.) Stir in the reserved clam juice, wine, chopped parsley, chopped thyme and pepper, and cook 2 minutes, stirring frequently.\nAdd the baby clams and the minced clams, and cook 3 minutes or until thoroughly heated.  Serve clam sauce over pasta.  Garnish with thyme sprigs, if desired.",
+    "instructions_zh": "将小蛤蜊放入碗中，用筛子滤干，保留汁液。\n在中型平底锅中用中火加热黄油和橄榄油。  加入大蒜，炒1分钟。拌入面粉。  （如果制作无麸质，则用 1 汤匙玉米淀粉代替。）加入保留的蛤汁、葡萄酒、切碎的欧芹、切碎的百里香和胡椒，煮 2 分钟，经常搅拌。\n加入小蛤蜊和碎蛤蜊，煮 3 分钟或直至完全加热。  将蛤蜊酱浇在意大利面上。  如果需要，可以用百里香小枝装饰。",
     "notes": "",
     "images": []
   },
   {
-    "id": "d54dfe95-8b87-4636-9794-41122bb27cc6",
+    "id": "555e0323-771f-468c-9611-a9f431109bcc",
     "name": "Shrimp-Stuffed Shells",
+    "name_zh": "虾壳酿",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "adapted from Cooking Light, December 2011",
     "ingredients": [
@@ -1422,20 +2434,42 @@
       "3-4cups marinara sauce (such as Rao's) divided (1-2 large jars)",
       "1/3cup (1 1/2 ounces) grated fresh Parmigiano-Reggiano cheese"
     ],
+    "ingredients_zh": [
+      "20个未煮熟的大贝壳意大利面（约8盎司）",
+      "1 1/2 汤匙 橄榄油",
+      "1/2杯切碎的青葱或切碎的新鲜细香葱",
+      "2汤匙蒜末（约4瓣）",
+      "1/2 杯（4 盎司）1/3 低脂奶油干酪",
+      "1/4 杯 1% 脱脂牛奶",
+      "1/4茶匙红辣椒粉（或稍少）",
+      "1/4 杯切碎的新鲜罗勒",
+      "1磅。中等大小的虾，去皮，去肠，粗切碎",
+      "1汤匙马铃薯淀粉或玉米淀粉",
+      "烹饪喷雾",
+      "3-4杯番茄酱（例如Rao's），分开（1-2个大罐子）",
+      "1/3 杯（1 1/2 盎司）磨碎的新鲜 Parmigiano-Reggiano 奶酪"
+    ],
     "instructions": "Preheat oven to 400°.\nCook pasta 7 to 8 minutes or until almost al dente, omitting salt and fat. Drain well.\nHeat a medium skillet over medium heat. Add oil to pan; swirl to coat. Add shallots or chives; cook 4 minutes, stirring occasionally. Add garlic; cook 1 minute, stirring constantly. Add cream cheese, milk, and pepper; cook until cheese melts, stirring until smooth. Remove from heat. Stir in basil.\nPlace shrimp in a bowl. Sprinkle with potato or corn starch; toss well to coat. Add cream cheese mixture to shrimp; toss well.\nCoat a 13 x 9-inch glass or ceramic baking dish with cooking spray; spread 1 cup marinara over bottom of dish. Divide shrimp mixture evenly among pasta shells, arranging filled shells in prepared dish as you go.\nTop with remaining 2-3 cups marinara. Sprinkle shells evenly with Parmigiano-Reggiano cheese. Bake at 400° for 30 minutes or until shrimp is done.",
+    "instructions_zh": "将烤箱预热至400°。\n将意大利面煮 7 至 8 分钟或直至几乎有嚼劲，省略盐和脂肪。沥干。\n用中火加热中型煎锅。锅中加入油；旋转涂抹。加入青葱或细香葱；煮 4 分钟，偶尔搅拌。加入大蒜；煮1分钟，不断搅拌。加入奶油芝士、牛奶和胡椒粉；煮至奶酪融化，搅拌至光滑。从火上移开。拌入罗勒。\n将虾放入碗中。撒上土豆或玉米淀粉；充分搅拌均匀。将奶油芝士混合物加入虾中；折腾得好。\n在 13 x 9 英寸的玻璃或陶瓷烤盘上涂上烹饪喷雾；将 1 杯番茄酱铺在盘子底部。将虾混合物均匀地分布在意大利面壳中，边吃边将装满的贝壳放入准备好的盘子中。\n上面放上剩余的 2-3 杯海员酱。在贝壳上均匀撒上帕尔马干酪。在 400° 下烘烤 30 分钟或直至虾熟透。",
     "notes": "Saucy, rich Shrimp-Stuffed Shells offer a nice variation to regular stuffed shells for your pasta dinner menu. The shrimp goes into the pasta shells raw to prevent it from overcooking while the pasta bakes.  Even tomato-sauce-averse Faith liked this dish (!).\nNOTES:\n1. Save time and buy your shrimp pre-cleaned, or at least peeled.  Frozen shrimp thaws pretty quickly in a large pot of cool or cold water.\n2. Cook the entire box of jumbo shells, then select the ones that will best hold the stuffing.  Generally, this recipe fills about 20 shells.  For the marinara, a large jar of pasta sauce is roughly 3 cups of sauce and may be enough for your taste. I like to use part of a second jar to better cover the shells so they don’t dry out. Freeze the extra sauce for another day.\n3. Finally, this can be assembled ahead of time, covered and kept in the refrigerator for the day until you are ready to cook.  Make sure your cookware can go from fridge to oven.",
     "images": [
-      "/images/recipes/d54dfe95-8b87-4636-9794-41122bb27cc6_0.jpg"
+      "/images/recipes/555e0323-771f-468c-9611-a9f431109bcc_0.jpg"
     ]
   },
   {
-    "id": "3eb4bc45-cb59-4d73-b4a7-424543b3d4df",
+    "id": "392693f6-74fb-4eae-bc1c-9e3071955efe",
     "name": "Salmon with Brown Sugar Glaze",
+    "name_zh": "红糖釉三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "",
     "ingredients": [
@@ -1444,22 +2478,37 @@
       "4(6 ounce) boneless salmon fillets",
       "salt and ground black pepper to taste"
     ],
+    "ingredients_zh": [
+      "1/4杯包装淡红糖",
+      "2汤匙第戎芥末",
+      "4片（6盎司）去骨三文鱼片",
+      "盐和黑胡椒粉调味"
+    ],
     "instructions": "Preheat the oven's broiler and set the oven rack at about 6 inches from the heat source; prepare the rack of a broiler pan with cooking spray.\nSeason the salmon with salt and pepper and arrange onto the prepared broiler pan. Whisk together the brown sugar and Dijon mustard in a small bowl; spoon mixture evenly onto top of salmon fillets.\nCook under the preheated broiler until the fish flakes easily with a fork, 10 to 15 minutes.",
+    "instructions_zh": "预热烤箱的烤肉机，并将烤箱架设置在距热源约6英寸的位置；准备带有烹饪喷雾的烤盘架。\n用盐和胡椒给三文鱼调味，然后放在准备好的烤盘上。将红糖和第戎芥末放入小碗中搅拌；将混合物均匀地舀到三文鱼片上。\n在预热的烤炉下煮 10 至 15 分钟，直至鱼用叉子轻松剥落。",
     "notes": "This easy recipe is made even easier if you buy the fish as a single piece and ask the store to skin it for you.\nNOTES:\nA note about broiling:  When you broil in an electric oven, the oven rack is moved closer to the upper heating element (not too close) and the food is baked by direct heat coming from the element.  In electric ovens, you must keep the door slightly OPEN when broiling.  If the door remains closed, the temperature in the oven will continue to climb.  The result is that the food will be baked in the ambient hot air rather than broiled.\nMost foods will burn if left in a closed oven for the allotted broiling time.   In some ovens, the high temperatures generated trigger a safety switch that turns the heating element off, converting your broiling to baking and preventing the fire that would otherwise ensue.  Which is nice.\nOn the plus side, broiling makes it easy to check on the food as it cooks and in the winter it is a handy way to warm up your kitchen.",
     "images": [
-      "/images/recipes/3eb4bc45-cb59-4d73-b4a7-424543b3d4df_0.jpg"
+      "/images/recipes/392693f6-74fb-4eae-bc1c-9e3071955efe_0.jpg"
     ]
   },
   {
-    "id": "0399f0a5-35d7-4252-abf1-2d1b4704c2de",
+    "id": "cc4652b8-acea-4138-b945-9f8dca6b15ce",
     "name": "Seafood Risotto",
+    "name_zh": "海鲜烩饭",
     "categories": [
       "Main Dishes",
       "Rices",
       "Seafood",
       "Side Dishes"
     ],
+    "categories_zh": [
+      "主菜",
+      "稻米",
+      "海鲜",
+      "配菜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "adapted from Bon Appetit, August 1998",
     "ingredients": [
@@ -1476,18 +2525,39 @@
       "3cloves garlic minced",
       "2tablespoons fresh Italian parsley finely chopped"
     ],
+    "ingredients_zh": [
+      "2 1/2 杯鸡汤",
+      "2 瓶（8 盎司）蛤汁",
+      "4汤匙橄榄油",
+      "1 1/4 杯 青葱 切碎",
+      "1/2 杯 香菇盖（用肉汤或蛤汁复原并切碎）",
+      "1 罐（14 1/2 盎司）意式炖西红柿",
+      "1 1/2 杯 arborio 米或中粒白米",
+      "1/2杯干白葡萄酒",
+      "1磅海湾扇贝",
+      "1磅生虾，去皮，去内脏，粗切碎",
+      "3瓣大蒜切碎",
+      "2汤匙新鲜意大利欧芹，切碎"
+    ],
     "instructions": "Combine 2 1/2 cups water and bottled clam juice in medium saucepan. Bring to simmer. Keep warm over low heat.\nMeanwhile, heat 2 tablespoons oil in heavy large saucepan over medium heat. Add shallots; sauté until light golden, about 4 minutes. Add rice; sauté 2 minutes.\nAdd wine; stir until liquid is absorbed, about 2 minutes. Add stewed tomatoes; cook until liquid is absorbed, about 3 minutes.\nAdd 1 cup clam juice mixture to rice. Simmer until liquid is absorbed, stirring often. Continue adding clam juice mixture by ½-cupfuls until rice is tender but still slightly firm in center and mixture is creamy, simmering until liquid is absorbed before each addition and stirring often, about 25 minutes.\nHeat remaining 2 tablespoons oil in heavy large skillet over medium-high heat. Add shrimp, scallops and garlic and sauté until shrimp and scallops are opaque in center, about 6 minutes.\nMix seafood into rice. Cook 3 minutes longer. Remove risotto from heat. Season to taste with salt and pepper. Transfer to serving bowl. Stir in chopped parsley and serve.",
+    "instructions_zh": "将 2 1/2 杯水和瓶装蛤汁放入中型平底锅中混合。煮沸。用小火保持温暖。\n与此同时，在大平底锅中用中火加热 2 汤匙油。加入葱；炒至浅金黄色，约4分钟。添加米饭；炒2分钟。\n添加酒；搅拌约 2 分钟，直至液体被吸收。加入炖好的西红柿；煮约 3 分钟，直至液体被吸收。\n将 1 杯蛤汁混合物加入米饭中。煮至液体被吸收，经常搅拌。继续加入 ½ 杯蛤蜊汁混合物，直至米饭变软，但中心仍稍硬，且混合物呈奶油状，每次添加前小火煮至液体被吸收，并经常搅拌约 25 分钟。\n在厚重的大煎锅中用中高火加热剩余的 2 汤匙油。加入虾、扇贝和大蒜，炒至虾和扇贝中心不透明，约 6 分钟。\n将海鲜拌入米饭中。再煮3分钟。将烩饭从火上移开。用盐和胡椒调味。转移到服务碗中。拌入切碎的欧芹即可食用。",
     "notes": "Pair with an American sauvignon blanc,  a German dry white, or  an Australian chardonnay.\nNOTES:\nSome people sauté shiitake mushrooms with the shallots for more flavor.  Be sure to use shallots and not onions.  Also feel free to use chicken broth instead of water, or half of each.  Remember that risotto thickens even after you take it off the stove, so you may want to add a splash of extra liquid at the end to keep it from becoming a big clump.\nA useful online review:\nTotally agree with excellent previous reviews.. and I took their advice: added more shallots, garlic and parsley. Also used 1/2 lb. of shrimp, scallops and lobster respectively. As I usually do with risotto, used 1/2 olive olive oil & butter, added 1/2 C. good Parmesan at the end, and used vegetable broth combined with clam juice. RAVE reviews from friends for dinner as one of \"my\" best risottos ever.",
     "images": []
   },
   {
-    "id": "c58728f3-660c-4367-8ef9-f4b78def6d53",
+    "id": "ffeac5a1-a1f6-48c4-9bb0-263b62abceb1",
     "name": "Baked Dijon Salmon",
+    "name_zh": "烤第戎三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "",
     "ingredients": [
@@ -1501,21 +2571,40 @@
       "salt and pepper to taste",
       "1lemon for garnish"
     ],
+    "ingredients_zh": [
+      "1/4杯黄油融化",
+      "2 ½ 至 3 汤匙第戎芥末",
+      "1 1/2 汤匙 蜂蜜",
+      "1/4杯干面包屑",
+      "1/4 杯 切碎的山核桃",
+      "4茶匙切碎的新鲜欧芹",
+      "4片（4盎司）三文鱼片",
+      "盐和胡椒调味",
+      "1个柠檬装饰用"
+    ],
     "instructions": "Preheat oven to 400 degrees F (200 degrees C).\nIn a small bowl, stir together butter, mustard, and honey. Set aside. In another bowl, mix together bread crumbs, pecans, and parsley.\nBrush each salmon fillet lightly with honey mustard mixture, and sprinkle the tops of the fillets with the bread crumb mixture.\nBake salmon 12 to 15 minutes in the preheated oven, or until it flakes easily with a fork. Season with salt and pepper, and garnish with a wedge of lemon.",
+    "instructions_zh": "将烤箱预热至 400 华氏度（200 摄氏度）。\n在一个小碗中，将黄油、芥末和蜂蜜搅拌在一起。放在一边。在另一个碗中，将面包屑、山核桃和欧芹混合在一起。\n在每块三文鱼片上轻轻刷上蜂蜜芥末混合物，并在鱼片顶部撒上面包屑混合物。\n将三文鱼放入预热的烤箱中烘烤 12 至 15 分钟，或直至用叉子轻松剥落。用盐和胡椒调味，并用一片柠檬装饰。",
     "notes": "This is a wonderful way to prepare fresh salmon fillets in the oven.  Agave nectar is a nice substitute for the honey.\nNOTE: Keep the fish well-chilled and the butter/mustard topping will stay put a bit longer before the dish goes into the oven.  I also make extra crumb mix to make sure the topping is nice and thick.",
     "images": [
-      "/images/recipes/c58728f3-660c-4367-8ef9-f4b78def6d53_0.jpg"
+      "/images/recipes/ffeac5a1-a1f6-48c4-9bb0-263b62abceb1_0.jpg"
     ]
   },
   {
-    "id": "30e9ab97-fed4-448c-8f7e-012fb18306bd",
+    "id": "716b4434-c2e0-431e-a2f5-4020643b0e66",
     "name": "Seafood Lasagna",
+    "name_zh": "海鲜千层面",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Eating Well, November 1997",
     "ingredients": [
@@ -1544,19 +2633,53 @@
       "2tablespoons freshly grated parmesan cheese",
       "2tablespoons chopped fresh parsley"
     ],
+    "ingredients_zh": [
+      "1/2磅。免煮宽面条面条",
+      "2杯瓶装蛤蜊汁",
+      "1杯白葡萄酒",
+      "1杯水",
+      "1磅。新鲜的中型虾，去皮",
+      "--去内脏并切碎",
+      "1磅。新鲜鲽鱼片",
+      "--切成1/2英寸的块",
+      "1/2磅。新鲜三文鱼片，带皮",
+      "--切成1/2英寸的块",
+      "2 1/2汤匙橄榄油",
+      "2汤匙切碎的葱",
+      "3条凤尾鱼片冲洗并切碎",
+      "2瓣大蒜切碎",
+      "12盎司新鲜蘑菇，切片",
+      "--4杯",
+      "1/3 杯切碎的新鲜罗勒",
+      "盐和现磨黑胡椒调味",
+      "1/3 杯 通用面粉",
+      "2汤匙鲜榨柠檬汁",
+      "1 撮 辣椒",
+      "1/3杯细干面包屑",
+      "2汤匙新鲜磨碎的帕尔马干酪",
+      "2汤匙切碎的新鲜欧芹"
+    ],
     "instructions": "Place lasagna noodles in a large bowl of warm water and let soak, stirring occasionally, until pliable, at least 10 minutes.\nMeanwhile, in a large deep skillet, combine clam juice, wine and water. Bring to a simmer. Reduce heat to medium-low and add shrimp. Poach until pink, about 40 seconds. Remove with a slotted spoon and transfer to a colander over a bowl.\nAdd sole and salmon to poaching liquid. Poach until just opaque, about 1 minute. Remove with a slotted spoon and place in colander with shrimp. Let drain. Strain poaching liquid through a fine sieve and set aside. Wipe pan dry.\nIn the same pan, heat 1/2 tablespoon oil over medium-high heat. Add shallots, anchovies and garlic and cook, mashing anchovies into a paste, for about 1 minute. Add mushrooms and sauté until browned, about 2 minutes. Add basil and season with salt and pepper. Transfer to colander with seafood. Add accumulated juices to reserved poaching liquid. Measure out 3 1/2 cups hot liquid, adding water if necessary.\nIn a large heavy saucepan, heat remaining 2 tablespoons oil over medium heat. Add flour and cook, whisking constantly, for 1 minute. Add reserved poaching liquid and bring to a simmer, whisking, until smooth and thickened to the consistency of heavy cream, 5 to 6 minutes. Add lemon juice and season with salt, pepper and cayenne. Reserve 1 1/2 cups sauce; gently mix seafood mixture into remaining sauce.\nPreheat oven to 350°F. Lightly oil a 9-by-13 1/2-inch baking dish or coat it with nonstick spray.\nSpoon 1/2 cup reserved sauce into prepared dish. Drain noodles and blot dry. Alternate 4 layers of noodles and 3 layers of seafood mixture in dish, starting and ending with noodles. Spread remaining 1 cup sauce over the top, coating noodles completely. (The lasagna will keep, covered, in the refrigerator for up to 1 day or in the freezer for up to 1 month. Thaw in the refrigerator before baking.)\nCover lasagna with aluminum foil and bake for 25 minutes. Uncover, sprinkle with breadcrumbs and Parmesan and bake for 15 to 20 minutes more, or until golden and bubbly. Let stand for 10 minutes. Garnish with parsley and serve.\nMAKES 8 SERVINGS.\n385 calories per serving; 38 grams protein; 9 grams fat(1.6 grams saturated fat); 32 grams carbohydrate; 400 mg sodium; 144 mg cholesterol; 1 gram fiber.\nItalian Name: Lasagne di Pesce\nBusted by Gail Shermeyer <4paws@netrax.net>",
+    "instructions_zh": "将烤宽面条放入一大碗温水中，浸泡至少 10 分钟，偶尔搅拌，直至变软。\n与此同时，在一个大的深煎锅中，将蛤汁、酒和水混合。煮沸。将热量调至中低并加入虾。煮约 40 秒，直至呈粉红色。用漏勺取出并转移到碗上的漏勺中。\n将鳎目鱼和鲑鱼加入水煮液中。煮至不透明，大约 1 分钟。用漏勺取出，放入装有虾的漏勺中。让排水。用细筛过滤水煮液并放在一边。将锅擦干。\n在同一个锅中，用中高火加热 1/2 汤匙油。加入青葱、凤尾鱼和大蒜，将凤尾鱼捣成糊状，煮约 1 分钟。加入蘑菇，炒至棕色，大约 2 分钟。加入罗勒，用盐和胡椒调味。将海鲜转移到滤锅中。将积累的汁液添加到保留的水煮液中。量出 3 1/2 杯热液体，必要时加水。\n在一个大平底锅中，用中火加热剩余的 2 汤匙油。加入面粉，不断搅拌，煮 1 分钟。加入保留的水煮液，小火煮 5 至 6 分钟，搅拌，直至光滑并变稠，达到浓奶油的稠度。加入柠檬汁，用盐、胡椒和辣椒调味。预留1 1/2杯酱汁；轻轻地将海鲜混合物与剩余的酱汁混合。\n将烤箱预热至 350°F。在 9 x 13 1/2 英寸的烤盘上涂上少许油或涂上不粘喷雾。\n将 1/2 杯保留的酱汁倒入准备好的盘子中。将面条沥干并吸干。将 4 层面条和 3 层海鲜混合物交替放入盘中，以面条开始和结束。将剩余的 1 杯酱汁涂在上面，将面条完全覆盖。 （盖上盖子后，烤宽面条可在冰箱中保存最多 1 天，或在冰箱中保存最多 1 个月。烘烤前在冰箱中解冻。）\n用铝箔盖住烤宽面条并烘烤 25 分钟。揭开盖子，撒上面包屑和帕尔马干酪，再烘烤 15 至 20 分钟，或直至呈金黄色并起泡。静置 10 分钟。用欧芹装饰即可食用。\n8 份。\n每份 385 卡路里； 38克蛋白质； 9克脂肪（1.6克饱和脂肪）； 32克碳水化合物； 400毫克钠； 144毫克胆固醇； 1克纤维。\n意大利名称：Lasagne di Pesce\n被 Gail Shermeyer <4paws@netrax.net> 抓获",
     "notes": "",
     "images": []
   },
   {
-    "id": "46fecf92-deb4-4439-bd70-ab7556f313b5",
+    "id": "d494cba0-8edb-41e3-acc7-bf4c6b9a574c",
     "name": "Pasta with Shrimp in Tomato Cream",
+    "name_zh": "番茄奶油虾意大利面",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "6",
     "author": "Cooking Light, adapted from Back Pocket Pasta: Inspired Dinners to Cook on the Fly",
     "ingredients": [
@@ -1577,20 +2700,45 @@
       "1/4cup chopped fresh basil divided",
       "* substitute thinly sliced shallots for a gentler taste"
     ],
+    "ingredients_zh": [
+      "8盎司螺丝粉面食",
+      "2汤匙菜籽油或特级初榨橄榄油",
+      "1磅。去皮、去肠的中型虾",
+      "1茶匙粗盐，分开",
+      "1/2 茶匙 现磨黑胡椒 分开",
+      "3 蒜瓣 切成薄片",
+      "* 3个葱切成薄片（深绿色切片分开）",
+      "1/2杯干苦艾酒",
+      "1/2杯鸡汤",
+      "1/2杯浓奶油或半杯浓奶油",
+      "1/2 杯 干包装晒干番茄 切成薄片",
+      "1汤匙番茄酱",
+      "2 盎司羊奶酪碎（约 1/2 杯）",
+      "1/4 杯切碎的新鲜平叶欧芹",
+      "1/4 杯 切碎的新鲜罗勒 分开",
+      "*用切成薄片的葱代替，以获得更温和的味道"
+    ],
     "instructions": "Cook pasta according to package directions; drain well. Set aside.\nWhile the pasta is cooking, heat a large skillet over medium-high. Add oil. Sprinkle shrimp with ½ teaspoon salt and ¼ teaspoon pepper. Add to pan; sauté 2 minutes or until just done. Place shrimp in a large bowl.\nAdd garlic and white and light green onion slices to pan; sauté 2 minutes. Add to shrimp in bowl.\nReduce heat to medium. Stir in vermouth, stock, cream, tomatoes, and tomato paste. Bring to a boil; cook 5 minutes or until reduced by half, stirring well.\nIncrease heat to medium-high. Add pasta, shrimp mixture, cheese, parsley, 2 tablespoons basil, and remaining ½ teaspoon salt and ¼ teaspoon pepper; toss to combine. Place about 1 ½ cups pasta mixture in each of 6 bowls; top with dark green onion slices.",
+    "instructions_zh": "按照包装说明煮意大利面；排水良好。放在一边。\n煮意大利面时，用中高火加热一个大煎锅。加油。在虾上撒上 1/2 茶匙盐和 1/4 茶匙胡椒粉。添加到锅中；炒2分钟或直至熟。将虾放入一个大碗中。\n将大蒜、白洋葱片和淡绿洋葱片放入锅中；炒2分钟。加入碗中的虾。\n将热量降低至中等。加入苦艾酒、高汤、奶油、西红柿和番茄酱。煮沸；煮 5 分钟或直至减半，搅拌均匀。\n将热量调至中高。加入意大利面、虾仁混合物、奶酪、欧芹、2 汤匙罗勒、剩余的 1/2 茶匙盐和 1/4 茶匙胡椒粉；折腾合并。将约 1 ½ 杯意大利面混合物放入 6 个碗中；上面放上深绿色洋葱片。",
     "notes": "",
     "images": [
-      "/images/recipes/46fecf92-deb4-4439-bd70-ab7556f313b5_0.jpg"
+      "/images/recipes/d494cba0-8edb-41e3-acc7-bf4c6b9a574c_0.jpg"
     ]
   },
   {
-    "id": "65a82608-32e5-4e38-809d-b64150c33ad6",
+    "id": "1aa0b044-bea6-43ad-87da-4466de3bf0e5",
     "name": "Baked Salmon",
+    "name_zh": "烤三文鱼",
     "categories": [
       "Main Dishes",
       "Seafood"
     ],
+    "categories_zh": [
+      "主菜",
+      "海鲜"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "0",
     "author": "",
     "ingredients": [
@@ -1604,22 +2752,42 @@
       "2tablespoons fresh parsley chopped (or 2 t dried parsley)",
       "4(6oz) salmon fillets skinned"
     ],
+    "ingredients_zh": [
+      "1瓣大蒜切碎",
+      "4汤匙橄榄油",
+      "1茶匙干罗勒",
+      "破折号莳萝杂草",
+      "3/4茶匙盐",
+      "3/4茶匙黑胡椒",
+      "4汤匙柠檬汁",
+      "2汤匙切碎的新鲜欧芹（或2吨干欧芹）",
+      "4（6 盎司）带皮三文鱼片"
+    ],
     "instructions": "In a bowl just large enough to hold the fish, prepare marinade by mixing garlic, light olive oil, basil, salt, pepper, lemon juice and parsley. Place salmon fillets in the bowl and cover with the marinade. Marinate in the refrigerator about 1 hour, gently turning the fish occasionally.\nPreheat oven to 375 degrees F (190 degrees C).\nPut a small amount of marinade in a glass pan, put the fish on top, cover with the remaining marinade and cover the entire dish tightly with foil. Bake 35 to 45 minutes, until easily flaked with a fork.  However, because thickness of salmon cuts vary so much you may want to check the fish after 30 minutes.\nCooking times vary by method.  With the glass dish, check after 25 minutes.",
+    "instructions_zh": "在一个足以容纳鱼的碗中，混合大蒜、淡橄榄油、罗勒、盐、胡椒、柠檬汁和欧芹，准备腌料。将三文鱼片放​​入碗中，盖上腌料。在冰箱里腌制约1小时，偶尔轻轻地翻动鱼。\n将烤箱预热至 375 华氏度（190 摄氏度）。\n将少量腌料放入玻璃锅中，将鱼放在上面，盖上剩余的腌料，并用箔纸将整个盘子紧紧盖住。烘烤 35 至 45 分钟，直至用叉子轻松剥落。  然而，由于三文鱼切块的厚度差异很大，您可能需要在 30 分钟后检查鱼的情况。\n烹饪时间因方法而异。  使用玻璃皿，25 分钟后检查。",
     "notes": "NOTES:\n1. Thicker fish is definitely better.  Serve it over brown rice with green beans, steamed broccoli or a vegetable mixture.  You may marinate and bake in the same bowl if you like, but I find a smaller space works better for the marinade and a little room is good to have between the fish for baking.\n2, You may marinate and bake in the same bowl if you like, but I find a smaller space works better for the marinade and a little room is good to have between the fish for baking.",
     "images": [
-      "/images/recipes/65a82608-32e5-4e38-809d-b64150c33ad6_0.jpg"
+      "/images/recipes/1aa0b044-bea6-43ad-87da-4466de3bf0e5_0.jpg"
     ]
   },
   {
-    "id": "9c7231e0-cf23-4498-9f11-ea8760637e03",
+    "id": "4d96e29c-8bce-456f-b13f-4e6d79e18cf5",
     "name": "Slow Cooker Seafood Alfredo",
+    "name_zh": "慢炖锅海鲜阿尔弗雷多",
     "categories": [
       "Main Dishes",
       "Pasta",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "面食",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "adapted from A Year of Slow Cooking",
     "ingredients": [
@@ -1634,21 +2802,41 @@
       "4Tablespoons flour",
       "2bags Whole Food's cooked Seafood Medley (or 2 lbs frozen cooked shrimp or cooked chicken.)"
     ],
+    "ingredients_zh": [
+      "1块黄油",
+      "4杯2%牛奶",
+      "2茶匙普罗旺斯香草",
+      "1 1/2 杯 马苏里拉奶酪丝",
+      "1 1/2 杯帕尔玛干酪丝",
+      "6颗蒜瓣捣碎并切碎",
+      "1茶匙粗盐",
+      "1/2茶匙黑胡椒",
+      "4汤匙面粉",
+      "2 袋 Whole Food 煮熟的海鲜混合菜（或 2 磅冷冻煮熟的虾或煮熟的鸡肉。）"
+    ],
     "instructions": "In a small microwaveable bowl, melt your butter, and slowly whisk in the flour. It will mix into a thin paste-like consistency.  Put it and the milk in the crockpot.  Add the herbs and the garlic.  Stir again, and add all the cheese.\nCook on low for 4-6 hours. (\nSee below\n)*\nThe butter will separate from the milk and cheese. It will look weird. Take some deep breaths. Drink some wine. It will be okay.\nStir the mixture thoroughly and add your seafood blend or frozen shrimp. Cook it on high for another 20-30 minutes.\nAll you want is for the seafood to warm up and not have icicles all over it.  It's already cooked, so you won't get a freaky disease.\nBoil pasta according to package directions.\nWhen done, toss the alfredo sauce with your hot, drained pasta.",
+    "instructions_zh": "在一个可用微波炉加热的小碗中，融化黄油，然后慢慢拌入面粉。它将混合成稀薄的糊状稠度。  将其和牛奶放入锅中。  添加香草和大蒜。  再次搅拌，加入所有奶酪。\n小火煮 4-6 小时。 （\n见下文\n)*\n黄油会与牛奶和奶酪分离。看起来会很奇怪。深呼吸几次。喝点酒。会没事的。\n彻底搅拌混合物，然后加入海鲜混合物或冷冻虾。再用高火煮 20-30 分钟。\n你想要的只是让海鲜热起来而不是到处都是冰柱。  已经煮熟了，所以不会得怪病。\n根据包装说明煮意大利面。\n完成后，将阿尔弗雷多酱与沥干的热意大利面一起搅拌。",
     "notes": "* if you only have raw frozen chicken, add it now because it takes so much longer to cook than the other options.  I have not tried this, but I assume it would work.  If it is COOKED frozen chicken, you can wait until later, but not as long as you would for the seafood.  Does that make sense?",
     "images": [
-      "/images/recipes/9c7231e0-cf23-4498-9f11-ea8760637e03_0.jpg"
+      "/images/recipes/4d96e29c-8bce-456f-b13f-4e6d79e18cf5_0.jpg"
     ]
   },
   {
-    "id": "10637d42-235a-477e-94fd-2e5999b8d282",
+    "id": "51571813-6bdf-4f38-a2a2-d5bb9751bf6f",
     "name": "Slow Cooker Salmon Chowder",
+    "name_zh": "慢炖锅三文鱼杂烩",
     "categories": [
       "Seafood",
       "Slow cooker",
       "Soups"
     ],
+    "categories_zh": [
+      "海鲜",
+      "慢炖锅",
+      "汤类"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "4",
     "author": "Rick Rodgers, The Slow Cooker Ready & Waiting Cookbook",
     "ingredients": [
@@ -1670,20 +2858,48 @@
       "salt to taste",
       "minced fresh chives or chopped fresh parsley for garnish"
     ],
+    "ingredients_zh": [
+      "2汤匙无盐黄油",
+      "1个中等大小的洋葱，切碎",
+      "1根中号芹菜肋，切成1/2英寸厚的片",
+      "10盎司新鲜蘑菇，切片",
+      "2个中沸土豆，擦洗，去皮，切成1/2立方体",
+      "2杯瓶装蛤蜊汁",
+      "2杯水",
+      "1/2杯干白葡萄酒",
+      "1茶匙干龙蒿",
+      "1/4茶匙干百里香",
+      "1/4茶匙现磨白胡椒",
+      "2汤匙玉米淀粉",
+      "1/2杯半（可以代替浓奶油）",
+      "1磅三文鱼片去皮并切成1英寸的块",
+      "1杯冷冻小豌豆解冻",
+      "盐调味",
+      "切碎的新鲜细香葱或切碎的新鲜欧芹作为装饰"
+    ],
     "instructions": "In a large skillet, melt the butter over medium heat.  Add the onion, celery, and mushrooms and cook until the mushrooms have given off their liquid and are beginning to brown, about 7 minutes.\n2.\t In a 3 1/2-quart slow cooker, combine the cooked vegetables with the potatoes.  Pour in the clam juice, water, wine, tarragon, thyme and pepper.  Cover and slow-cook until the potatoes are tender, 6 to 7 hours on low (200 degrees F).\n3.\t In a small bowl, whisk the cornstarch into the cream.  Stir into the chowder, and add the salmon and peas.  Increase the heat to high (300°F), cover, and cook until the salmon is firm, about 15 minutes.  Taste the chowder and add salt to taste.  Spoon the chowder in individual bowls, and sprinkle each serving with chives or parsley.",
+    "instructions_zh": "在一个大煎锅中，用中火融化黄油。  加入洋葱、芹菜和蘑菇，煮约 7 分钟，直至蘑菇排出液体并开始变成棕色。\n2. 在 3 1/2 夸脱的慢炖锅中，将煮熟的蔬菜与土豆混合。  倒入蛤汁、水、酒、龙蒿、百里香和胡椒。  盖上锅盖，低温（200 华氏度）慢煮 6 至 7 小时，直至土豆变软。\n3. 在一个小碗中，将玉米淀粉搅入奶油中。  拌入杂烩汤，加入鲑鱼和豌豆。  将火调至高温 (300°F)，盖上锅盖，煮约 15 分钟，直至鲑鱼变硬。  品尝杂烩汤并加盐调味。  将杂烩汤舀入单独的碗中，并在每份碗中撒上细香葱或欧芹。",
     "notes": "From Rick Rodgers:\n\"Whenever I make chowder,  I add the salt at the end of the cooking time, rather than the beginning.  Chowders have naturally salty ingredients, such as bacon, clam juice and fish, and I wait for them to release all their salt into the broth before seasoning.\"",
     "images": []
   },
   {
-    "id": "987c2a8b-e459-4e5e-a20f-6f0ccbd6a65a",
+    "id": "63dba714-0eb2-48c3-9593-0c1ada7899f7",
     "name": "Slow Cooker Hearty Jambalaya",
+    "name_zh": "慢炖锅丰盛的什锦饭",
     "categories": [
       "Main Dishes",
       "Poultry",
       "Seafood",
       "Slow cooker"
     ],
+    "categories_zh": [
+      "主菜",
+      "家禽",
+      "海鲜",
+      "慢炖锅"
+    ],
     "difficulty": "Easy",
+    "difficulty_zh": "简单的",
     "servings": "8",
     "author": "Taste of Home",
     "ingredients": [
@@ -1706,7 +2922,28 @@
       "1lb. cooked medium shrimp peeled and deveined",
       "Hot cooked rice"
     ],
+    "ingredients_zh": [
+      "1 罐（28 盎司）西红柿切丁，不沥干",
+      "1磅。完全煮熟的安多耶香肠块",
+      "1/2磅。去骨去皮鸡胸肉切成1英寸的方块",
+      "1 罐（8 盎司）番茄酱",
+      "1杯洋葱丁",
+      "1个小甜红辣椒切丁",
+      "1个小青椒切丁",
+      "1杯鸡汤",
+      "1根芹菜排骨，叶子切碎",
+      "2汤匙番茄酱",
+      "2茶匙干牛至",
+      "2茶匙卡真调味料",
+      "1-1/2茶匙蒜末",
+      "2月桂叶",
+      "1茶匙路易斯安那风味辣酱",
+      "1/2茶匙干百里香",
+      "1磅。煮熟的中等大小的虾，去皮，去肠",
+      "热腾腾的米饭"
+    ],
     "instructions": "In a 5-qt. slow cooker, combine the first 16 ingredients. Cover and cook on low for 6-7 hours or until chicken is no longer pink. Stir in shrimp. Cover and cook 15 minutes longer or until heated through. Discard bay leaves. Serve with rice.",
+    "instructions_zh": "5 夸脱。慢炖锅，混合前 16 种成分。盖上锅盖，小火煮 6-7 小时，或直至鸡肉不再呈粉红色。拌入虾。盖上锅盖再煮 15 分钟或直至热透。丢弃月桂叶。与米饭一起食用。",
     "notes": "From Taste of Home: \"I love anything with Cajun spices, so I came up with this slow-cooker jambalaya that’s just as good as that served in restaurants,\" says Jennifer Fulk from Moreno Valley, California. \"If you can’t find Andouille sausage, hot links, smoked sausage or chorizo will also work. I like to serve it with warm cornbread and garnished with sliced green onions.\"",
     "images": []
   }

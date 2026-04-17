@@ -1,47 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
-  --bg-color: #f7f9fa;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --accent-color: #ef4444; /* Beautiful red accent for food */
-  --accent-hover: #dc2626;
-  --card-bg: rgba(255, 255, 255, 0.7);
-  --border-color: #e5e7eb;
-}
+  /* SV Color Palette */
+  --sv-grass: #4fa5e2; /* Changed to beautiful Stardew Valley spring blue sky */
+  --sv-ui-bg: #f5d688;
+  --sv-wood-dark: #5c2a13;
+  --sv-wood-light: #dc873f;
+  --sv-wood-mid: #a05322;
+  --sv-energy: #7bc400;
+  --sv-red: #c03a27;
+  --sv-text: #2f190e;
+  --sv-highlight: #ffebb5;
+  --sv-white: #fdf6df;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #111827;
-    --text-dark: #f9fafb;
-    --text-light: #9ca3af;
-    --accent-color: #ef4444;
-    --accent-hover: #f87171;
-    --card-bg: rgba(31, 41, 55, 0.6);
-    --border-color: #374151;
-  }
+  /* Global Vars */
+  --bg-color: var(--sv-grass);
+  --text-dark: var(--sv-text);
+  --text-light: #523114;
+  --accent-color: var(--sv-red);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  image-rendering: pixelated; /* Forces nearest-neighbor scaling for images */
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'VT323', monospace;
   background-color: var(--bg-color);
+  background-image: 
+    linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(0,0,0,0.05) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.05) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.05) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
   color: var(--text-dark);
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.6;
+  -webkit-font-smoothing: none;
+  line-height: 1.2;
 }
 
-/* Glassmorphism utility */
-.glass {
-  background: var(--card-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border-color);
+/* Stardew UI Box styles */
+.sv-box {
+  background: var(--sv-ui-bg);
+  border: 4px solid var(--sv-wood-dark);
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-highlight),
+    inset -4px -4px 0 var(--sv-wood-mid),
+    4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Layouts */
@@ -52,102 +60,141 @@ body {
 }
 
 header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
+  background: var(--sv-ui-bg);
+  padding: 2rem;
+  border: 4px solid var(--sv-wood-dark);
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-highlight),
+    inset -4px -4px 0 var(--sv-wood-mid),
+    6px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: -0.05em;
-  background: linear-gradient(135deg, var(--accent-color), #f59e0b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--sv-white);
+  text-shadow: 
+    -2px -2px 0 var(--sv-wood-dark),  
+     2px -2px 0 var(--sv-wood-dark),
+    -2px  2px 0 var(--sv-wood-dark),
+     2px  2px 0 var(--sv-wood-dark),
+     0px  4px 0 var(--sv-wood-dark);
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .search-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
-  margin-top: 2rem;
-  position: relative;
+  margin-top: 1.5rem;
 }
 
 .search-input {
   width: 100%;
   max-width: 600px;
-  padding: 1.2rem 2rem;
-  border-radius: 9999px;
-  border: 1px solid var(--border-color);
-  background: var(--card-bg);
+  padding: 0.8rem 1rem;
+  background: var(--sv-white);
+  border: 4px solid var(--sv-wood-dark);
+  box-shadow: inset 4px 4px 0 rgba(0,0,0,0.1);
   color: var(--text-dark);
-  font-size: 1.1rem;
+  font-size: 1.8rem;
+  font-family: 'VT323', monospace;
   outline: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .search-input:focus {
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.1);
+  background: #fff;
+  border-color: var(--sv-wood-mid);
+}
+
+.search-btn {
+  background: var(--sv-wood-light);
+  border: 4px solid var(--sv-wood-dark);
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-highlight),
+    inset -4px -4px 0 var(--sv-wood-mid);
+  color: var(--sv-text);
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-btn:active {
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-wood-mid),
+    inset -4px -4px 0 var(--sv-highlight);
+  padding-top: 4px;
 }
 
 /* Grid Gallery */
 .recipe-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .recipe-card {
-  border-radius: 16px;
-  overflow: hidden;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  transition: transform 0.1s, box-shadow 0.1s;
   cursor: pointer;
+  padding: 1rem;
 }
 
 .recipe-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px);
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-highlight),
+    inset -4px -4px 0 var(--sv-wood-mid),
+    0px 8px 0 rgba(0, 0, 0, 0.5);
+  background: var(--sv-highlight);
+}
+
+.recipe-card:active {
+  transform: translateY(2px);
+  box-shadow: 
+    inset 4px 4px 0 var(--sv-highlight),
+    inset -4px -4px 0 var(--sv-wood-mid),
+    0px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .recipe-image-container {
-  height: 200px;
+  height: 180px;
   width: 100%;
+  border: 4px solid var(--sv-wood-dark);
   overflow: hidden;
   position: relative;
+  background: var(--sv-wood-mid);
 }
 
 .recipe-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.recipe-card:hover .recipe-image-container img {
-  transform: scale(1.08);
 }
 
 .recipe-content {
-  padding: 1.5rem;
+  padding-top: 1rem;
 }
 
 .recipe-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--sv-wood-dark);
   margin-bottom: 0.5rem;
-  line-height: 1.3;
 }
 
 .recipe-meta {
   display: flex;
   gap: 1rem;
-  font-size: 0.875rem;
-  color: var(--text-light);
+  font-size: 1.2rem;
+  color: var(--sv-wood-mid);
   margin-bottom: 1rem;
 }
 
@@ -158,12 +205,12 @@ h1 {
 }
 
 .tag {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
-  background-color: rgba(107, 114, 128, 0.1);
-  color: var(--text-light);
-  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.1rem 0.5rem;
+  background-color: var(--sv-wood-mid);
+  color: var(--sv-white);
+  border: 2px solid var(--sv-wood-dark);
+  text-transform: uppercase;
 }
 
 /* Detail View */
@@ -173,8 +220,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
-  backdrop-filter: blur(4px);
+  background: rgba(0,0,0,0.6);
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -186,44 +232,41 @@ h1 {
 .detail-modal {
   width: 100%;
   max-width: 800px;
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
   margin: auto;
-  background: var(--bg-color);
-  animation: modalEnter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-@keyframes modalEnter {
-  from { opacity: 0; transform: translateY(40px) scale(0.95); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  position: relative;
+  padding: 1rem;
 }
 
 .close-btn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: var(--bg-color);
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  top: -1.5rem;
+  right: -1.5rem;
+  background: var(--sv-red);
+  border: 4px solid var(--sv-wood-dark);
+  box-shadow: 
+    inset 2px 2px 0 #ff6666,
+    inset -2px -2px 0 #8b0000;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 10;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: all 0.2s;
-  color: var(--text-dark);
+  color: var(--sv-white);
 }
 
-.close-btn:hover {
-  transform: scale(1.1);
+.close-btn:active {
+  box-shadow: 
+    inset 2px 2px 0 #8b0000,
+    inset -2px -2px 0 #ff6666;
+  padding-top: 2px;
 }
 
 .detail-hero {
-  height: 350px;
+  height: 300px;
+  border: 4px solid var(--sv-wood-dark);
+  margin-bottom: 1rem;
 }
 
 .detail-hero img {
@@ -233,43 +276,78 @@ h1 {
 }
 
 .detail-body {
-  padding: 3rem;
+  padding: 2rem;
+  background: var(--sv-white);
+  border: 4px solid var(--sv-wood-dark);
 }
 
 .detail-body h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--sv-wood-dark);
+  margin-bottom: 0.5rem;
+  border-bottom: 4px dashed var(--sv-wood-mid);
+  padding-bottom: 1rem;
 }
 
 .section-title {
-  font-size: 1.25rem;
-  color: var(--accent-color);
-  margin: 2rem 0 1rem 0;
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--sv-wood-dark);
+  margin: 1.5rem 0 1rem 0;
+  text-decoration: underline;
+  text-decoration-color: var(--sv-wood-mid);
+  text-decoration-thickness: 4px;
 }
 
 .ingredients-list {
   list-style: none;
+  font-size: 1.4rem;
 }
 
 .ingredients-list li {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border-color);
+  padding: 0.2rem 0;
   display: flex;
   align-items: center;
 }
 
 .ingredients-list li::before {
-  content: '•';
-  color: var(--accent-color);
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  content: '■';
+  color: var(--sv-red);
+  font-size: 0.8em;
+  margin-right: 0.5em;
 }
 
 .instructions-text {
   white-space: pre-line;
-  line-height: 1.8;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* Spring Petals Animation */
+.petals-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1; 
+    overflow: hidden;
+}
+
+.petal {
+    position: absolute;
+    top: -20px;
+    background: #FFB7C5; /* Cherry blossom pink */
+    border: 2px solid #E0708F; /* Pixel border */
+    animation: drift linear infinite;
+    transform-origin: center;
+}
+
+@keyframes drift {
+    0% {
+        transform: translateY(-20px) rotate(0deg) translateX(0);
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg) translateX(var(--drift-end));
+    }
 }
