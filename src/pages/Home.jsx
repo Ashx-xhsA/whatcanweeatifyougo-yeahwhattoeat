@@ -1,41 +1,49 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Search, Globe, Music, VolumeX, Settings } from 'lucide-react';
-import { Link, useSearchParams, useLocation } from 'react-router-dom';
+import { useSearchParams, useLocation } from 'react-router-dom';
 import recipesDataRaw from '../data/recipes.json';
-import SpringPetals from '../components/SpringPetals';
 
+// Local Components
+import SpringPetals from '../components/SpringPetals';
+import Header from '../components/common/Header';
+import SearchBar from '../components/common/SearchBar';
+import TagFilter from '../components/home/TagFilter';
+import RecipeCard from '../components/home/RecipeCard';
+
+// Tools & Context
+import { extractAllTags } from '../utils/recipeHelpers';
+import { useLanguage } from '../context/LanguageContext';
+
+/**
+ * Home Component
+ * The main landing page featuring a recipe gallery, search, and category filters.
+ * Now refactored to use modular sub-components and global state.
+ */
 function Home() {
   const [searchParams, setSearchParams] = useSearchParams();
   const location = useLocation();
+  const { t } = useLanguage();
   
+  // -- State & Refs --
+  const [recipes, setRecipes] = useState(recipesDataRaw);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
+  const audioRef = useRef(null);
+
+  // -- URL Sync for Search & Tags --
+  // We derive the search term and active tags directly from the URL.
+  // This ensures that using the "Back" button preserves the user's view.
   const searchTerm = searchParams.get('q') || '';
   const activeTags = useMemo(() => {
     const tagsStr = searchParams.get('tags');
     return tagsStr ? tagsStr.split(',').filter(t => t) : [];
   }, [searchParams]);
 
-  const [recipes, setRecipes] = useState(recipesDataRaw);
-  const [isChinese, setIsChinese] = useState(true);
-  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
-  const audioRef = useRef(null);
+  // -- Metadata Extraction --
+  // Extract all categories available in the dataset for the filter bar.
+  const { allTags, tagZhMap } = useMemo(() => extractAllTags(recipesDataRaw), []);
 
-  // Extract all unique categories (EN) and keep a map to ZH
-  const { allTags, tagZhMap } = useMemo(() => {
-    const tags = new Set();
-    const map = {};
-    recipesDataRaw.forEach(r => {
-      if (r.categories) {
-        r.categories.forEach((c, i) => {
-          tags.add(c);
-          if (r.categories_zh && r.categories_zh[i]) {
-            map[c] = r.categories_zh[i];
-          }
-        });
-      }
-    });
-    return { allTags: Array.from(tags).sort(), tagZhMap: map };
-  }, []);
-
+  /**
+   * Filters the recipe list based on search query and active tags.
+   */
   const performSearch = (q, tags) => {
     let filtered = recipesDataRaw;
     
@@ -49,27 +57,29 @@ function Home() {
     }
     
     if (tags.length > 0) {
+      // Recipe must match ALL selected tags
       filtered = filtered.filter(r => r.categories && tags.every(nt => r.categories.includes(nt)));
     }
     
     setRecipes(filtered);
   };
 
+  // Trigger search whenever search params change
   useEffect(() => {
     performSearch(searchTerm, activeTags);
   }, [searchTerm, activeTags]);
 
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
-    // Search is reactive to URL, so we already handle it in useEffect
-  };
-
+  /**
+   * Updates the browser URL to reflect current search/filter state.
+   */
   const updateURL = (newQ, newTags) => {
     const params = new URLSearchParams();
     if (newQ) params.set('q', newQ);
     if (newTags.length > 0) params.set('tags', newTags.join(','));
     setSearchParams(params, { replace: true });
   };
+
+  const handleSearchChange = (val) => updateURL(val, activeTags);
 
   const toggleTag = (tag) => {
     const newTags = activeTags.includes(tag) 
@@ -88,122 +98,53 @@ function Home() {
     setIsMusicPlaying(!isMusicPlaying);
   };
 
-  const t = (en, zh) => isChinese ? zh : en;
-
   return (
     <>
-    <SpringPetals />
-    <div className="app-container" style={{position:'relative', zIndex:10}}>
-      <div style={{display: 'flex', justifyContent: 'flex-end', marginBottom: '-2.5rem', position: 'relative', zIndex: 10, gap: '1rem'}}>
-        <Link 
-          to="/admin" 
-          className="search-btn" 
-          style={{padding: '0.5rem', fontSize: '1.2rem'}}
-          title={t("Admin Settings", "管理员设置")}
-        >
-          <Settings size={24} opacity={0.5} />
-        </Link>
-        <button 
-          onClick={toggleMusic}
-          className="search-btn"
-          style={{padding: '0.5rem', fontSize: '1.2rem'}}
-          title={t("Toggle Background Music", "开关背景音乐")}
-        >
-          {isMusicPlaying ? <Music size={24} /> : <VolumeX size={24} opacity={0.5} />}
-        </button>
-        <button 
-          onClick={() => setIsChinese(!isChinese)}
-          className="search-btn"
-          style={{padding: '0.5rem 1rem', fontSize: '1.2rem', gap: '0.5rem'}}
-        >
-          <Globe size={20} />
-          {isChinese ? 'ENG' : '中文'}
-        </button>
-      </div>
+      {/* Background Decor */}
+      <SpringPetals />
 
-      <audio ref={audioRef} loop src="/bgm.mp3" style={{display: 'none'}} />
+      <div className="app-container" style={{ position: 'relative', zIndex: 10 }}>
+        {/* Top Header & Controls */}
+        <Header 
+          isMusicPlaying={isMusicPlaying} 
+          toggleMusic={toggleMusic} 
+        />
 
-      <header>
-        <h1>是啊，吃啥</h1>
+        <audio ref={audioRef} loop src="/bgm.mp3" style={{ display: 'none' }} />
+
+        {/* Search Input Area */}
+        <SearchBar 
+          searchTerm={searchTerm}
+          onSearchChange={handleSearchChange}
+          onSearchSubmit={(e) => e.preventDefault()}
+        />
         
-        <form onSubmit={handleSearchSubmit} className="search-container">
-          <input 
-            type="text" 
-            className="search-input" 
-            placeholder={t("Search...", "搜索食谱、配料，按下回车确认...")}
-            value={searchTerm}
-            onChange={(e) => updateURL(e.target.value, activeTags)}
-          />
-          <button 
-            type="submit"
-            title={t("Search", "搜索")}
-            className="search-btn"
-            style={{
-               background: 'var(--sv-wood-light)',
-               color: 'var(--sv-wood-dark)',
-            }}
-          >
-            <Search size={28} style={{marginRight: '8px'}} />
-            {t("Search", "搜索")}
-          </button>
-        </form>
-      </header>
-      
-      <div style={{ marginBottom: '2rem' }} className="tag-list">
-        {allTags.map(tag => (
-          <button 
-            key={tag} 
-            onClick={() => toggleTag(tag)}
-            className="tag"
-            style={{ 
-              cursor: 'pointer',
-              background: activeTags.includes(tag) ? 'var(--sv-wood-dark)' : 'var(--sv-wood-light)',
-              color: 'var(--sv-white)',
-              borderBottom: activeTags.includes(tag) ? '2px solid transparent' : '2px solid var(--sv-wood-dark)'
-            }}
-          >
-            {isChinese && tagZhMap[tag] ? tagZhMap[tag] : tag}
-          </button>
-        ))}
-      </div>
+        {/* Category Filter Pills */}
+        <TagFilter 
+          allTags={allTags}
+          tagZhMap={tagZhMap}
+          activeTags={activeTags}
+          onToggleTag={toggleTag}
+        />
 
-      <div className="recipe-grid">
-        {recipes.map(recipe => (
-          <Link 
-            key={recipe.id} 
-            to={`/recipe/${recipe.id}`} 
-            state={{ backgroundLocation: location }}
-            className="recipe-card sv-box" 
-            style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
-          >
-            <div className="recipe-image-container">
-              {recipe.images && recipe.images.length > 0 ? (
-                <img src={recipe.images[0]} alt={recipe.name} loading="lazy" />
-              ) : (
-                <div style={{background: 'var(--sv-wood-mid)', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff'}}>No Image</div>
-              )}
-            </div>
-            <div className="recipe-content">
-              <h3 className="recipe-title">
-                {isChinese && recipe.name_zh ? <div style={{marginBottom: '4px'}}>{recipe.name_zh}</div> : null}
-                <div style={{fontSize: isChinese ? '0.7em' : '1em', opacity: isChinese ? 0.7 : 1}}>{recipe.name}</div>
-              </h3>
-              <div className="recipe-meta">
-                <span>{isChinese && recipe.difficulty_zh ? recipe.difficulty_zh : (recipe.difficulty || 'Easy')}</span>
-                <span>•</span>
-                <span>{recipe.servings ? recipe.servings + (isChinese ? ' 份' : ' servings') : ''}</span>
-              </div>
-              <div className="tag-list">
-                {(recipe.categories || []).slice(0, 3).map((c, idx) => (
-                  <span key={c} className="tag">{isChinese && recipe.categories_zh && recipe.categories_zh[idx] ? recipe.categories_zh[idx] : c}</span>
-                ))}
-              </div>
-            </div>
-          </Link>
-        ))}
-        {recipes.length === 0 && <p>{t("No recipes found matching your criteria.", "在这个农场没有找到匹配的食谱。")}</p>}
+        {/* Main Gallery Grid */}
+        <div className="recipe-grid">
+          {recipes.map(recipe => (
+            <RecipeCard 
+              key={recipe.id} 
+              recipe={recipe} 
+              location={location} 
+            />
+          ))}
+          
+          {/* Empty State */}
+          {recipes.length === 0 && (
+            <p style={{ textAlign: 'center', width: '100%', marginTop: '3rem', fontSize: '1.5rem' }}>
+              {t("No recipes found matching your criteria.", "在这个农场没有找到匹配的食谱。")}
+            </p>
+          )}
+        </div>
       </div>
-    </div>
     </>
   );
 }
