@@ -365,6 +365,56 @@ h1 {
   overflow-wrap: break-word;
 }
 
+/* Edit Form Styles */
+.edit-form {
+  padding: 1.5rem;
+  background: var(--sv-white);
+  border: 4px solid var(--sv-wood-dark);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--sv-wood-dark);
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+  border: 3px solid var(--sv-wood-dark);
+  background: #fff;
+  outline: none;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  border-color: var(--sv-energy);
+  box-shadow: 0 0 0 2px var(--sv-energy);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.edit-actions {
+  position: sticky;
+  bottom: 0;
+  background: var(--sv-white);
+  padding: 1rem 0;
+  border-top: 2px dashed var(--sv-wood-mid);
+}
+
 /* Spring Petals Animation */
 .petals-container {
     position: fixed;

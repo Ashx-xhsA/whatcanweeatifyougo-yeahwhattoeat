@@ -11,13 +11,29 @@ function Admin() {
   const [isSaving, setIsSaving] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    if (password.length > 0) {
-      setIsLoggedIn(true);
-      setMessage('');
-    } else {
+    if (!password) {
       setMessage('请输入密码');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password })
+      });
+
+      if (response.ok) {
+        setIsLoggedIn(true);
+        setMessage('');
+        sessionStorage.setItem('admin_password', password); // Store for current session
+      } else {
+        setMessage('密码错误，请重试');
+      }
+    } catch (err) {
+      setMessage(`验证出错: ${err.message}`);
     }
   };
 
