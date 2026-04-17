@@ -271,8 +271,8 @@ h1 {
     margin-bottom: 0 !important;
   }
   .close-btn {
-    top: 1rem;
-    right: 1rem;
+    top: 3rem;
+    right: 1.5rem;
     position: absolute;
     z-index: 1000;
   }
