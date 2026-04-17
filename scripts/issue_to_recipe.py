@@ -10,6 +10,11 @@ def main():
     title = os.environ.get("ISSUE_TITLE", "Unknown Recipe")
     body = os.environ.get("ISSUE_BODY", "")
     api_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    gh_pat = os.environ.get("GH_PAT", "")
+    
+    req_headers = {}
+    if gh_pat:
+        req_headers["Authorization"] = f"token {gh_pat}"
 
     if not api_key:
         print("Error: DEEPSEEK_API_KEY is not set in secrets.")
@@ -34,7 +39,8 @@ def main():
     
     for idx, url in enumerate(img_urls):
         try:
-            resp = requests.get(url, stream=True)
+            print(f"Downloading image: {url}")
+            resp = requests.get(url, stream=True, headers=req_headers)
             if resp.status_code == 200:
                 ext = ".jpg" # Default to jpg
                 if ".png" in url.lower(): ext = ".png"
