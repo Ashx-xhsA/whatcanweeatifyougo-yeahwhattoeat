@@ -3,6 +3,7 @@ import re
 import json
 import uuid
 import requests
+import sys
 from openai import OpenAI
 
 def main():
@@ -12,7 +13,7 @@ def main():
 
     if not api_key:
         print("Error: DEEPSEEK_API_KEY is not set in secrets.")
-        return
+        sys.exit(1)
 
     # Extract images from markdown body
     # Markdown image format: ![alt text](url) or <img src="url">
@@ -91,7 +92,7 @@ def main():
         recipe_data = json.loads(result_text)
     except Exception as e:
         print(f"LLM API Error: {e}")
-        return
+        sys.exit(1)
 
     # Attach generated ID and downloaded images
     recipe_data["id"] = recipe_id
