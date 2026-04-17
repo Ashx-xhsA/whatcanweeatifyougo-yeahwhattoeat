@@ -15,9 +15,15 @@ def main():
         print("Error: DEEPSEEK_API_KEY is not set in secrets.")
         sys.exit(1)
 
-    # Extract images from markdown body
     # Markdown image format: ![alt text](url) or <img src="url">
-    img_urls = re.findall(r'!\[.*?\]\((.*?)\)', body)
+    md_imgs = re.findall(r'!\[.*?\]\((.*?)\)', body)
+    html_imgs = re.findall(r'<img.*?src=["\'](.*?)["\']', body)
+    img_urls = md_imgs + html_imgs
+    
+    print("------- RAW BODY BEGIN -------")
+    print(body)
+    print("------- RAW BODY END -------")
+    print(f"Found image URLs: {img_urls}")
     
     # Download images
     images_dir = "public/images/recipes"
