@@ -237,6 +237,40 @@ h1 {
   padding: 1rem;
 }
 
+@media (max-width: 768px) {
+  .detail-overlay {
+    padding: 0;
+    align-items: stretch;
+    background: var(--sv-white);
+  }
+  .detail-modal {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    min-height: 100vh;
+    background: transparent;
+  }
+  .detail-body {
+    padding: 1.5rem 1rem !important;
+    border: none !important;
+  }
+  .detail-hero {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    margin-bottom: 0 !important;
+  }
+  .close-btn {
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    z-index: 1000;
+  }
+}
+
 .close-btn {
   position: absolute;
   top: -1.5rem;
