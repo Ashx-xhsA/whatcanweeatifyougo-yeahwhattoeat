@@ -53,9 +53,11 @@ def main():
                         f.write(chunk)
                 local_image_paths.append(f"/images/recipes/{filename}")
             else:
-                print(f"Failed to download image {url}, HTTP {resp.status_code}")
+                print(f"Failed to download image {url}, HTTP {resp.status_code}. Falling back to storing raw URL in JSON.")
+                local_image_paths.append(url)
         except Exception as e:
-            print(f"Failed to download image {url}: {e}")
+            print(f"Failed to download image {url}: {e}. Falling back to storing raw URL.")
+            local_image_paths.append(url)
 
     # Remove image markdown from body to save tokens and prevent confusion
     clean_body = re.sub(r'!\[.*?\]\(.*?\)', '', body)
